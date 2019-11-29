@@ -19,8 +19,7 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/ocr"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
 
         <!-- メインアクティビティ -->
         <activity
