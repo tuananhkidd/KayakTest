@@ -55,11 +55,11 @@ public class ProcOcr {
             try {
                 // 台形補正
                 TrapeCoordinate trapeCoord = engine.GetTrapezoidCoodinate();
-                strBuf.append(String.format("4点検出結果%n(左上：%d, %d),(右上：%d, %d), (右下：%d, %d), (左下：%d, %d)%n",
-                        trapeCoord.getTopLeft().x, trapeCoord.getTopLeft().y,
-                        trapeCoord.getTopRight().x, trapeCoord.getTopRight().y,
-                        trapeCoord.getBottomRight().x, trapeCoord.getBottomRight().y,
-                        trapeCoord.getBottomLeft().x, trapeCoord.getBottomLeft().y));
+//                strBuf.append(String.format("4点検出結果%n(左上：%d, %d),(右上：%d, %d), (右下：%d, %d), (左下：%d, %d)%n",
+//                        trapeCoord.getTopLeft().x, trapeCoord.getTopLeft().y,
+//                        trapeCoord.getTopRight().x, trapeCoord.getTopRight().y,
+//                        trapeCoord.getBottomRight().x, trapeCoord.getBottomRight().y,
+//                        trapeCoord.getBottomLeft().x, trapeCoord.getBottomLeft().y));
                 progress += 20;
                 callback.setProgress(progress);
 
@@ -87,36 +87,36 @@ public class ProcOcr {
             engine.RecogFields(recog);
 
             // 認識結果テキスト
-            strBuf.append(String.format("会社名：%s%n", recog.getCompany().getText()));
-            strBuf.append(String.format("会社名の読み仮名：%s%n", recog.getCompany_kana().getText()));
-            strBuf.append(String.format("所属：%s%n", recog.getAffiliation().getText()));
-            strBuf.append(String.format("役職：%s%n", recog.getExetive().getText()));
-            strBuf.append(String.format("姓：%s%n", recog.getFname().getText()));
-            strBuf.append(String.format("姓の読み仮名：%s%n", recog.getFname_kana().getText()));
-            strBuf.append(String.format("名：%s%n", recog.getLname().getText()));
-            strBuf.append(String.format("名の読み仮名：%s%n", recog.getLname_kana().getText()));
-            strBuf.append(String.format("事業所：%s%n", recog.getOffice1().getText()));
-            strBuf.append(String.format("郵便番号：%s%n", recog.getPostal1().getText()));
+            strBuf.append(String.format("Company：%s%n", recog.getCompany().getText()));
+//            strBuf.append(String.format("会社名の読み仮名：%s%n", recog.getCompany_kana().getText()));
+//            strBuf.append(String.format("所属：%s%n", recog.getAffiliation().getText()));
+//            strBuf.append(String.format("役職：%s%n", recog.getExetive().getText()));
+            strBuf.append(String.format("First Name：%s%n", recog.getFname().getText()));
+//            strBuf.append(String.format("姓の読み仮名：%s%n", recog.getFname_kana().getText()));
+            strBuf.append(String.format("Last Name：%s%n", recog.getLname().getText()));
+//            strBuf.append(String.format("名の読み仮名：%s%n", recog.getLname_kana().getText()));
+//            strBuf.append(String.format("事業所：%s%n", recog.getOffice1().getText()));
+//            strBuf.append(String.format("郵便番号：%s%n", recog.getPostal1().getText()));
             //strBuf.append(String.format("郵便番号：%s%n", zenkakuToHankaku(recog.getPostal1().getText()) ));
-            strBuf.append(String.format("住所：%s%n", recog.getAddress1().getText()));
-            strBuf.append(String.format("ビル名：%s%n", recog.getBuilding1().getText()));
-            strBuf.append(String.format("電話番号：%s%n", recog.getTel1().getText()));
+            strBuf.append(String.format("Address 1：%s%n", recog.getAddress1().getText()));
+//            strBuf.append(String.format("ビル名：%s%n", recog.getBuilding1().getText()));
+            strBuf.append(String.format("Phone number 1：%s%n", recog.getTel1().getText()));
             //strBuf.append(String.format("電話番号：%s%n", zenkakuToHankaku(recog.getTel1().getText()) ));
-            strBuf.append(String.format("FAX番号：%s%n", recog.getFax1().getText()));
-            strBuf.append(String.format("事業所：%s%n", recog.getOffice2().getText()));
-            strBuf.append(String.format("郵便番号：%s%n", recog.getPostal2().getText()));
-            strBuf.append(String.format("住所：%s%n", recog.getAddress2().getText()));
-            strBuf.append(String.format("ビル名：%s%n", recog.getBuilding2().getText()));
-            strBuf.append(String.format("電話番号：%s%n", recog.getTel2().getText()));
-            strBuf.append(String.format("FAX番号：%s%n", recog.getFax2().getText()));
-            strBuf.append(String.format("携帯電話番号：%s%n", recog.getCellular1().getText()));
-            strBuf.append(String.format("携帯電話番号：%s%n", recog.getCellular2().getText()));
-            strBuf.append(String.format("E-Mailアドレス：%s%n", recog.getMail1().getText()));
+            strBuf.append(String.format("FAX 1：%s%n", recog.getFax1().getText()));
+//            strBuf.append(String.format("事業所：%s%n", recog.getOffice2().getText()));
+//            strBuf.append(String.format("郵便番号：%s%n", recog.getPostal2().getText()));
+            strBuf.append(String.format("Address 2：%s%n", recog.getAddress2().getText()));
+//            strBuf.append(String.format("ビル名：%s%n", recog.getBuilding2().getText()));
+            strBuf.append(String.format("Phone number 2 ：%s%n", recog.getTel2().getText()));
+            strBuf.append(String.format("FAX 2：%s%n", recog.getFax2().getText()));
+//            strBuf.append(String.format("携帯電話番号：%s%n", recog.getCellular1().getText()));
+//            strBuf.append(String.format("携帯電話番号：%s%n", recog.getCellular2().getText()));
+            strBuf.append(String.format("E-Mail 1：%s%n", recog.getMail1().getText()));
             //strBuf.append(String.format("E-Mailアドレス：%s%n", zenkakuToHankaku(recog.getMail1().getText()) ));
-            strBuf.append(String.format("E-Mailアドレス：%s%n", recog.getMail2().getText()));
-            strBuf.append(String.format("URL：%s%n", recog.getUrl1().getText()));
+            strBuf.append(String.format("E-Mail 2：%s%n", recog.getMail2().getText()));
+            strBuf.append(String.format("URL 1：%s%n", recog.getUrl1().getText()));
             //strBuf.append(String.format("URL：%s%n", zenkakuToHankaku(recog.getUrl1().getText()) ));
-            strBuf.append(String.format("URL：%s%n", recog.getUrl2().getText()));
+            strBuf.append(String.format("URL 2：%s%n", recog.getUrl2().getText()));
 
             progress += 30;
             callback.setProgress(progress);

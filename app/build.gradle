@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "jp.co.panasonic.pstc.ocr.android.card.app"
-        minSdkVersion 10
+        minSdkVersion 21
         targetSdkVersion 29
         ndk {
             abiFilters 'armeabi-v7a'
@@ -14,7 +14,7 @@ android {
 
     }
 
-    buildTypes {x
+    buildTypes {
         debug{
             debuggable true
         }
