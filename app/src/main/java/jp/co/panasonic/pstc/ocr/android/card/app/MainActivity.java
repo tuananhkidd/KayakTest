@@ -22,6 +22,7 @@ import java.io.InputStream;
 
 import jp.co.panasonic.pstc.ocr.android.card.app.bus.GetDataFromUnityEvent;
 import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
+import jp.co.panasonic.pstc.ocr.android.card.app.util.FileUtil;
 
 /**
  * メインアクティビティクラス(カメラ)
@@ -86,6 +87,17 @@ public class MainActivity extends Activity {
         super.onResume();
         Log.d("MainActivity", "onResume()");
 
+        FileUtil.saveDictionaryAndLicenseFile(this,"address.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"company.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"fname.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"jocr1.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"jocr2.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"jocr3.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"jocr4.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"keyword.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"lname.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"Jpost.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this,"LicenseInfo.polf");
 
     }
 
@@ -159,11 +171,11 @@ public class MainActivity extends Activity {
         @Override
         public void onClick(View v) {
 
-            Intent intent = new Intent(
-                    getApplicationContext(),
-                    MainActivity.class
-            );
-            startActivity(intent);
+//            Intent intent = new Intent(
+//                    getApplicationContext(),
+//                    MainActivity.class
+//            );
+//            startActivity(intent);
             // カメラアクティビティ表示
             Intent cameraIntent = new Intent(
                     getApplicationContext(),
@@ -211,12 +223,12 @@ public class MainActivity extends Activity {
         Log.d("MainActivity", "onActivityResult()");
 
         switch (requestCode) {
-            case REQUEST_CODE_UNITY_CAMERA:{
-                if(resultCode == Activity.RESULT_OK){
-                    EventBus.getDefault().post(new GetDataFromUnityEvent(intent.getStringExtra("base64image")));
-                }
-                break;
-            }
+//            case REQUEST_CODE_UNITY_CAMERA:{
+//                if(resultCode == Activity.RESULT_OK){
+//                    EventBus.getDefault().post(new GetDataFromUnityEvent(intent.getStringExtra("base64image")));
+//                }
+//                break;
+//            }
             //region gallery
             case PHOTO_GALLERY:
                 // フォトギャラリー
