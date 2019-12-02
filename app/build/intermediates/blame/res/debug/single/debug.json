@@ -1,46 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_name.xml.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-anydpi\\ic_action_name.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ocr.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-ldpi\\ocr.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ocr.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-mdpi\\ocr.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\layout_restext.xml.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\layout\\restext.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ocr.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-hdpi\\ocr.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\layout_preview.xml.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\layout\\preview.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_restext.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\layout\\restext.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ocr.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-ldpi\\ocr.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_name.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-anydpi\\ic_action_name.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ocr.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-hdpi\\ocr.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ocr.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\drawable-mdpi\\ocr.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_name.png.flat",
-        "source": "C:\\Users\\admin\\Desktop\\Beetech\\CardSample\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+        "merged": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_preview.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\src\\main\\res\\layout\\preview.xml"
     }
 ]
