@@ -50,7 +50,11 @@ public class MainActivity extends Activity {
     private Button cameraButton;        // 「カメラ撮影」ボタン
     private Button pictureButton;        // 「画像」ボタン
 
+    public static MainActivity currentActivity;
 
+    public static void processImage(String base64image) {
+        Log.v("ahuhu", "ahihi" + base64image);
+    }
     /** アクティビティ [START] ================================ */
 
     /**
@@ -91,6 +95,7 @@ public class MainActivity extends Activity {
             ActivityCompat.requestPermissions(this, permissions, PERMISSION_CODE);
         }
 
+        currentActivity = this;
     }
 
     /**
