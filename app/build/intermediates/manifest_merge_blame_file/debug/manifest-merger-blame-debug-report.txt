@@ -32,58 +32,59 @@
 19        android:debuggable="true"
 20        android:icon="@drawable/ocr"
 20-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:18-46
-21        android:label="@string/app_name" >
+21        android:label="@string/app_name"
 21-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:48-80
-22
-23        <!-- メインアクティビティ -->
-24        <activity
-24-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:9-22:20
-25            android:name="jp.co.panasonic.pstc.ocr.android.card.app.MainActivity"
-25-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:19-47
-26            android:label="@string/app_name" >
-26-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:19-51
-27            <intent-filter>
-27-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:13-21:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:17-77
-30-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <!-- カメラアクティビティ -->
-35        <activity
-35-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:3-91
-36            android:name="jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity"
-36-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:13-50
-37            android:screenOrientation="landscape" />
-37-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:51-88
-38
-39        <!-- カメラ撮影画像プレビューアクティビティ -->
-40        <activity
-40-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:3-98
-41            android:name="jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity"
-41-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:13-57
-42            android:screenOrientation="landscape" />
-42-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:58-95
-43
-44        <!-- OCR認識結果表示アクティビティ -->
-45        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity" />
-45-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:3-46
-45-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:13-43
-46
-47        <!-- 設定アクティビティ -->
-48        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity" />
-48-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:3-47
-48-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:13-44
-49
-50        <!-- ヘルプアクティビティ -->
-51        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity" />
-51-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:3-44
-51-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:13-41
-52    </application>
-53
-54</manifest>
+22        android:testOnly="true" >
+23
+24        <!-- メインアクティビティ -->
+25        <activity
+25-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:9-22:20
+26            android:name="jp.co.panasonic.pstc.ocr.android.card.app.MainActivity"
+26-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:19-47
+27            android:label="@string/app_name" >
+27-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:19-51
+28            <intent-filter>
+28-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:17-77
+31-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <!-- カメラアクティビティ -->
+36        <activity
+36-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:3-91
+37            android:name="jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity"
+37-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:13-50
+38            android:screenOrientation="landscape" />
+38-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:51-88
+39
+40        <!-- カメラ撮影画像プレビューアクティビティ -->
+41        <activity
+41-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:3-98
+42            android:name="jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity"
+42-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:13-57
+43            android:screenOrientation="landscape" />
+43-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:58-95
+44
+45        <!-- OCR認識結果表示アクティビティ -->
+46        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity" />
+46-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:3-46
+46-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:13-43
+47
+48        <!-- 設定アクティビティ -->
+49        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity" />
+49-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:3-47
+49-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:13-44
+50
+51        <!-- ヘルプアクティビティ -->
+52        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity" />
+52-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:3-44
+52-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:13-41
+53    </application>
+54
+55</manifest>
