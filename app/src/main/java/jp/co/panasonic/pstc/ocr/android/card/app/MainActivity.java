@@ -1,17 +1,22 @@
 package jp.co.panasonic.pstc.ocr.android.card.app;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -39,6 +44,7 @@ public class MainActivity extends Activity {
 
     public final static int PHOTO_GALLERY = 1;    // フォトギャラリーID
     public final static int REQUEST_CODE_UNITY_CAMERA = 1234;    // フォトギャラリーID
+    public final static int PERMISSION_CODE = 1212;
 
     private Activity activity;            // アクティビティ
     private Button cameraButton;        // 「カメラ撮影」ボタン
@@ -76,6 +82,15 @@ public class MainActivity extends Activity {
 
         // アクティビティ保持
         this.activity = this;
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+            saveFile();
+        } else {
+            String[] permissions = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
+            ActivityCompat.requestPermissions(this, permissions, PERMISSION_CODE);
+        }
+
     }
 
     /**
@@ -87,18 +102,37 @@ public class MainActivity extends Activity {
         super.onResume();
         Log.d("MainActivity", "onResume()");
 
-        FileUtil.saveDictionaryAndLicenseFile(this,"address.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"company.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"fname.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"jocr1.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"jocr2.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"jocr3.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"jocr4.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"keyword.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"lname.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"Jpost.dic");
-        FileUtil.saveDictionaryAndLicenseFile(this,"LicenseInfo.polf");
 
+    }
+
+    private void saveFile() {
+        FileUtil.saveDictionaryAndLicenseFile(this, "address.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "company.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "fname.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "jocr1.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "jocr2.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "jocr3.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "jocr4.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "keyword.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "lname.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "Jpost.dic");
+        FileUtil.saveDictionaryAndLicenseFile(this, "LicenseInfo.polf");
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSION_CODE) {
+            if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                    && grantResults[1] == PackageManager.PERMISSION_GRANTED
+                    && grantResults[2] == PackageManager.PERMISSION_GRANTED) {
+                saveFile();
+            } else {
+                Toast.makeText(this, "Permission Deny!", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        }
     }
 
     /**
@@ -181,7 +215,7 @@ public class MainActivity extends Activity {
                     getApplicationContext(),
                     jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity.class
             );
-            startActivityForResult(cameraIntent,REQUEST_CODE_UNITY_CAMERA);
+            startActivityForResult(cameraIntent, REQUEST_CODE_UNITY_CAMERA);
         }
     }
 
