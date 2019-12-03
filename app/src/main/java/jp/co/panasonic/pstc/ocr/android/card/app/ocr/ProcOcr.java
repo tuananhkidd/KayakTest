@@ -5,6 +5,7 @@ import android.os.Environment;
 
 import java.io.File;
 
+import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
 import jp.co.panasonic.pstc.ocr.card.CardEngineFactory;
 import jp.co.panasonic.pstc.ocr.card.CardRecog;
 import jp.co.panasonic.pstc.ocr.card.IDRCardEngine;
@@ -29,7 +30,7 @@ public class ProcOcr {
      * @param hb       縦バイト(int型)
      * @param callback コールバックオブジェクト
      */
-    public String ocrConvert(Bitmap bitmap, int rd, int wb, int hb, int res, RecogCallback callback) {
+    public String ocrConvert(CameraData cameraData,Bitmap bitmap, int rd, int wb, int hb, int res, RecogCallback callback) {
         String str = "";
         int progress = 2;
         int resolution = 300;
@@ -86,6 +87,7 @@ public class ProcOcr {
             CardRecog recog = new CardRecog();
             engine.RecogFields(recog);
 
+            cameraData.setCardRecog(recog);
             // 認識結果テキスト
             strBuf.append(String.format("Company：%s%n", recog.getCompany().getText()));
 //            strBuf.append(String.format("会社名の読み仮名：%s%n", recog.getCompany_kana().getText()));
@@ -151,6 +153,7 @@ public class ProcOcr {
 
         return str;
     }
+
     /** OCR認識処理 [END] ================================== */
 
     /**

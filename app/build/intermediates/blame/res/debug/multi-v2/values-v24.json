@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\admin\\Desktop\\KayakDemo\\KayakTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\bbf07aa1da9ab954374e693dfcc335b9\\appcompat-v7-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\5a7264d5c97f0f0393c47eae2000f7e4\\appcompat-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\54be6cd1dcbd59dbb05cf9890eed4c77\\support-media-compat-27.0.2\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\62e95fb8bef3e00f3a07f616b4b3389c\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

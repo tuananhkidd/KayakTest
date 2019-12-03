@@ -477,6 +477,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -655,6 +659,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id glide_custom_view_target_tag
 id gototop
 id group_divider
 id home
@@ -663,6 +668,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id img
+id img_result
 id info
 id italic
 id left
@@ -682,6 +689,19 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id orv_address_1
+id orv_address_2
+id orv_company
+id orv_email1
+id orv_email2
+id orv_fax_1
+id orv_fax_2
+id orv_first_name
+id orv_last_name
+id orv_phone_1
+id orv_phone_2
+id orv_url1
+id orv_url2
 id parentPanel
 id progress_circular
 id progress_horizontal
@@ -732,6 +752,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv
+id tv_title
 id uniform
 id up
 id useLogo
@@ -770,6 +792,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout layout_ocr_result
 layout main
 layout notification_action
 layout notification_action_tombstone
@@ -1089,6 +1112,7 @@ style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextResult
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
@@ -1225,6 +1249,7 @@ styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerti
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
+styleable OcrResultView title
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle

@@ -32,7 +32,8 @@ public final class R {
         private style() {}
 
         public static final int BaseUnityTheme = 0x7f0c00a0;
-        public static final int UnityThemeSelector = 0x7f0c0115;
-        public static final int UnityThemeSelector_Translucent = 0x7f0c0116;
+        public static final int TextResult = 0x7f0c00f9;
+        public static final int UnityThemeSelector = 0x7f0c0116;
+        public static final int UnityThemeSelector_Translucent = 0x7f0c0117;
     }
 }

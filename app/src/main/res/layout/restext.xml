@@ -1,62 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/Layout"
-	android:background="#99BBCC"
-    android:orientation="vertical"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99BBCC"
     android:gravity="center"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
-	
-	<!-- テキスト -->
+    android:orientation="vertical">
+
+    <!-- テキスト -->
     <TableLayout
         android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
         android:background="#CCEEFF"
-        android:gravity="center_vertical"
- 	    android:layout_width="fill_parent"
- 	    android:layout_height="fill_parent" >
-	    <ScrollView  
-	        android:id="@+id/ScrollView"
-	        android:layout_weight="1"
-	        android:layout_height="fill_parent"
-	        android:layout_width="fill_parent"
-			android:layout_marginTop="5dp"
-			android:layout_marginBottom="5dp"
-			android:layout_marginLeft="5dp"
-			android:layout_marginRight="5dp" >
-	       
-		 	<EditText
-				android:id="@+id/result_txt"
-		    	android:gravity="left"
-				android:textColor="#000000"
-				android:textSize="16dp"
-				android:minLines="10"
-				android:cursorVisible="false"
-				android:editable="false"
-	 			android:layout_width="fill_parent"
-				android:layout_height="fill_parent" />
-	
-	    </ScrollView>  
+        android:gravity="center_vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/result_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:editable="false"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Image OCR"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        android:id="@+id/orv_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:title="Company" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="FirstName"
+                        android:id="@+id/orv_first_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="LastName"
+                        android:id="@+id/orv_last_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Address1"
+                        android:id="@+id/orv_address_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Phone1"
+                        android:id="@+id/orv_phone_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Fax1"
+                        android:id="@+id/orv_fax_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Address2"
+                        android:id="@+id/orv_address_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Phone2"
+                        android:id="@+id/orv_phone_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Fax2"
+                        android:id="@+id/orv_fax_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Email1"
+                        android:id="@+id/orv_email1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Email2"
+                        android:id="@+id/orv_email2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Url1"
+                        android:id="@+id/orv_url1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
+                        app:title="Url2"
+                        android:id="@+id/orv_url2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
     </TableLayout>
 
-     <!-- セパレータ -->
+    <!-- セパレータ -->
     <FrameLayout
-        android:background="#222222"
         android:layout_width="fill_parent"
-        android:layout_height="1dp" />
-	        
+        android:layout_height="1dp"
+        android:background="#222222" />
+
     <!-- フッター -->
-    <LinearLayout   
-        android:orientation="horizontal"
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
         android:gravity="center"
-        android:layout_width="fill_parent"   
-        android:layout_height="40dp">
-	        
-		<Button android:text="トップ画面"
-			android:id="@+id/gototop"
-			android:layout_width="160dp"
-			android:layout_height="35dp" />
-	</LinearLayout>			
-    			
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gototop"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:text="トップ画面" />
+    </LinearLayout>
+
 </LinearLayout>

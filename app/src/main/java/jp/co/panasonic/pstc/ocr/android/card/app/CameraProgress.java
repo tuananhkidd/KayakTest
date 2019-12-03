@@ -3,6 +3,7 @@ package jp.co.panasonic.pstc.ocr.android.card.app;
 import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
 import jp.co.panasonic.pstc.ocr.android.card.app.ocr.ProcOcr;
 import jp.co.panasonic.pstc.ocr.android.card.app.progress.ProgressAsyncTask;
+import jp.co.panasonic.pstc.ocr.card.CardRecog;
 
 
 import android.app.Activity;
@@ -56,11 +57,12 @@ public class CameraProgress extends ProgressAsyncTask {
 				// OCR認識実行
 				ProcOcr prococr = new ProcOcr();
 				long sTime = System.currentTimeMillis();
-				ret = prococr.ocrConvert( bitmap, rb, wb, hb, res, callback);
+				ret = prococr.ocrConvert(cameraData, bitmap, rb, wb, hb, res, callback);
 				long eTime = System.currentTimeMillis();
 				cameraData.setProcTime(eTime - sTime);
 				result = true;
-				
+
+				CardRecog cardRecog = cameraData.getCardRecog();
 				// GCをしておく
 				System.gc();
 				
@@ -71,6 +73,7 @@ public class CameraProgress extends ProgressAsyncTask {
 				if(result){
 					// OCR認識結果を取得
 					cameraData.setOcrResult(ret);
+					cameraData.setCardRecog(cardRecog);
 				}
 			}
 		}

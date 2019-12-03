@@ -29,6 +29,21 @@
         android:name="android.hardware.camera"
         android:required="false" />
     <uses-feature
+        android:name="android.hardware.camera2.full"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.capability.manual_post_processing"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.hardware_level.full"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.capability.raw"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.capability.manual_sensor"
+        android:required="false" />
+    <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
     <uses-feature
@@ -50,7 +65,7 @@
         <activity
             android:name="com.beetech.kayak.UnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-            android:hardwareAccelerated="false"
+            android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor" >

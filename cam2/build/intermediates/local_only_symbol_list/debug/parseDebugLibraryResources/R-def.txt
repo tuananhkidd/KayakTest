@@ -8,5 +8,6 @@ mipmap ic_launcher_foreground
 string app_name
 string game_view_content_description
 style BaseUnityTheme
+style TextResult
 style UnityThemeSelector
 style UnityThemeSelector.Translucent
