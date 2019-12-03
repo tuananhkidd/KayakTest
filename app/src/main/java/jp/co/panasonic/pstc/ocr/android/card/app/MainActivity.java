@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
@@ -18,14 +19,12 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
+import com.beetech.kayak.UnityPlayerActivity;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
-import jp.co.panasonic.pstc.ocr.android.card.app.bus.GetDataFromUnityEvent;
 import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
 import jp.co.panasonic.pstc.ocr.android.card.app.util.FileUtil;
 
@@ -50,11 +49,6 @@ public class MainActivity extends Activity {
     private Button cameraButton;        // 「カメラ撮影」ボタン
     private Button pictureButton;        // 「画像」ボタン
 
-    public static MainActivity currentActivity;
-
-    public static void processImage(String base64image) {
-        Log.v("ahuhu", "ahihi" + base64image);
-    }
     /** アクティビティ [START] ================================ */
 
     /**
@@ -67,7 +61,6 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d("MainActivity", "onCreate()");
-        EventBus.getDefault().register(this);
         // カメラデータ取得
         CameraData cameraData = CameraData.getInstance();
         {
@@ -94,8 +87,22 @@ public class MainActivity extends Activity {
             String[] permissions = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
             ActivityCompat.requestPermissions(this, permissions, PERMISSION_CODE);
         }
-
-        currentActivity = this;
+//        File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/jp.co.panasonic.pstc.ocr.android.card.app/files",
+//                "/photo.png");
+//        Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
+//
+//        {
+//
+//            cameraData.init();
+//            cameraData.setBitmapData(bitmap);
+//            CameraProgress progress = new CameraProgress(activity, false);
+//            progress.setProgressTitle("Processing");        // プログレスタイトル
+//            progress.setProgressMessage("Please Wait...");    // プログレスメッセージ
+//            progress.setProgressCountUp(1);                    // カウントアップ値
+//            progress.setProgressCountUpMills(250);            // カウントアップ間隔(ミリ秒)
+//            progress.setProgressMaxCount(100);                // 最大カウント値
+//            progress.execute("request");
+//        }
     }
 
     /**
@@ -149,12 +156,6 @@ public class MainActivity extends Activity {
         cameraData.destroy();
 
         super.onDestroy();
-        EventBus.getDefault().unregister(this);
-    }
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onGetData(GetDataFromUnityEvent event) {
-        Log.v("ahihi", "base64 " + event.getBase64String());
     }
 
     /**
@@ -210,15 +211,15 @@ public class MainActivity extends Activity {
         @Override
         public void onClick(View v) {
 
-//            Intent intent = new Intent(
-//                    getApplicationContext(),
-//                    MainActivity.class
-//            );
-//            startActivity(intent);
+            Intent intent = new Intent(
+                    getApplicationContext(),
+                    MainActivity.class
+            );
+            startActivity(intent);
             // カメラアクティビティ表示
             Intent cameraIntent = new Intent(
                     getApplicationContext(),
-                    jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity.class
+                    UnityPlayerActivity.class
             );
             startActivityForResult(cameraIntent, REQUEST_CODE_UNITY_CAMERA);
         }
@@ -259,15 +260,34 @@ public class MainActivity extends Activity {
             int requestCode,
             int resultCode,
             Intent intent) {
-        Log.d("MainActivity", "onActivityResult()");
+        Log.d("MainActivity", "onActivityResult()" + requestCode+ "  "+resultCode);
 
         switch (requestCode) {
-//            case REQUEST_CODE_UNITY_CAMERA:{
-//                if(resultCode == Activity.RESULT_OK){
-//                    EventBus.getDefault().post(new GetDataFromUnityEvent(intent.getStringExtra("base64image")));
-//                }
-//                break;
-//            }
+            case REQUEST_CODE_UNITY_CAMERA:{
+                if (resultCode != RESULT_OK) {
+                    finish();
+                    return;
+                }
+
+                File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/jp.co.panasonic.pstc.ocr.android.card.app/files",
+                        "/photo.png");
+                Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
+                {
+
+                    CameraData cameraData = CameraData.getInstance();
+                    cameraData.init();
+                    cameraData.setBitmapData(bitmap);
+                    CameraProgress progress = new CameraProgress(activity, false);
+                    progress.setProgressTitle("Processing");        // プログレスタイトル
+                    progress.setProgressMessage("Please Wait...");    // プログレスメッセージ
+                    progress.setProgressCountUp(1);                    // カウントアップ値
+                    progress.setProgressCountUpMills(250);            // カウントアップ間隔(ミリ秒)
+                    progress.setProgressMaxCount(100);                // 最大カウント値
+                    progress.execute("request");
+                }
+
+                break;
+            }
             //region gallery
             case PHOTO_GALLERY:
                 // フォトギャラリー

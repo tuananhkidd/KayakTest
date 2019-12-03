@@ -27,65 +27,181 @@
 16-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:11:5-66
 16-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:11:19-63
 17
-18    <application
-18-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:5-39:19
-19        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-19-->[com.android.support:support-compat:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
-20        android:debuggable="true"
-21        android:icon="@drawable/ocr"
-21-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:18-46
-22        android:label="@string/app_name" >
-22-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:48-80
-23
-24        <!-- メインアクティビティ -->
-25        <activity
-25-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:9-22:20
-26            android:name="jp.co.panasonic.pstc.ocr.android.card.app.MainActivity"
-26-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:19-47
-27            android:label="@string/app_name" >
-27-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:19-51
-28            <intent-filter>
-28-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:13-21:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:17-69
-29-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:17-77
-31-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <!-- カメラアクティビティ -->
-36        <activity
-36-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:3-91
-37            android:name="jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity"
-37-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:13-50
-38            android:screenOrientation="landscape" />
-38-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:51-88
-39
-40        <!-- カメラ撮影画像プレビューアクティビティ -->
-41        <activity
-41-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:3-98
-42            android:name="jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity"
-42-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:13-57
-43            android:screenOrientation="landscape" />
-43-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:58-95
-44
-45        <!-- OCR認識結果表示アクティビティ -->
-46        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity" />
-46-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:3-46
-46-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:13-43
-47
-48        <!-- 設定アクティビティ -->
-49        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity" />
-49-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:3-47
-49-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:13-44
-50
-51        <!-- ヘルプアクティビティ -->
-52        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity" />
-52-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:3-44
-52-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:13-41
-53    </application>
-54
-55</manifest>
+18    <supports-screens
+18-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-18:40
+19        android:anyDensity="true"
+19-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-34
+20        android:largeScreens="true"
+20-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-36
+21        android:normalScreens="true"
+21-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-37
+22        android:smallScreens="true"
+22-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-36
+23        android:xlargeScreens="true" />
+23-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-37
+24
+25    <uses-feature android:glEsVersion="0x00020000" />
+25-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-54
+25-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-51
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
+27-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-64
+28
+29    <uses-feature
+29-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-30:36
+30        android:name="android.hardware.camera2.full"
+30-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-53
+31        android:required="false" />
+31-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-33
+32    <uses-feature
+32-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-33:36
+33        android:name="android.hardware.camera.capability.manual_post_processing"
+33-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-81
+34        android:required="false" />
+34-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-33
+35    <uses-feature
+35-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-36:36
+36        android:name="android.hardware.camera.hardware_level.full"
+36-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-67
+37        android:required="false" />
+37-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-33
+38    <uses-feature
+38-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-39:36
+39        android:name="android.hardware.camera.capability.raw"
+39-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-62
+40        android:required="false" />
+40-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-33
+41    <uses-feature
+41-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-42:36
+42        android:name="android.hardware.camera.capability.manual_sensor"
+42-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-72
+43        android:required="false" />
+43-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-33
+44    <uses-feature
+44-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-48:36
+45        android:name="android.hardware.camera.front"
+45-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-53
+46        android:required="false" />
+46-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-33
+47    <uses-feature
+47-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:5-51:36
+48        android:name="android.hardware.touchscreen"
+48-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52
+49        android:required="false" />
+49-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-33
+50    <uses-feature
+50-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:5-54:36
+51        android:name="android.hardware.touchscreen.multitouch"
+51-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-63
+52        android:required="false" />
+52-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-33
+53    <uses-feature
+53-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:5-57:36
+54        android:name="android.hardware.touchscreen.multitouch.distinct"
+54-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-72
+55        android:required="false" />
+55-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-33
+56
+57    <application
+57-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:5-39:19
+58        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+58-->[com.android.support:support-compat:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+59        android:debuggable="true"
+60        android:icon="@drawable/ocr"
+60-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:18-46
+61        android:label="@string/app_name" >
+61-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:48-80
+62
+63        <!-- メインアクティビティ -->
+64        <activity
+64-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:9-22:20
+65            android:name="jp.co.panasonic.pstc.ocr.android.card.app.MainActivity"
+65-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:16:19-47
+66            android:label="@string/app_name" >
+66-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:19-51
+67            <intent-filter>
+67-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:13-21:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:17-69
+68-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:17-77
+70-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- カメラアクティビティ -->
+75        <activity
+75-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:3-91
+76            android:name="jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity"
+76-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:13-50
+77            android:screenOrientation="landscape" />
+77-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:25:51-88
+78
+79        <!-- カメラ撮影画像プレビューアクティビティ -->
+80        <activity
+80-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:3-98
+81            android:name="jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity"
+81-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:13-57
+82            android:screenOrientation="landscape" />
+82-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:28:58-95
+83
+84        <!-- OCR認識結果表示アクティビティ -->
+85        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity" />
+85-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:3-46
+85-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:31:13-43
+86
+87        <!-- 設定アクティビティ -->
+88        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity" />
+88-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:3-47
+88-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:34:13-44
+89
+90        <!-- ヘルプアクティビティ -->
+91        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity" />
+91-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:3-44
+91-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:37:13-41
+92        <activity
+92-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-70:20
+93            android:name="com.beetech.kayak.UnityPlayerActivity"
+93-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-65
+94            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+94-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-194
+95            android:hardwareAccelerated="true"
+95-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-47
+96            android:label="@string/app_name"
+96-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-45
+97            android:launchMode="singleTask"
+97-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-44
+98            android:screenOrientation="fullSensor" >
+98-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-51
+99            <meta-data
+99-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-69:40
+100                android:name="unityplayer.UnityActivity"
+100-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-57
+101                android:value="true" />
+101-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-37
+102        </activity>
+103
+104        <meta-data
+104-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:68
+105            android:name="unity.build-id"
+105-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-42
+106            android:value="7689a2fb-e8ca-4235-8c0c-3a6c5df2a9cc" />
+106-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-65
+107        <meta-data
+107-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-77:33
+108            android:name="unity.splash-mode"
+108-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-45
+109            android:value="0" />
+109-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-30
+110        <meta-data
+110-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-80:36
+111            android:name="unity.splash-enable"
+111-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-47
+112            android:value="True" />
+112-->[:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-33
+113    </application>
+114
+115</manifest>

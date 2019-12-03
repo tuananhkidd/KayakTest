@@ -136,7 +136,7 @@ public class ProgressAsyncTask extends AsyncTask<Object, Integer, Object> {
         		execNext();
         		
         		// アクティビティ終了
-        		activity.finish();
+//        		activity.finish();
         	}
         });
 		

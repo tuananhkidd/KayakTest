@@ -4,6 +4,7 @@ ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManife
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-83:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\064ef40ab6020df4fe62f3145b7855bd\support-v4-27.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbf07aa1da9ab954374e693dfcc335b9\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\54be6cd1dcbd59dbb05cf9890eed4c77\support-media-compat-27.0.2\AndroidManifest.xml:17:1-22:12
@@ -51,6 +52,8 @@ INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidMan
 		INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-65
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-65
 	android:name
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -59,10 +62,14 @@ ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManife
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:8:22-78
 uses-feature#android.hardware.camera
 ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:9:5-60
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:36
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:36
 	android:name
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:9:19-57
 uses-feature#android.hardware.camera.autofocus
 ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:10:5-70
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:5-45:36
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:5-45:36
 	android:name
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:10:19-67
 uses-feature#android.hardware.camera.flash
@@ -71,6 +78,8 @@ ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManife
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:11:19-63
 application
 ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:13:5-39:19
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:5-81:19
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:5-81:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8bb2478d12c0baf5b421024800cd7dbb\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
@@ -125,6 +134,8 @@ uses-sdk
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
+MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\064ef40ab6020df4fe62f3145b7855bd\support-v4-27.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\064ef40ab6020df4fe62f3145b7855bd\support-v4-27.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbf07aa1da9ab954374e693dfcc335b9\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
@@ -191,3 +202,115 @@ INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidMan
 		INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-18:40
+	android:largeScreens
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-36
+	android:normalScreens
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-37
+	android:xlargeScreens
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-37
+	android:anyDensity
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-34
+uses-feature#0x00020000
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-54
+	android:glEsVersion
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-51
+uses-permission#android.permission.INTERNET
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-64
+uses-feature#android.hardware.camera2.full
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.capability.manual_post_processing
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-81
+uses-feature#android.hardware.camera.hardware_level.full
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-67
+uses-feature#android.hardware.camera.capability.raw
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-62
+uses-feature#android.hardware.camera.capability.manual_sensor
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-72
+uses-feature#android.hardware.camera.front
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-53
+uses-feature#android.hardware.touchscreen
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:5-51:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:5-54:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:5-57:36
+	android:required
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-72
+activity#com.beetech.kayak.UnityPlayerActivity
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-70:20
+	android:screenOrientation
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-51
+	android:label
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-45
+	android:launchMode
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-44
+	android:hardwareAccelerated
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-47
+	android:configChanges
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-194
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-65
+meta-data#unityplayer.UnityActivity
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-69:40
+	android:value
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-37
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-57
+meta-data#unity.build-id
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:68
+	android:value
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-65
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-42
+meta-data#unity.splash-mode
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-77:33
+	android:value
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-30
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-45
+meta-data#unity.splash-enable
+ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-80:36
+	android:value
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-33
+	android:name
+		ADDED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-47

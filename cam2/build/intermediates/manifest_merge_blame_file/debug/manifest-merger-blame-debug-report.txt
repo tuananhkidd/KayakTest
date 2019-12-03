@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.beetech.kayak"
+5    android:installLocation="preferExternal"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="21"
+10-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="28" />
+11-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml
+12
+13    <supports-screens
+13-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:3-163
+14        android:anyDensity="true"
+14-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:135-160
+15        android:largeScreens="true"
+15-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:78-105
+16        android:normalScreens="true"
+16-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:49-77
+17        android:smallScreens="true"
+17-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:21-48
+18        android:xlargeScreens="true" />
+18-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:3:106-134
+19
+20    <uses-feature android:glEsVersion="0x00020000" />
+20-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:13:3-52
+20-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:13:17-49
+21
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:14:3-65
+22-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:14:20-62
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:15:3-63
+23-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:15:20-60
+24
+25    <uses-feature
+25-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:16:3-83
+26        android:name="android.hardware.camera"
+26-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:16:17-55
+27        android:required="false" />
+27-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:16:56-80
+28    <uses-feature
+28-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:17:3-89
+29        android:name="android.hardware.camera2.full"
+29-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:17:17-61
+30        android:required="false" />
+30-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:17:62-86
+31    <uses-feature
+31-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:18:3-117
+32        android:name="android.hardware.camera.capability.manual_post_processing"
+32-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:18:17-89
+33        android:required="false" />
+33-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:18:90-114
+34    <uses-feature
+34-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:19:3-103
+35        android:name="android.hardware.camera.hardware_level.full"
+35-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:19:17-75
+36        android:required="false" />
+36-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:19:76-100
+37    <uses-feature
+37-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:20:3-98
+38        android:name="android.hardware.camera.capability.raw"
+38-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:20:17-70
+39        android:required="false" />
+39-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:20:71-95
+40    <uses-feature
+40-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:21:3-108
+41        android:name="android.hardware.camera.capability.manual_sensor"
+41-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:21:17-80
+42        android:required="false" />
+42-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:21:81-105
+43    <uses-feature
+43-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:22:3-93
+44        android:name="android.hardware.camera.autofocus"
+44-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:22:17-65
+45        android:required="false" />
+45-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:22:66-90
+46    <uses-feature
+46-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:23:3-89
+47        android:name="android.hardware.camera.front"
+47-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:23:17-61
+48        android:required="false" />
+48-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:23:62-86
+49    <uses-feature
+49-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:24:3-88
+50        android:name="android.hardware.touchscreen"
+50-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:24:17-60
+51        android:required="false" />
+51-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:24:61-85
+52    <uses-feature
+52-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:25:3-99
+53        android:name="android.hardware.touchscreen.multitouch"
+53-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:25:17-71
+54        android:required="false" />
+54-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:25:72-96
+55    <uses-feature
+55-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:26:3-108
+56        android:name="android.hardware.touchscreen.multitouch.distinct"
+56-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:26:17-80
+57        android:required="false" />
+57-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:26:81-105
+58
+59    <application>
+59-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:4:3-12:17
+60        <activity
+60-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:5-8:16
+61            android:name="com.beetech.kayak.UnityPlayerActivity"
+61-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:336-388
+62            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+62-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:119-300
+63            android:hardwareAccelerated="true"
+63-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:301-335
+64            android:label="@string/app_name"
+64-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:15-47
+65            android:launchMode="singleTask"
+65-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:87-118
+66            android:screenOrientation="fullSensor" >
+66-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:5:48-86
+67            <meta-data
+67-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:7:7-82
+68                android:name="unityplayer.UnityActivity"
+68-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:7:18-58
+69                android:value="true" />
+69-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:7:59-79
+70        </activity>
+71
+72        <meta-data
+72-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:9:5-101
+73            android:name="unity.build-id"
+73-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:9:16-45
+74            android:value="7689a2fb-e8ca-4235-8c0c-3a6c5df2a9cc" />
+74-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:9:46-98
+75        <meta-data
+75-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:10:5-69
+76            android:name="unity.splash-mode"
+76-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:10:16-48
+77            android:value="0" />
+77-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:10:49-66
+78        <meta-data
+78-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:11:5-74
+79            android:name="unity.splash-enable"
+79-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:11:16-50
+80            android:value="True" />
+80-->C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\src\main\AndroidManifest.xml:11:51-71
+81    </application>
+82
+83</manifest>
