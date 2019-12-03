@@ -3,6 +3,7 @@ package jp.co.panasonic.pstc.ocr.android.card.app.camera;
 import java.nio.ByteBuffer;
 
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.util.Log;
 
 import jp.co.panasonic.pstc.ocr.card.CardRecog;
@@ -33,7 +34,9 @@ public class CameraData {
 	private long procTime;
 
 	private CardRecog cardRecog;
-	
+	private Uri photoUri;
+
+
 	/**
 	 * インスタンス取得処理<br />
 	 * @return	インスタンス(BusinessCardData型)
@@ -57,6 +60,14 @@ public class CameraData {
 		// OCR認識結果
 		ocrResult = null;
 		cardRecog = null;
+	}
+
+	public Uri getPhotoUri() {
+		return photoUri;
+	}
+
+	public void setPhotoUri(Uri photoUri) {
+		this.photoUri = photoUri;
 	}
 
 	public CardRecog getCardRecog() {

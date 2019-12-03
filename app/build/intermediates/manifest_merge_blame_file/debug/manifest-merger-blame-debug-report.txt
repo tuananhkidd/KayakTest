@@ -106,7 +106,7 @@
 57    <application
 57-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:5-40:19
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-58-->[androidx.core:core:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\842c1fe992ad889216566a8e33c11179\core-1.0.0\AndroidManifest.xml:22:18-86
+58-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\668a172293b25d1807c76a620f1d768d\core-1.1.0\AndroidManifest.xml:24:18-86
 59        android:debuggable="true"
 60        android:icon="@drawable/ocr"
 60-->C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:18-46

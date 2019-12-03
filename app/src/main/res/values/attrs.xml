@@ -3,4 +3,8 @@
     <declare-styleable name="OcrResultView">
         <attr name="title" format="reference|string" />
     </declare-styleable>
+
+    <declare-styleable name="OcrTextView">
+        <attr name="otv_title" format="reference|string" />
+    </declare-styleable>
 </resources>

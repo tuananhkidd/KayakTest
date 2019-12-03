@@ -12,28 +12,28 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int app_banner = 0x7f060054;
+        public static final int app_banner = 0x7f060056;
     }
     public static final class mipmap {
         private mipmap() {}
 
-        public static final int app_icon = 0x7f0a0000;
-        public static final int app_icon_round = 0x7f0a0001;
-        public static final int ic_launcher_background = 0x7f0a0002;
-        public static final int ic_launcher_foreground = 0x7f0a0003;
+        public static final int app_icon = 0x7f0b0000;
+        public static final int app_icon_round = 0x7f0b0001;
+        public static final int ic_launcher_background = 0x7f0b0002;
+        public static final int ic_launcher_foreground = 0x7f0b0003;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0b0027;
-        public static final int game_view_content_description = 0x7f0b0028;
+        public static final int app_name = 0x7f0c001b;
+        public static final int game_view_content_description = 0x7f0c001c;
     }
     public static final class style {
         private style() {}
 
-        public static final int BaseUnityTheme = 0x7f0c00a0;
-        public static final int TextResult = 0x7f0c00f9;
-        public static final int UnityThemeSelector = 0x7f0c0116;
-        public static final int UnityThemeSelector_Translucent = 0x7f0c0117;
+        public static final int BaseUnityTheme = 0x7f0d00a1;
+        public static final int TextResult = 0x7f0d00fa;
+        public static final int UnityThemeSelector = 0x7f0d0119;
+        public static final int UnityThemeSelector_Translucent = 0x7f0d011a;
     }
 }

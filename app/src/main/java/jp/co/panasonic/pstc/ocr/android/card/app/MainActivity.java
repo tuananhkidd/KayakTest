@@ -90,19 +90,7 @@ public class MainActivity extends Activity {
 //        File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/jp.co.panasonic.pstc.ocr.android.card.app/files",
 //                "/photo.png");
 //        Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
-//
-//        {
-//
-//            cameraData.init();
-//            cameraData.setBitmapData(bitmap);
-//            CameraProgress progress = new CameraProgress(activity, false);
-//            progress.setProgressTitle("Processing");        // プログレスタイトル
-//            progress.setProgressMessage("Please Wait...");    // プログレスメッセージ
-//            progress.setProgressCountUp(1);                    // カウントアップ値
-//            progress.setProgressCountUpMills(250);            // カウントアップ間隔(ミリ秒)
-//            progress.setProgressMaxCount(100);                // 最大カウント値
-//            progress.execute("request");
-//        }
+
     }
 
     /**
@@ -308,6 +296,7 @@ public class MainActivity extends Activity {
                     Uri photoUri = intent.getData();
                     if (photoUri == null) return;
 
+                    cameraData.setPhotoUri(photoUri);
                     // ビットマップ画像を取得
                     try {
                         BitmapFactory.Options opt = new BitmapFactory.Options();

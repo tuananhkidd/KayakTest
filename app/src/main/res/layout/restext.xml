@@ -21,10 +21,6 @@
             android:id="@+id/ScrollView"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginBottom="5dp"
             android:layout_weight="1">
 
             <LinearLayout
@@ -32,26 +28,173 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/img_result"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content">
 
-                <EditText
-                    android:id="@+id/result_txt"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:cursorVisible="false"
-                    android:editable="false"
-                    android:gravity="left"
-                    android:textColor="#000000"
-                    android:textSize="16dp" />
+                    <ImageView
+                        android:id="@+id/img_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintDimensionRatio="   H,16:9" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Image OCR"
-                    android:textSize="16sp" />
+                    android:background="#3D3C3C"
+                    android:padding="10dp"
+                    android:text="①認識結果"
+                    android:textColor="#ffffff" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="会社名" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="姓" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="名" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_affiliation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="所属" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_exetive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="役職" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_office1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="事業所 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_postal1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="郵便番号 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_address_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="住所 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_phone_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="電話番号 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_fax_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="FAX番号1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_office2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="事業所 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_postal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="郵便番号 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_address_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="住所 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_phone_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="電話番号 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_fax_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="FAX番号 2" />
+
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_email1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="E-Mailアドレス 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_email2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="E-Mailアドレス 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_url1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="Url1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_url2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="Url2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_building1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="ビル名 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_building2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="ビル名 2" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_cellular1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="携帯電話番号 1" />
+
+                <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrTextView
+                    android:id="@+id/orv_text_cellular2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:otv_title="携帯電話番号 2" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#3D3C3C"
+                    android:padding="10dp"
+                    android:text="②抽出結果"
+                    android:textColor="#ffffff" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -65,77 +208,77 @@
                         app:title="Company" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="FirstName"
                         android:id="@+id/orv_first_name"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="FirstName" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="LastName"
                         android:id="@+id/orv_last_name"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="LastName" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Address1"
                         android:id="@+id/orv_address_1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Address1" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Phone1"
                         android:id="@+id/orv_phone_1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Phone1" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Fax1"
                         android:id="@+id/orv_fax_1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Fax1" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Address2"
                         android:id="@+id/orv_address_2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Address2" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Phone2"
                         android:id="@+id/orv_phone_2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Phone2" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Fax2"
                         android:id="@+id/orv_fax_2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Fax2" />
 
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Email1"
                         android:id="@+id/orv_email1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Email1" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Email2"
                         android:id="@+id/orv_email2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Email2" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Url1"
                         android:id="@+id/orv_url1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Url1" />
 
                     <jp.co.panasonic.pstc.ocr.android.card.app.custom.OcrResultView
-                        app:title="Url2"
                         android:id="@+id/orv_url2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        app:title="Url2" />
                 </LinearLayout>
 
             </LinearLayout>
