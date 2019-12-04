@@ -10,10 +10,12 @@
         tools:text="ahuhu" />
 
     <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         tools:src="@mipmap/app_icon"
         android:id="@+id/img"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="35dp" />
 
     <TextView
         android:id="@+id/tv"

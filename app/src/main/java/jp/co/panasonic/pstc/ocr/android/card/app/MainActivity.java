@@ -154,8 +154,8 @@ public class MainActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
-        menu.add(0, MENU_SETTING, 0, "設定");
-        menu.add(0, MENU_HELP, 1, "ヘルプ");
+//        menu.add(0, MENU_SETTING, 0, "設定");
+//        menu.add(0, MENU_HELP, 1, "ヘルプ");
         return true;
     }
 

@@ -296,14 +296,14 @@
     <!-- フッター -->
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/gototop"
             android:layout_width="160dp"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:text="トップ画面" />
     </LinearLayout>
 

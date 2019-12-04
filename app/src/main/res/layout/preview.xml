@@ -36,22 +36,25 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_width="fill_parent"   
-        android:layout_height="40dp">
+        android:layout_height="wrap_content">
 	        
 		<Button android:text="再撮影"
 			android:id="@+id/Retake"
-			android:layout_width="160dp"
-			android:layout_height="35dp" />
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
 				
 		<Button android:text="再選択"
 			android:id="@+id/Reselect"
-			android:layout_width="160dp"
-			android:layout_height="35dp" />
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
 				
 		<Button android:text="認識"
 			android:id="@+id/Recognize"
-			android:layout_width="160dp"
-			android:layout_height="35dp" />
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" />
 			
     </LinearLayout>
 </LinearLayout>

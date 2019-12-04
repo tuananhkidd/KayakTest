@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ef8ed6a8570e3245ce9c6375363b4c58\constraintlayout-2.0.0-beta3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2364c22c1e9ae43eda00004e4ee67058\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e04ecf8947ba34d13fc36839e4331104\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -41,9 +41,9 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\148dad6a4963b114542b1c5dab90ce21\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5c368b3a14bfaa6db0bc00581c7c2d30\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a71d95d474aa5def5e6ec84ebbb02a2b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:4:5-56
 		INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml
@@ -87,7 +87,7 @@ ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:12:19-63
 application
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:5-40:19
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:5-41:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ef8ed6a8570e3245ce9c6375363b4c58\constraintlayout-2.0.0-beta3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ef8ed6a8570e3245ce9c6375363b4c58\constraintlayout-2.0.0-beta3\AndroidManifest.xml:9:5-20
 MERGED from [:cam2] C:\Users\admin\Desktop\KayakDemo\KayakTest\cam2\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:5-81:19
@@ -104,48 +104,52 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ad
 		ADDED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\668a172293b25d1807c76a620f1d768d\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:48-80
+	android:hardwareAccelerated
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:15:9-44
+	android:largeHeap
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:81-105
 	android:icon
 		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:14:18-46
 activity#jp.co.panasonic.pstc.ocr.android.card.app.MainActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:label
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:19-51
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:19-51
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:22:27-74
 activity#jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:26:3-91
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:27:3-91
 	android:screenOrientation
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:26:51-88
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:27:51-88
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:27:13-50
 activity#jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:29:3-98
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:30:3-98
 	android:screenOrientation
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:29:58-95
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:30:58-95
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:30:13-57
 activity#jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:32:3-46
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:33:3-46
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:32:13-43
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:33:13-43
 activity#jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:35:3-47
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:36:3-47
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:36:13-44
 activity#jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity
-ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:38:3-44
+ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:39:3-44
 	android:name
-		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:38:13-41
+		ADDED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml:39:13-41
 uses-sdk
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\Desktop\KayakDemo\KayakTest\app\src\main\AndroidManifest.xml

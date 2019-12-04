@@ -11,7 +11,8 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.camera.flash" />
 
-    <application android:icon="@drawable/ocr"  android:label="@string/app_name">
+    <application android:icon="@drawable/ocr"  android:label="@string/app_name" android:largeHeap="true"
+        android:hardwareAccelerated="false">
     
     	<!-- メインアクティビティ -->
         <activity android:name=".MainActivity"
