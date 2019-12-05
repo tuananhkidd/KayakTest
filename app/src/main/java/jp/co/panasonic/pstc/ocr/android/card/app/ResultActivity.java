@@ -144,7 +144,7 @@ public class ResultActivity extends Activity {
                     .load(cameraData.getPhotoUri())
                     .into(imgResult);
         } else {
-            File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/jp.co.panasonic.pstc.ocr.android.card.app/files",
+            File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/com.jp.beetech.kayak/files",
                     "/photo.png");
             Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
             Glide.with(this)

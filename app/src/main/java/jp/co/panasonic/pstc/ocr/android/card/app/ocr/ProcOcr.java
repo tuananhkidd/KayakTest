@@ -39,7 +39,7 @@ public class ProcOcr {
         try {
             // エンジンオブジェクトの取得
 //			File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/AR");
-            File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/jp.co.panasonic.pstc.ocr");
+            File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/com.jp.beetech.kayak");
 //			engine = CardEngineFactory.getEngine("/sdcard/data/jp.co.panasonic.pstc.ocr/cardDict");
             engine = CardEngineFactory.getEngine(file.getAbsolutePath());
 

@@ -36,7 +36,6 @@ public final class R {
   }
   public static final class attr {
     /**
-     * Custom divider drawable to use for elements in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -44,7 +43,6 @@ public final class R {
      */
     public static final int actionBarDivider=0x7f020000;
     /**
-     * Custom item state list drawable background for action bar items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -52,8 +50,6 @@ public final class R {
      */
     public static final int actionBarItemBackground=0x7f020001;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -61,8 +57,6 @@ public final class R {
      */
     public static final int actionBarPopupTheme=0x7f020002;
     /**
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -79,10 +73,6 @@ public final class R {
      */
     public static final int actionBarSize=0x7f020003;
     /**
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -90,7 +80,6 @@ public final class R {
      */
     public static final int actionBarSplitStyle=0x7f020004;
     /**
-     * Reference to a style for the Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -105,7 +94,6 @@ public final class R {
      */
     public static final int actionBarTabBarStyle=0x7f020006;
     /**
-     * Default style for tabs within an action bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -120,9 +108,6 @@ public final class R {
      */
     public static final int actionBarTabTextStyle=0x7f020008;
     /**
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -130,13 +115,6 @@ public final class R {
      */
     public static final int actionBarTheme=0x7f020009;
     /**
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -144,7 +122,6 @@ public final class R {
      */
     public static final int actionBarWidgetTheme=0x7f02000a;
     /**
-     * Default action button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -152,7 +129,6 @@ public final class R {
      */
     public static final int actionButtonStyle=0x7f02000b;
     /**
-     * Default ActionBar dropdown style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -160,9 +136,6 @@ public final class R {
      */
     public static final int actionDropDownStyle=0x7f02000c;
     /**
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -170,8 +143,6 @@ public final class R {
      */
     public static final int actionLayout=0x7f02000d;
     /**
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -179,7 +150,6 @@ public final class R {
      */
     public static final int actionMenuTextAppearance=0x7f02000e;
     /**
-     * Color for text that appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -190,7 +160,6 @@ public final class R {
      */
     public static final int actionMenuTextColor=0x7f02000f;
     /**
-     * Background drawable to use for action mode UI
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -205,7 +174,6 @@ public final class R {
      */
     public static final int actionModeCloseButtonStyle=0x7f020011;
     /**
-     * Drawable to use for the close action mode button
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -213,7 +181,6 @@ public final class R {
      */
     public static final int actionModeCloseDrawable=0x7f020012;
     /**
-     * Drawable to use for the Copy action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -221,7 +188,6 @@ public final class R {
      */
     public static final int actionModeCopyDrawable=0x7f020013;
     /**
-     * Drawable to use for the Cut action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -229,7 +195,6 @@ public final class R {
      */
     public static final int actionModeCutDrawable=0x7f020014;
     /**
-     * Drawable to use for the Find action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -237,7 +202,6 @@ public final class R {
      */
     public static final int actionModeFindDrawable=0x7f020015;
     /**
-     * Drawable to use for the Paste action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -245,7 +209,6 @@ public final class R {
      */
     public static final int actionModePasteDrawable=0x7f020016;
     /**
-     * PopupWindow style to use for action modes when showing as a window overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -253,7 +216,6 @@ public final class R {
      */
     public static final int actionModePopupWindowStyle=0x7f020017;
     /**
-     * Drawable to use for the Select all action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -261,7 +223,6 @@ public final class R {
      */
     public static final int actionModeSelectAllDrawable=0x7f020018;
     /**
-     * Drawable to use for the Share action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -269,7 +230,6 @@ public final class R {
      */
     public static final int actionModeShareDrawable=0x7f020019;
     /**
-     * Background drawable to use for action mode UI in the lower split bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -284,7 +244,6 @@ public final class R {
      */
     public static final int actionModeStyle=0x7f02001b;
     /**
-     * Drawable to use for the Web Search action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -306,24 +265,16 @@ public final class R {
      */
     public static final int actionOverflowMenuStyle=0x7f02001e;
     /**
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionProviderClass=0x7f02001f;
     /**
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionViewClass=0x7f020020;
     /**
-     * Default ActivityChooserView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -350,7 +301,6 @@ public final class R {
      */
     public static final int alertDialogStyle=0x7f020024;
     /**
-     * Theme to use for alert dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -358,20 +308,15 @@ public final class R {
      */
     public static final int alertDialogTheme=0x7f020025;
     /**
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int allowStacking=0x7f020026;
     /**
-     * Alpha multiplier applied to the base color.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int alpha=0x7f020027;
     /**
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -420,7 +365,6 @@ public final class R {
      */
     public static final int arcMode=0x7f02002c;
     /**
-     * The length of the arrow head when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -429,7 +373,6 @@ public final class R {
      */
     public static final int arrowHeadLength=0x7f02002d;
     /**
-     * The length of the shaft when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -443,7 +386,6 @@ public final class R {
      */
     public static final int attributeName=0x7f02002f;
     /**
-     * Default AutoCompleteTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -451,7 +393,6 @@ public final class R {
      */
     public static final int autoCompleteTextViewStyle=0x7f020030;
     /**
-     * The maximum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -460,7 +401,6 @@ public final class R {
      */
     public static final int autoSizeMaxTextSize=0x7f020031;
     /**
-     * The minimum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -469,9 +409,6 @@ public final class R {
      */
     public static final int autoSizeMinTextSize=0x7f020032;
     /**
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -479,9 +416,6 @@ public final class R {
      */
     public static final int autoSizePresetSizes=0x7f020033;
     /**
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -490,17 +424,14 @@ public final class R {
      */
     public static final int autoSizeStepGranularity=0x7f020034;
     /**
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      */
     public static final int autoSizeTextType=0x7f020035;
@@ -520,7 +451,6 @@ public final class R {
      */
     public static final int autoTransition=0x7f020036;
     /**
-     * Specifies a background drawable for the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -528,7 +458,6 @@ public final class R {
      */
     public static final int background=0x7f020037;
     /**
-     * Specifies a background drawable for the bottom component of a split action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -539,7 +468,6 @@ public final class R {
      */
     public static final int backgroundSplit=0x7f020038;
     /**
-     * Specifies a background drawable for a second stacked row of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -550,36 +478,28 @@ public final class R {
      */
     public static final int backgroundStacked=0x7f020039;
     /**
-     * Tint to apply to the background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int backgroundTint=0x7f02003a;
     /**
-     * Blending mode used to apply the background tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int backgroundTintMode=0x7f02003b;
     /**
-     * The length of the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -617,7 +537,6 @@ public final class R {
      */
     public static final int barrierMargin=0x7f02003f;
     /**
-     * Style for buttons without an explicit border, often used in groups.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -629,7 +548,6 @@ public final class R {
      */
     public static final int brightness=0x7f020041;
     /**
-     * Style for buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -637,7 +555,6 @@ public final class R {
      */
     public static final int buttonBarButtonStyle=0x7f020042;
     /**
-     * Style for the "negative" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -645,7 +562,6 @@ public final class R {
      */
     public static final int buttonBarNegativeButtonStyle=0x7f020043;
     /**
-     * Style for the "neutral" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -653,7 +569,6 @@ public final class R {
      */
     public static final int buttonBarNeutralButtonStyle=0x7f020044;
     /**
-     * Style for the "positive" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -661,7 +576,6 @@ public final class R {
      */
     public static final int buttonBarPositiveButtonStyle=0x7f020045;
     /**
-     * Style for button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -669,7 +583,6 @@ public final class R {
      */
     public static final int buttonBarStyle=0x7f020046;
     /**
-     * Compat attr to load backported drawable types
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -683,9 +596,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int buttonGravity=0x7f020048;
@@ -705,7 +618,6 @@ public final class R {
      */
     public static final int buttonPanelSideLayout=0x7f02004a;
     /**
-     * Normal Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -713,7 +625,6 @@ public final class R {
      */
     public static final int buttonStyle=0x7f02004b;
     /**
-     * Small Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -721,31 +632,24 @@ public final class R {
      */
     public static final int buttonStyleSmall=0x7f02004c;
     /**
-     * Tint to apply to the button drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int buttonTint=0x7f02004d;
     /**
-     * Blending mode used to apply the button tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int buttonTintMode=0x7f02004e;
@@ -755,7 +659,6 @@ public final class R {
      */
     public static final int chainUseRtl=0x7f02004f;
     /**
-     * Default Checkbox style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -763,7 +666,6 @@ public final class R {
      */
     public static final int checkboxStyle=0x7f020050;
     /**
-     * Default CheckedTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -794,7 +696,6 @@ public final class R {
      */
     public static final int clickAction=0x7f020053;
     /**
-     * Close button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -802,7 +703,6 @@ public final class R {
      */
     public static final int closeIcon=0x7f020054;
     /**
-     * Specifies a layout to use for the "close" item at the starting edge.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -810,13 +710,11 @@ public final class R {
      */
     public static final int closeItemLayout=0x7f020055;
     /**
-     * Text to set as the content description for the collapse button.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int collapseContentDescription=0x7f020056;
     /**
-     * Icon drawable to use for the collapse button.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -824,58 +722,48 @@ public final class R {
      */
     public static final int collapseIcon=0x7f020057;
     /**
-     * The drawing color for the bars
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int color=0x7f020058;
     /**
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorAccent=0x7f020059;
     /**
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorBackgroundFloating=0x7f02005a;
     /**
-     * The color applied to framework buttons in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorButtonNormal=0x7f02005b;
     /**
-     * The color applied to framework controls in their activated (ex. checked) state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlActivated=0x7f02005c;
     /**
-     * The color applied to framework control highlights (ex. ripples, list selectors).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlHighlight=0x7f02005d;
     /**
-     * The color applied to framework controls in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlNormal=0x7f02005e;
     /**
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -886,30 +774,24 @@ public final class R {
      */
     public static final int colorError=0x7f02005f;
     /**
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorPrimary=0x7f020060;
     /**
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorPrimaryDark=0x7f020061;
     /**
-     * The color applied to framework switch thumbs in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorSwitchThumbNormal=0x7f020062;
     /**
-     * Commit icon shown in the query suggestion row
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -957,14 +839,11 @@ public final class R {
      */
     public static final int content=0x7f020069;
     /**
-     * The content description associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int contentDescription=0x7f02006a;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -973,8 +852,6 @@ public final class R {
      */
     public static final int contentInsetEnd=0x7f02006b;
     /**
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -983,8 +860,6 @@ public final class R {
      */
     public static final int contentInsetEndWithActions=0x7f02006c;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -993,8 +868,6 @@ public final class R {
      */
     public static final int contentInsetLeft=0x7f02006d;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1003,8 +876,6 @@ public final class R {
      */
     public static final int contentInsetRight=0x7f02006e;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1013,8 +884,6 @@ public final class R {
      */
     public static final int contentInsetStart=0x7f02006f;
     /**
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1027,7 +896,6 @@ public final class R {
      */
     public static final int contrast=0x7f020071;
     /**
-     * The background used by framework controls.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1098,7 +966,6 @@ public final class R {
      */
     public static final int customIntegerValue=0x7f02007c;
     /**
-     * Specifies a layout for custom navigation. Overrides navigationMode.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1123,8 +990,6 @@ public final class R {
      */
     public static final int defaultDuration=0x7f020080;
     /**
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -1152,7 +1017,6 @@ public final class R {
      */
     public static final int deriveConstraintsFrom=0x7f020085;
     /**
-     * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1161,7 +1025,6 @@ public final class R {
      */
     public static final int dialogCornerRadius=0x7f020086;
     /**
-     * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1170,7 +1033,6 @@ public final class R {
      */
     public static final int dialogPreferredPadding=0x7f020087;
     /**
-     * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1178,7 +1040,6 @@ public final class R {
      */
     public static final int dialogTheme=0x7f020088;
     /**
-     * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1196,7 +1057,6 @@ public final class R {
      */
     public static final int displayOptions=0x7f020089;
     /**
-     * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1204,7 +1064,6 @@ public final class R {
      */
     public static final int divider=0x7f02008a;
     /**
-     * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1212,7 +1071,6 @@ public final class R {
      */
     public static final int dividerHorizontal=0x7f02008b;
     /**
-     * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1221,7 +1079,6 @@ public final class R {
      */
     public static final int dividerPadding=0x7f02008c;
     /**
-     * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1277,8 +1134,6 @@ public final class R {
      */
     public static final int drawableEndCompat=0x7f020092;
     /**
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1293,7 +1148,6 @@ public final class R {
      */
     public static final int drawableRightCompat=0x7f020094;
     /**
-     * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1309,31 +1163,24 @@ public final class R {
      */
     public static final int drawableStartCompat=0x7f020096;
     /**
-     * Tint to apply to the compound (left, top, etc.) drawables.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int drawableTint=0x7f020097;
     /**
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int drawableTintMode=0x7f020098;
@@ -1352,7 +1199,6 @@ public final class R {
      */
     public static final int drawerArrowStyle=0x7f02009a;
     /**
-     * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1360,7 +1206,6 @@ public final class R {
      */
     public static final int dropDownListViewStyle=0x7f02009b;
     /**
-     * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1373,7 +1218,6 @@ public final class R {
      */
     public static final int duration=0x7f02009d;
     /**
-     * EditText background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1381,7 +1225,6 @@ public final class R {
      */
     public static final int editTextBackground=0x7f02009e;
     /**
-     * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1392,7 +1235,6 @@ public final class R {
      */
     public static final int editTextColor=0x7f02009f;
     /**
-     * Default EditText style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1400,7 +1242,6 @@ public final class R {
      */
     public static final int editTextStyle=0x7f0200a0;
     /**
-     * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1409,11 +1250,6 @@ public final class R {
      */
     public static final int elevation=0x7f0200a1;
     /**
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1421,8 +1257,6 @@ public final class R {
      */
     public static final int expandActivityOverflowButtonDrawable=0x7f0200a2;
     /**
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1601,8 +1435,6 @@ public final class R {
      */
     public static final int flow_wrapMode=0x7f0200b6;
     /**
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1610,23 +1442,16 @@ public final class R {
      */
     public static final int font=0x7f0200b7;
     /**
-     * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontFamily=0x7f0200b8;
     /**
-     * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderAuthority=0x7f0200b9;
     /**
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1634,34 +1459,18 @@ public final class R {
      */
     public static final int fontProviderCerts=0x7f0200ba;
     /**
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchStrategy=0x7f0200bb;
     /**
-     * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1669,29 +1478,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchTimeout=0x7f0200bc;
     /**
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderPackage=0x7f0200bd;
     /**
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderQuery=0x7f0200be;
     /**
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1704,20 +1505,11 @@ public final class R {
      */
     public static final int fontStyle=0x7f0200bf;
     /**
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontVariationSettings=0x7f0200c0;
     /**
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fontWeight=0x7f0200c1;
@@ -1726,7 +1518,6 @@ public final class R {
      */
     public static final int framePosition=0x7f0200c2;
     /**
-     * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1735,7 +1526,6 @@ public final class R {
      */
     public static final int gapBetweenBars=0x7f0200c3;
     /**
-     * Go button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1751,13 +1541,11 @@ public final class R {
      */
     public static final int height=0x7f0200c5;
     /**
-     * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int hideOnContentScroll=0x7f0200c6;
     /**
-     * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1765,7 +1553,6 @@ public final class R {
      */
     public static final int homeAsUpIndicator=0x7f0200c7;
     /**
-     * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1773,7 +1560,6 @@ public final class R {
      */
     public static final int homeLayout=0x7f0200c8;
     /**
-     * Specifies the drawable used for the application icon.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1781,43 +1567,33 @@ public final class R {
      */
     public static final int icon=0x7f0200c9;
     /**
-     * Tint to apply to the icon.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int iconTint=0x7f0200ca;
     /**
-     * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int iconTintMode=0x7f0200cb;
     /**
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int iconifiedByDefault=0x7f0200cc;
     /**
-     * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1825,7 +1601,6 @@ public final class R {
      */
     public static final int imageButtonStyle=0x7f0200cd;
     /**
-     * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1833,7 +1608,6 @@ public final class R {
      */
     public static final int indeterminateProgressStyle=0x7f0200ce;
     /**
-     * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -1844,8 +1618,6 @@ public final class R {
      */
     public static final int isLightTheme=0x7f0200d0;
     /**
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1867,11 +1639,6 @@ public final class R {
      */
     public static final int keyPositionType=0x7f0200d2;
     /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1879,8 +1646,6 @@ public final class R {
      */
     public static final int keylines=0x7f0200d3;
     /**
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1889,7 +1654,6 @@ public final class R {
      */
     public static final int lastBaselineToBottomHeight=0x7f0200d4;
     /**
-     * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1904,7 +1668,6 @@ public final class R {
      */
     public static final int layoutDescription=0x7f0200d6;
     /**
-     * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1912,40 +1675,30 @@ public final class R {
      */
     public static final int layout_anchor=0x7f0200d7;
     /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_anchorGravity=0x7f0200d8;
     /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2365,21 +2118,20 @@ public final class R {
      */
     public static final int layout_constraintWidth_percent=0x7f020103;
     /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_dodgeInsetEdges=0x7f020104;
@@ -2448,28 +2200,23 @@ public final class R {
      */
     public static final int layout_goneMarginTop=0x7f02010c;
     /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_insetEdge=0x7f02010d;
     /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int layout_keyline=0x7f02010e;
@@ -2483,7 +2230,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>graph</td><td>40</td><td></td></tr>
      * <tr><td>graph_wrap</td><td>80</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
@@ -2494,8 +2241,6 @@ public final class R {
      */
     public static final int layout_optimizationLevel=0x7f02010f;
     /**
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2504,7 +2249,6 @@ public final class R {
      */
     public static final int lineHeight=0x7f020110;
     /**
-     * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2512,7 +2256,6 @@ public final class R {
      */
     public static final int listChoiceBackgroundIndicator=0x7f020111;
     /**
-     * Animated Drawable to use for single choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2520,7 +2263,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorMultipleAnimated=0x7f020112;
     /**
-     * Animated Drawable to use for multiple choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2528,7 +2270,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorSingleAnimated=0x7f020113;
     /**
-     * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2550,7 +2291,6 @@ public final class R {
      */
     public static final int listLayout=0x7f020116;
     /**
-     * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2565,7 +2305,6 @@ public final class R {
      */
     public static final int listPopupWindowStyle=0x7f020118;
     /**
-     * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2574,7 +2313,6 @@ public final class R {
      */
     public static final int listPreferredItemHeight=0x7f020119;
     /**
-     * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2583,7 +2321,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightLarge=0x7f02011a;
     /**
-     * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2592,7 +2329,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightSmall=0x7f02011b;
     /**
-     * The preferred padding along the end edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2601,7 +2337,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingEnd=0x7f02011c;
     /**
-     * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2610,7 +2345,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingLeft=0x7f02011d;
     /**
-     * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2619,7 +2353,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingRight=0x7f02011e;
     /**
-     * The preferred padding along the start edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2628,7 +2361,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingStart=0x7f02011f;
     /**
-     * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2636,8 +2368,6 @@ public final class R {
      */
     public static final int logo=0x7f020120;
     /**
-     * A content description string to describe the appearance of the
-     * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2675,15 +2405,11 @@ public final class R {
      */
     public static final int maxWidth=0x7f020126;
     /**
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int measureWithLargestChild=0x7f020127;
     /**
-     * Menu resource to inflate to be shown in the toolbar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2820,15 +2546,11 @@ public final class R {
      */
     public static final int multiChoiceItemLayout=0x7f02013a;
     /**
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int navigationContentDescription=0x7f02013b;
     /**
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2836,22 +2558,19 @@ public final class R {
      */
     public static final int navigationIcon=0x7f02013c;
     /**
-     * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
     public static final int navigationMode=0x7f02013d;
     /**
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2918,7 +2637,6 @@ public final class R {
      */
     public static final int otv_title=0x7f020145;
     /**
-     * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -2929,7 +2647,6 @@ public final class R {
      */
     public static final int overlay=0x7f020147;
     /**
-     * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2938,7 +2655,6 @@ public final class R {
      */
     public static final int paddingBottomNoButtons=0x7f020148;
     /**
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2947,7 +2663,6 @@ public final class R {
      */
     public static final int paddingEnd=0x7f020149;
     /**
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2956,7 +2671,6 @@ public final class R {
      */
     public static final int paddingStart=0x7f02014a;
     /**
-     * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2965,7 +2679,6 @@ public final class R {
      */
     public static final int paddingTopNoTitle=0x7f02014b;
     /**
-     * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2973,7 +2686,6 @@ public final class R {
      */
     public static final int panelBackground=0x7f02014c;
     /**
-     * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2981,7 +2693,6 @@ public final class R {
      */
     public static final int panelMenuListTheme=0x7f02014d;
     /**
-     * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3072,7 +2783,6 @@ public final class R {
      */
     public static final int placeholder_emptyVisibility=0x7f020159;
     /**
-     * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3080,8 +2790,6 @@ public final class R {
      */
     public static final int popupMenuStyle=0x7f02015a;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3089,7 +2797,6 @@ public final class R {
      */
     public static final int popupTheme=0x7f02015b;
     /**
-     * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3097,7 +2804,6 @@ public final class R {
      */
     public static final int popupWindowStyle=0x7f02015c;
     /**
-     * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3107,7 +2813,6 @@ public final class R {
      */
     public static final int progress=0x7f02015e;
     /**
-     * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3116,7 +2821,6 @@ public final class R {
      */
     public static final int progressBarPadding=0x7f02015f;
     /**
-     * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3124,7 +2828,6 @@ public final class R {
      */
     public static final int progressBarStyle=0x7f020160;
     /**
-     * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3132,13 +2835,11 @@ public final class R {
      */
     public static final int queryBackground=0x7f020161;
     /**
-     * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int queryHint=0x7f020162;
     /**
-     * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3146,7 +2847,6 @@ public final class R {
      */
     public static final int radioButtonStyle=0x7f020163;
     /**
-     * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3154,7 +2854,6 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f020164;
     /**
-     * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3162,7 +2861,6 @@ public final class R {
      */
     public static final int ratingBarStyleIndicator=0x7f020165;
     /**
-     * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3218,7 +2916,6 @@ public final class R {
      */
     public static final int saturation=0x7f02016d;
     /**
-     * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3226,7 +2923,6 @@ public final class R {
      */
     public static final int searchHintIcon=0x7f02016e;
     /**
-     * Search icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3234,7 +2930,6 @@ public final class R {
      */
     public static final int searchIcon=0x7f02016f;
     /**
-     * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3242,7 +2937,6 @@ public final class R {
      */
     public static final int searchViewStyle=0x7f020170;
     /**
-     * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3250,9 +2944,6 @@ public final class R {
      */
     public static final int seekBarStyle=0x7f020171;
     /**
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3260,7 +2951,6 @@ public final class R {
      */
     public static final int selectableItemBackground=0x7f020172;
     /**
-     * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3268,32 +2958,21 @@ public final class R {
      */
     public static final int selectableItemBackgroundBorderless=0x7f020173;
     /**
-     * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
     public static final int showAsAction=0x7f020174;
     /**
-     * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3313,7 +2992,6 @@ public final class R {
      */
     public static final int showPaths=0x7f020176;
     /**
-     * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3335,13 +3013,11 @@ public final class R {
      */
     public static final int sizePercent=0x7f02017a;
     /**
-     * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int spinBars=0x7f02017b;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3349,7 +3025,6 @@ public final class R {
      */
     public static final int spinnerDropDownItemStyle=0x7f02017c;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3357,14 +3032,11 @@ public final class R {
      */
     public static final int spinnerStyle=0x7f02017d;
     /**
-     * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int splitTrack=0x7f02017e;
     /**
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3376,13 +3048,11 @@ public final class R {
      */
     public static final int staggered=0x7f020180;
     /**
-     * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int state_above_anchor=0x7f020181;
     /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3393,7 +3063,6 @@ public final class R {
      */
     public static final int statusBarBackground=0x7f020182;
     /**
-     * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3401,7 +3070,6 @@ public final class R {
      */
     public static final int subMenuArrow=0x7f020183;
     /**
-     * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3409,7 +3077,6 @@ public final class R {
      */
     public static final int submitBackground=0x7f020184;
     /**
-     * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3422,14 +3089,12 @@ public final class R {
      */
     public static final int subtitleTextAppearance=0x7f020186;
     /**
-     * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int subtitleTextColor=0x7f020187;
     /**
-     * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3437,7 +3102,6 @@ public final class R {
      */
     public static final int subtitleTextStyle=0x7f020188;
     /**
-     * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3445,7 +3109,6 @@ public final class R {
      */
     public static final int suggestionRowLayout=0x7f020189;
     /**
-     * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3454,7 +3117,6 @@ public final class R {
      */
     public static final int switchMinWidth=0x7f02018a;
     /**
-     * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3463,7 +3125,6 @@ public final class R {
      */
     public static final int switchPadding=0x7f02018b;
     /**
-     * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3471,7 +3132,6 @@ public final class R {
      */
     public static final int switchStyle=0x7f02018c;
     /**
-     * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3510,7 +3170,6 @@ public final class R {
      */
     public static final int telltales_velocityMode=0x7f020191;
     /**
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3520,7 +3179,6 @@ public final class R {
      */
     public static final int textAllCaps=0x7f020192;
     /**
-     * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3528,7 +3186,6 @@ public final class R {
      */
     public static final int textAppearanceLargePopupMenu=0x7f020193;
     /**
-     * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3536,7 +3193,6 @@ public final class R {
      */
     public static final int textAppearanceListItem=0x7f020194;
     /**
-     * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3544,7 +3200,6 @@ public final class R {
      */
     public static final int textAppearanceListItemSecondary=0x7f020195;
     /**
-     * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3552,7 +3207,6 @@ public final class R {
      */
     public static final int textAppearanceListItemSmall=0x7f020196;
     /**
-     * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3560,7 +3214,6 @@ public final class R {
      */
     public static final int textAppearancePopupMenuHeader=0x7f020197;
     /**
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3568,7 +3221,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultSubtitle=0x7f020198;
     /**
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3576,7 +3228,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultTitle=0x7f020199;
     /**
-     * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3584,7 +3235,6 @@ public final class R {
      */
     public static final int textAppearanceSmallPopupMenu=0x7f02019a;
     /**
-     * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3595,7 +3245,6 @@ public final class R {
      */
     public static final int textColorAlertDialogListItem=0x7f02019b;
     /**
-     * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3606,17 +3255,11 @@ public final class R {
      */
     public static final int textColorSearchUrl=0x7f02019c;
     /**
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int textLocale=0x7f02019d;
     /**
-     * Deprecated.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3624,7 +3267,6 @@ public final class R {
      */
     public static final int theme=0x7f02019e;
     /**
-     * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3633,7 +3275,6 @@ public final class R {
      */
     public static final int thickness=0x7f02019f;
     /**
-     * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3642,36 +3283,28 @@ public final class R {
      */
     public static final int thumbTextPadding=0x7f0201a0;
     /**
-     * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int thumbTint=0x7f0201a1;
     /**
-     * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int thumbTintMode=0x7f0201a2;
     /**
-     * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3679,60 +3312,46 @@ public final class R {
      */
     public static final int tickMark=0x7f0201a3;
     /**
-     * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tickMarkTint=0x7f0201a4;
     /**
-     * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tickMarkTintMode=0x7f0201a5;
     /**
-     * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tint=0x7f0201a6;
     /**
-     * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tintMode=0x7f0201a7;
@@ -3742,8 +3361,6 @@ public final class R {
      */
     public static final int title=0x7f0201a8;
     /**
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3752,9 +3369,6 @@ public final class R {
      */
     public static final int titleMargin=0x7f0201a9;
     /**
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3763,9 +3377,6 @@ public final class R {
      */
     public static final int titleMarginBottom=0x7f0201aa;
     /**
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3774,9 +3385,6 @@ public final class R {
      */
     public static final int titleMarginEnd=0x7f0201ab;
     /**
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3785,9 +3393,6 @@ public final class R {
      */
     public static final int titleMarginStart=0x7f0201ac;
     /**
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3796,14 +3401,12 @@ public final class R {
      */
     public static final int titleMarginTop=0x7f0201ad;
     /**
-     * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    @Deprecated
     public static final int titleMargins=0x7f0201ae;
     /**
      * <p>May be a reference to another resource, in the form
@@ -3813,14 +3416,12 @@ public final class R {
      */
     public static final int titleTextAppearance=0x7f0201af;
     /**
-     * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int titleTextColor=0x7f0201b0;
     /**
-     * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3828,7 +3429,6 @@ public final class R {
      */
     public static final int titleTextStyle=0x7f0201b1;
     /**
-     * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3836,7 +3436,6 @@ public final class R {
      */
     public static final int toolbarNavigationButtonStyle=0x7f0201b2;
     /**
-     * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3844,7 +3443,6 @@ public final class R {
      */
     public static final int toolbarStyle=0x7f0201b3;
     /**
-     * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3855,7 +3453,6 @@ public final class R {
      */
     public static final int tooltipForegroundColor=0x7f0201b4;
     /**
-     * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3863,7 +3460,6 @@ public final class R {
      */
     public static final int tooltipFrameBackground=0x7f0201b5;
     /**
-     * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3897,7 +3493,6 @@ public final class R {
      */
     public static final int touchRegionId=0x7f0201b9;
     /**
-     * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3905,31 +3500,24 @@ public final class R {
      */
     public static final int track=0x7f0201ba;
     /**
-     * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int trackTint=0x7f0201bb;
     /**
-     * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int trackTintMode=0x7f0201bc;
@@ -3977,8 +3565,6 @@ public final class R {
      */
     public static final int triggerSlack=0x7f0201c2;
     /**
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int ttcIndex=0x7f0201c3;
@@ -4000,7 +3586,6 @@ public final class R {
      */
     public static final int visibilityMode=0x7f0201c5;
     /**
-     * Voice button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4058,31 +3643,21 @@ public final class R {
      */
     public static final int waveVariesBy=0x7f0201cc;
     /**
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBar=0x7f0201cd;
     /**
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBarOverlay=0x7f0201ce;
     /**
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionModeOverlay=0x7f0201cf;
     /**
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4095,9 +3670,6 @@ public final class R {
      */
     public static final int windowFixedHeightMajor=0x7f0201d0;
     /**
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4110,9 +3682,6 @@ public final class R {
      */
     public static final int windowFixedHeightMinor=0x7f0201d1;
     /**
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4125,9 +3694,6 @@ public final class R {
      */
     public static final int windowFixedWidthMajor=0x7f0201d2;
     /**
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4140,10 +3706,6 @@ public final class R {
      */
     public static final int windowFixedWidthMinor=0x7f0201d3;
     /**
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4156,10 +3718,6 @@ public final class R {
      */
     public static final int windowMinWidthMajor=0x7f0201d4;
     /**
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4172,7 +3730,6 @@ public final class R {
      */
     public static final int windowMinWidthMinor=0x7f0201d5;
     /**
-     * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4222,53 +3779,56 @@ public final class R {
     public static final int bright_foreground_material_light=0x7f040023;
     public static final int button_material_dark=0x7f040024;
     public static final int button_material_light=0x7f040025;
-    public static final int dim_foreground_disabled_material_dark=0x7f040026;
-    public static final int dim_foreground_disabled_material_light=0x7f040027;
-    public static final int dim_foreground_material_dark=0x7f040028;
-    public static final int dim_foreground_material_light=0x7f040029;
-    public static final int error_color_material_dark=0x7f04002a;
-    public static final int error_color_material_light=0x7f04002b;
-    public static final int foreground_material_dark=0x7f04002c;
-    public static final int foreground_material_light=0x7f04002d;
-    public static final int highlighted_text_material_dark=0x7f04002e;
-    public static final int highlighted_text_material_light=0x7f04002f;
-    public static final int material_blue_grey_800=0x7f040030;
-    public static final int material_blue_grey_900=0x7f040031;
-    public static final int material_blue_grey_950=0x7f040032;
-    public static final int material_deep_teal_200=0x7f040033;
-    public static final int material_deep_teal_500=0x7f040034;
-    public static final int material_grey_100=0x7f040035;
-    public static final int material_grey_300=0x7f040036;
-    public static final int material_grey_50=0x7f040037;
-    public static final int material_grey_600=0x7f040038;
-    public static final int material_grey_800=0x7f040039;
-    public static final int material_grey_850=0x7f04003a;
-    public static final int material_grey_900=0x7f04003b;
-    public static final int notification_action_color_filter=0x7f04003c;
-    public static final int notification_icon_bg_color=0x7f04003d;
-    public static final int notification_material_background_media_default_color=0x7f04003e;
-    public static final int primary_dark_material_dark=0x7f04003f;
-    public static final int primary_dark_material_light=0x7f040040;
-    public static final int primary_material_dark=0x7f040041;
-    public static final int primary_material_light=0x7f040042;
-    public static final int primary_text_default_material_dark=0x7f040043;
-    public static final int primary_text_default_material_light=0x7f040044;
-    public static final int primary_text_disabled_material_dark=0x7f040045;
-    public static final int primary_text_disabled_material_light=0x7f040046;
-    public static final int ripple_material_dark=0x7f040047;
-    public static final int ripple_material_light=0x7f040048;
-    public static final int secondary_text_default_material_dark=0x7f040049;
-    public static final int secondary_text_default_material_light=0x7f04004a;
-    public static final int secondary_text_disabled_material_dark=0x7f04004b;
-    public static final int secondary_text_disabled_material_light=0x7f04004c;
-    public static final int switch_thumb_disabled_material_dark=0x7f04004d;
-    public static final int switch_thumb_disabled_material_light=0x7f04004e;
-    public static final int switch_thumb_material_dark=0x7f04004f;
-    public static final int switch_thumb_material_light=0x7f040050;
-    public static final int switch_thumb_normal_material_dark=0x7f040051;
-    public static final int switch_thumb_normal_material_light=0x7f040052;
-    public static final int tooltip_background_dark=0x7f040053;
-    public static final int tooltip_background_light=0x7f040054;
+    public static final int colorAccent=0x7f040026;
+    public static final int colorPrimary=0x7f040027;
+    public static final int colorPrimaryDark=0x7f040028;
+    public static final int dim_foreground_disabled_material_dark=0x7f040029;
+    public static final int dim_foreground_disabled_material_light=0x7f04002a;
+    public static final int dim_foreground_material_dark=0x7f04002b;
+    public static final int dim_foreground_material_light=0x7f04002c;
+    public static final int error_color_material_dark=0x7f04002d;
+    public static final int error_color_material_light=0x7f04002e;
+    public static final int foreground_material_dark=0x7f04002f;
+    public static final int foreground_material_light=0x7f040030;
+    public static final int highlighted_text_material_dark=0x7f040031;
+    public static final int highlighted_text_material_light=0x7f040032;
+    public static final int material_blue_grey_800=0x7f040033;
+    public static final int material_blue_grey_900=0x7f040034;
+    public static final int material_blue_grey_950=0x7f040035;
+    public static final int material_deep_teal_200=0x7f040036;
+    public static final int material_deep_teal_500=0x7f040037;
+    public static final int material_grey_100=0x7f040038;
+    public static final int material_grey_300=0x7f040039;
+    public static final int material_grey_50=0x7f04003a;
+    public static final int material_grey_600=0x7f04003b;
+    public static final int material_grey_800=0x7f04003c;
+    public static final int material_grey_850=0x7f04003d;
+    public static final int material_grey_900=0x7f04003e;
+    public static final int notification_action_color_filter=0x7f04003f;
+    public static final int notification_icon_bg_color=0x7f040040;
+    public static final int notification_material_background_media_default_color=0x7f040041;
+    public static final int primary_dark_material_dark=0x7f040042;
+    public static final int primary_dark_material_light=0x7f040043;
+    public static final int primary_material_dark=0x7f040044;
+    public static final int primary_material_light=0x7f040045;
+    public static final int primary_text_default_material_dark=0x7f040046;
+    public static final int primary_text_default_material_light=0x7f040047;
+    public static final int primary_text_disabled_material_dark=0x7f040048;
+    public static final int primary_text_disabled_material_light=0x7f040049;
+    public static final int ripple_material_dark=0x7f04004a;
+    public static final int ripple_material_light=0x7f04004b;
+    public static final int secondary_text_default_material_dark=0x7f04004c;
+    public static final int secondary_text_default_material_light=0x7f04004d;
+    public static final int secondary_text_disabled_material_dark=0x7f04004e;
+    public static final int secondary_text_disabled_material_light=0x7f04004f;
+    public static final int switch_thumb_disabled_material_dark=0x7f040050;
+    public static final int switch_thumb_disabled_material_light=0x7f040051;
+    public static final int switch_thumb_material_dark=0x7f040052;
+    public static final int switch_thumb_material_light=0x7f040053;
+    public static final int switch_thumb_normal_material_dark=0x7f040054;
+    public static final int switch_thumb_normal_material_light=0x7f040055;
+    public static final int tooltip_background_dark=0x7f040056;
+    public static final int tooltip_background_light=0x7f040057;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -5294,39 +4854,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background jp.co.panasonic.pstc.ocr.android.card.app:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit jp.co.panasonic.pstc.ocr.android.card.app:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked jp.co.panasonic.pstc.ocr.android.card.app:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft jp.co.panasonic.pstc.ocr.android.card.app:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight jp.co.panasonic.pstc.ocr.android.card.app:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout jp.co.panasonic.pstc.ocr.android.card.app:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions jp.co.panasonic.pstc.ocr.android.card.app:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider jp.co.panasonic.pstc.ocr.android.card.app:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation jp.co.panasonic.pstc.ocr.android.card.app:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #ActionBar_height jp.co.panasonic.pstc.ocr.android.card.app:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll jp.co.panasonic.pstc.ocr.android.card.app:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator jp.co.panasonic.pstc.ocr.android.card.app:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout jp.co.panasonic.pstc.ocr.android.card.app:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_icon jp.co.panasonic.pstc.ocr.android.card.app:icon}</code></td><td>Specifies the drawable used for the application icon.</td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle jp.co.panasonic.pstc.ocr.android.card.app:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding jp.co.panasonic.pstc.ocr.android.card.app:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo jp.co.panasonic.pstc.ocr.android.card.app:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode jp.co.panasonic.pstc.ocr.android.card.app:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme jp.co.panasonic.pstc.ocr.android.card.app:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding jp.co.panasonic.pstc.ocr.android.card.app:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle jp.co.panasonic.pstc.ocr.android.card.app:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle jp.co.panasonic.pstc.ocr.android.card.app:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title jp.co.panasonic.pstc.ocr.android.card.app:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle jp.co.panasonic.pstc.ocr.android.card.app:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.jp.beetech.kayak:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.jp.beetech.kayak:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.jp.beetech.kayak:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.jp.beetech.kayak:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.jp.beetech.kayak:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.jp.beetech.kayak:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.jp.beetech.kayak:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.jp.beetech.kayak:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.jp.beetech.kayak:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.jp.beetech.kayak:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.jp.beetech.kayak:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.jp.beetech.kayak:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.jp.beetech.kayak:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.jp.beetech.kayak:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.jp.beetech.kayak:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.jp.beetech.kayak:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.jp.beetech.kayak:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.jp.beetech.kayak:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.jp.beetech.kayak:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.jp.beetech.kayak:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.jp.beetech.kayak:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.jp.beetech.kayak:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.jp.beetech.kayak:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.jp.beetech.kayak:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.jp.beetech.kayak:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.jp.beetech.kayak:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.jp.beetech.kayak:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.jp.beetech.kayak:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.jp.beetech.kayak:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -5369,22 +4925,20 @@ public final class R {
       0x7f0201b1
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:background
+     * @attr name com.jp.beetech.kayak:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the bottom component of a split action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -5394,13 +4948,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:backgroundSplit
+     * @attr name com.jp.beetech.kayak:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for a second stacked row of the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -5410,14 +4963,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:backgroundStacked
+     * @attr name com.jp.beetech.kayak:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5425,14 +4976,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEnd
+     * @attr name com.jp.beetech.kayak:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5440,14 +4989,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEndWithActions
+     * @attr name com.jp.beetech.kayak:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5455,14 +5002,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetLeft
+     * @attr name com.jp.beetech.kayak:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5470,14 +5015,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetRight
+     * @attr name com.jp.beetech.kayak:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5485,14 +5028,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStart
+     * @attr name com.jp.beetech.kayak:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5500,26 +5041,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStartWithNavigation
+     * @attr name com.jp.beetech.kayak:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout for custom navigation. Overrides navigationMode.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customNavigationLayout
+     * @attr name com.jp.beetech.kayak:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>
-     * @attr description
-     * Options affecting how the action bar is displayed.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -5536,26 +5075,24 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:displayOptions
+     * @attr name com.jp.beetech.kayak:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for item dividers.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:divider
+     * @attr name com.jp.beetech.kayak:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5563,13 +5100,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:elevation
+     * @attr name com.jp.beetech.kayak:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5577,77 +5113,70 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:height
+     * @attr name com.jp.beetech.kayak:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>
-     * @attr description
-     * Set true to hide the action bar on a vertical nested scroll of content.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:hideOnContentScroll
+     * @attr name com.jp.beetech.kayak:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>
-     * @attr description
-     * Up navigation glyph
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:homeAsUpIndicator
+     * @attr name com.jp.beetech.kayak:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "home" section of the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:homeLayout
+     * @attr name com.jp.beetech.kayak:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application icon.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#icon}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:icon
+     * @attr name com.jp.beetech.kayak:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an indeterminate progress spinner.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:indeterminateProgressStyle
+     * @attr name com.jp.beetech.kayak:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5655,26 +5184,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:itemPadding
+     * @attr name com.jp.beetech.kayak:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application logo.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:logo
+     * @attr name com.jp.beetech.kayak:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>
-     * @attr description
-     * The type of navigation to use.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5682,32 +5209,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:navigationMode
+     * @attr name com.jp.beetech.kayak:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:popupTheme
+     * @attr name com.jp.beetech.kayak:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies the horizontal padding on either end for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5715,68 +5239,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:progressBarPadding
+     * @attr name com.jp.beetech.kayak:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:progressBarStyle
+     * @attr name com.jp.beetech.kayak:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitle
+     * @attr name com.jp.beetech.kayak:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextStyle
+     * @attr name com.jp.beetech.kayak:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>
-     * @attr description
-     * Specifies title text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:title
+     * @attr name com.jp.beetech.kayak:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleTextStyle
+     * @attr name com.jp.beetech.kayak:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -5858,12 +5377,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background jp.co.panasonic.pstc.ocr.android.card.app:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit jp.co.panasonic.pstc.ocr.android.card.app:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout jp.co.panasonic.pstc.ocr.android.card.app:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-     * <tr><td><code>{@link #ActionMode_height jp.co.panasonic.pstc.ocr.android.card.app:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle jp.co.panasonic.pstc.ocr.android.card.app:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.jp.beetech.kayak:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.jp.beetech.kayak:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.jp.beetech.kayak:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.jp.beetech.kayak:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.jp.beetech.kayak:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.jp.beetech.kayak:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -5877,22 +5396,20 @@ public final class R {
       0x7f020188, 0x7f0201b1
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#background}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:background
+     * @attr name com.jp.beetech.kayak:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the split action mode bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -5902,26 +5419,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:backgroundSplit
+     * @attr name com.jp.beetech.kayak:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "close" item at the starting edge.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#closeItemLayout}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:closeItemLayout
+     * @attr name com.jp.beetech.kayak:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#height}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5929,33 +5444,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:height
+     * @attr name com.jp.beetech.kayak:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextStyle
+     * @attr name com.jp.beetech.kayak:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleTextStyle
+     * @attr name com.jp.beetech.kayak:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5965,8 +5478,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable jp.co.panasonic.pstc.ocr.android.card.app:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount jp.co.panasonic.pstc.ocr.android.card.app:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.jp.beetech.kayak:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.jp.beetech.kayak:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -5975,31 +5488,25 @@ public final class R {
       0x7f0200a2, 0x7f0200cf
     };
     /**
-     * <p>
-     * @attr description
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#expandActivityOverflowButtonDrawable}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:expandActivityOverflowButtonDrawable
+     * @attr name com.jp.beetech.kayak:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>
-     * @attr description
-     * The maximal number of items initially shown in the activity list.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#initialActivityCount}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:initialActivityCount
+     * @attr name com.jp.beetech.kayak:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6010,13 +5517,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen jp.co.panasonic.pstc.ocr.android.card.app:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout jp.co.panasonic.pstc.ocr.android.card.app:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout jp.co.panasonic.pstc.ocr.android.card.app:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout jp.co.panasonic.pstc.ocr.android.card.app:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout jp.co.panasonic.pstc.ocr.android.card.app:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle jp.co.panasonic.pstc.ocr.android.card.app:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout jp.co.panasonic.pstc.ocr.android.card.app:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.jp.beetech.kayak:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.jp.beetech.kayak:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.jp.beetech.kayak:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.jp.beetech.kayak:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.jp.beetech.kayak:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.jp.beetech.kayak:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.jp.beetech.kayak:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6044,7 +5551,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6053,11 +5560,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonIconDimen
+     * @attr name com.jp.beetech.kayak:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6065,11 +5572,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonPanelSideLayout
+     * @attr name com.jp.beetech.kayak:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6077,11 +5584,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listItemLayout
+     * @attr name com.jp.beetech.kayak:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6089,11 +5596,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listLayout
+     * @attr name com.jp.beetech.kayak:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6101,21 +5608,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:multiChoiceItemLayout
+     * @attr name com.jp.beetech.kayak:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:showTitle
+     * @attr name com.jp.beetech.kayak:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6123,7 +5630,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:singleChoiceItemLayout
+     * @attr name com.jp.beetech.kayak:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -6152,11 +5659,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6165,9 +5669,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6176,14 +5679,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6192,12 +5689,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6206,9 +5699,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -6216,9 +5708,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -6242,9 +5733,8 @@ public final class R {
       0x010100d0, 0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for use in specifying transitions.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6255,10 +5745,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableItem_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the frame.  If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6289,10 +5777,8 @@ public final class R {
       0x01010199, 0x01010449, 0x0101044a, 0x0101044b
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a animation drawable resource to use for the frame.  If not
-     * given, the animation drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6303,9 +5789,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_drawable=0;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the ending state.
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6316,9 +5801,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_toId=1;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the starting state.
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6329,9 +5813,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_fromId=2;
     /**
-     * <p>
-     * @attr description
-     * Whether this transition is reversible.
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6347,9 +5830,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat jp.co.panasonic.pstc.ocr.android.card.app:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint jp.co.panasonic.pstc.ocr.android.card.app:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode jp.co.panasonic.pstc.ocr.android.card.app:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.jp.beetech.kayak:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.jp.beetech.kayak:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.jp.beetech.kayak:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -6375,35 +5858,31 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>
-     * @attr description
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:srcCompat
+     * @attr name com.jp.beetech.kayak:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the image source.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tint}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tint
+     * @attr name com.jp.beetech.kayak:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the image source tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tintMode}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -6411,20 +5890,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tintMode
+     * @attr name com.jp.beetech.kayak:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -6435,9 +5909,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark jp.co.panasonic.pstc.ocr.android.card.app:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint jp.co.panasonic.pstc.ocr.android.card.app:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode jp.co.panasonic.pstc.ocr.android.card.app:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.jp.beetech.kayak:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.jp.beetech.kayak:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.jp.beetech.kayak:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -6460,34 +5934,31 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable displayed at each progress position on a seekbar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tickMark}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tickMark
+     * @attr name com.jp.beetech.kayak:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the tick mark drawable.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tickMarkTint}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tickMarkTint
+     * @attr name com.jp.beetech.kayak:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the tick mark tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tickMarkTintMode}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -6495,20 +5966,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tickMarkTintMode
+     * @attr name com.jp.beetech.kayak:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -6648,30 +6114,26 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize jp.co.panasonic.pstc.ocr.android.card.app:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize jp.co.panasonic.pstc.ocr.android.card.app:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes jp.co.panasonic.pstc.ocr.android.card.app:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity jp.co.panasonic.pstc.ocr.android.card.app:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType jp.co.panasonic.pstc.ocr.android.card.app:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableBottomCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableLeftCompat}</code></td><td>Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableRightCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTint jp.co.panasonic.pstc.ocr.android.card.app:drawableTint}</code></td><td>Tint to apply to the compound (left, top, etc.) drawables.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode jp.co.panasonic.pstc.ocr.android.card.app:drawableTintMode}</code></td><td>Blending mode used to apply the compound (left, top, etc.) drawables tint.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat jp.co.panasonic.pstc.ocr.android.card.app:drawableTopCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight jp.co.panasonic.pstc.ocr.android.card.app:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily jp.co.panasonic.pstc.ocr.android.card.app:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight jp.co.panasonic.pstc.ocr.android.card.app:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight jp.co.panasonic.pstc.ocr.android.card.app:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps jp.co.panasonic.pstc.ocr.android.card.app:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textLocale jp.co.panasonic.pstc.ocr.android.card.app:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.jp.beetech.kayak:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.jp.beetech.kayak:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.jp.beetech.kayak:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.jp.beetech.kayak:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.jp.beetech.kayak:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat com.jp.beetech.kayak:drawableBottomCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat com.jp.beetech.kayak:drawableEndCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.jp.beetech.kayak:drawableLeftCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat com.jp.beetech.kayak:drawableRightCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat com.jp.beetech.kayak:drawableStartCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.jp.beetech.kayak:drawableTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.jp.beetech.kayak:drawableTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat com.jp.beetech.kayak:drawableTopCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.jp.beetech.kayak:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.jp.beetech.kayak:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.jp.beetech.kayak:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.jp.beetech.kayak:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.jp.beetech.kayak:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.jp.beetech.kayak:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textLocale com.jp.beetech.kayak:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -6716,9 +6178,8 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>
-     * @attr description
-     * The maximum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoSizeMaxTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6726,13 +6187,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoSizeMaxTextSize
+     * @attr name com.jp.beetech.kayak:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>
-     * @attr description
-     * The minimum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoSizeMinTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6740,30 +6200,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoSizeMinTextSize
+     * @attr name com.jp.beetech.kayak:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>
-     * @attr description
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoSizePresetSizes}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoSizePresetSizes
+     * @attr name com.jp.beetech.kayak:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>
-     * @attr description
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoSizeStepGranularity}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6771,14 +6225,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoSizeStepGranularity
+     * @attr name com.jp.beetech.kayak:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>
-     * @attr description
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoSizeTextType}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -6786,16 +6238,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoSizeTextType
+     * @attr name com.jp.beetech.kayak:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawableBottomCompat}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableBottomCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6803,11 +6254,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableBottomCompat
+     * @attr name com.jp.beetech.kayak:drawableBottomCompat
      */
     public static final int AppCompatTextView_drawableBottomCompat=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawableEndCompat}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableEndCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6815,25 +6266,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableEndCompat
+     * @attr name com.jp.beetech.kayak:drawableEndCompat
      */
     public static final int AppCompatTextView_drawableEndCompat=7;
     /**
-     * <p>
-     * @attr description
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableLeftCompat}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableLeftCompat
+     * @attr name com.jp.beetech.kayak:drawableLeftCompat
      */
     public static final int AppCompatTextView_drawableLeftCompat=8;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawableRightCompat}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableRightCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6841,11 +6290,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableRightCompat
+     * @attr name com.jp.beetech.kayak:drawableRightCompat
      */
     public static final int AppCompatTextView_drawableRightCompat=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawableStartCompat}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableStartCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6853,25 +6302,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableStartCompat
+     * @attr name com.jp.beetech.kayak:drawableStartCompat
      */
     public static final int AppCompatTextView_drawableStartCompat=10;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the compound (left, top, etc.) drawables.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableTint}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableTint
+     * @attr name com.jp.beetech.kayak:drawableTint
      */
     public static final int AppCompatTextView_drawableTint=11;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableTintMode}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -6879,24 +6326,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableTintMode
+     * @attr name com.jp.beetech.kayak:drawableTintMode
      */
     public static final int AppCompatTextView_drawableTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawableTopCompat}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableTopCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6904,14 +6346,12 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableTopCompat
+     * @attr name com.jp.beetech.kayak:drawableTopCompat
      */
     public static final int AppCompatTextView_drawableTopCompat=13;
     /**
-     * <p>
-     * @attr description
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6919,36 +6359,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:firstBaselineToTopHeight
+     * @attr name com.jp.beetech.kayak:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=14;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontFamily
+     * @attr name com.jp.beetech.kayak:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=15;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available after api 26.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings
+     * @attr name com.jp.beetech.kayak:fontVariationSettings
      */
     public static final int AppCompatTextView_fontVariationSettings=16;
     /**
-     * <p>
-     * @attr description
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6956,14 +6392,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:lastBaselineToBottomHeight
+     * @attr name com.jp.beetech.kayak:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=17;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6971,13 +6405,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:lineHeight
+     * @attr name com.jp.beetech.kayak:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=18;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6986,22 +6419,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAllCaps
+     * @attr name com.jp.beetech.kayak:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=19;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textLocale}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textLocale
+     * @attr name com.jp.beetech.kayak:textLocale
      */
     public static final int AppCompatTextView_textLocale=20;
     /**
@@ -7013,146 +6441,129 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider jp.co.panasonic.pstc.ocr.android.card.app:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground jp.co.panasonic.pstc.ocr.android.card.app:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme jp.co.panasonic.pstc.ocr.android.card.app:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize jp.co.panasonic.pstc.ocr.android.card.app:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle jp.co.panasonic.pstc.ocr.android.card.app:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle jp.co.panasonic.pstc.ocr.android.card.app:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme jp.co.panasonic.pstc.ocr.android.card.app:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
-     * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme jp.co.panasonic.pstc.ocr.android.card.app:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle jp.co.panasonic.pstc.ocr.android.card.app:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance jp.co.panasonic.pstc.ocr.android.card.app:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
-     * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor jp.co.panasonic.pstc.ocr.android.card.app:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground jp.co.panasonic.pstc.ocr.android.card.app:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle jp.co.panasonic.pstc.ocr.android.card.app:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground jp.co.panasonic.pstc.ocr.android.card.app:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle jp.co.panasonic.pstc.ocr.android.card.app:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable jp.co.panasonic.pstc.ocr.android.card.app:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle jp.co.panasonic.pstc.ocr.android.card.app:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle jp.co.panasonic.pstc.ocr.android.card.app:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle jp.co.panasonic.pstc.ocr.android.card.app:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons jp.co.panasonic.pstc.ocr.android.card.app:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle jp.co.panasonic.pstc.ocr.android.card.app:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme jp.co.panasonic.pstc.ocr.android.card.app:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle jp.co.panasonic.pstc.ocr.android.card.app:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle jp.co.panasonic.pstc.ocr.android.card.app:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall jp.co.panasonic.pstc.ocr.android.card.app:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle jp.co.panasonic.pstc.ocr.android.card.app:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle jp.co.panasonic.pstc.ocr.android.card.app:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent jp.co.panasonic.pstc.ocr.android.card.app:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating jp.co.panasonic.pstc.ocr.android.card.app:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal jp.co.panasonic.pstc.ocr.android.card.app:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated jp.co.panasonic.pstc.ocr.android.card.app:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight jp.co.panasonic.pstc.ocr.android.card.app:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal jp.co.panasonic.pstc.ocr.android.card.app:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError jp.co.panasonic.pstc.ocr.android.card.app:colorError}</code></td><td>Color used for error states and things that need to be drawn to
-     * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary jp.co.panasonic.pstc.ocr.android.card.app:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark jp.co.panasonic.pstc.ocr.android.card.app:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal jp.co.panasonic.pstc.ocr.android.card.app:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground jp.co.panasonic.pstc.ocr.android.card.app:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius jp.co.panasonic.pstc.ocr.android.card.app:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding jp.co.panasonic.pstc.ocr.android.card.app:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme jp.co.panasonic.pstc.ocr.android.card.app:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal jp.co.panasonic.pstc.ocr.android.card.app:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical jp.co.panasonic.pstc.ocr.android.card.app:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle jp.co.panasonic.pstc.ocr.android.card.app:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight jp.co.panasonic.pstc.ocr.android.card.app:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground jp.co.panasonic.pstc.ocr.android.card.app:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor jp.co.panasonic.pstc.ocr.android.card.app:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle jp.co.panasonic.pstc.ocr.android.card.app:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator jp.co.panasonic.pstc.ocr.android.card.app:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator jp.co.panasonic.pstc.ocr.android.card.app:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated jp.co.panasonic.pstc.ocr.android.card.app:listChoiceIndicatorMultipleAnimated}</code></td><td>Animated Drawable to use for single choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated jp.co.panasonic.pstc.ocr.android.card.app:listChoiceIndicatorSingleAnimated}</code></td><td>Animated Drawable to use for multiple choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog jp.co.panasonic.pstc.ocr.android.card.app:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle jp.co.panasonic.pstc.ocr.android.card.app:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle jp.co.panasonic.pstc.ocr.android.card.app:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingEnd}</code></td><td>The preferred padding along the end edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingStart}</code></td><td>The preferred padding along the start edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground jp.co.panasonic.pstc.ocr.android.card.app:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme jp.co.panasonic.pstc.ocr.android.card.app:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth jp.co.panasonic.pstc.ocr.android.card.app:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle jp.co.panasonic.pstc.ocr.android.card.app:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle jp.co.panasonic.pstc.ocr.android.card.app:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle jp.co.panasonic.pstc.ocr.android.card.app:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle jp.co.panasonic.pstc.ocr.android.card.app:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground jp.co.panasonic.pstc.ocr.android.card.app:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless jp.co.panasonic.pstc.ocr.android.card.app:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle jp.co.panasonic.pstc.ocr.android.card.app:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle jp.co.panasonic.pstc.ocr.android.card.app:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle jp.co.panasonic.pstc.ocr.android.card.app:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader jp.co.panasonic.pstc.ocr.android.card.app:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem jp.co.panasonic.pstc.ocr.android.card.app:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl jp.co.panasonic.pstc.ocr.android.card.app:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle jp.co.panasonic.pstc.ocr.android.card.app:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle jp.co.panasonic.pstc.ocr.android.card.app:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor jp.co.panasonic.pstc.ocr.android.card.app:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground jp.co.panasonic.pstc.ocr.android.card.app:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass jp.co.panasonic.pstc.ocr.android.card.app:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar jp.co.panasonic.pstc.ocr.android.card.app:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay jp.co.panasonic.pstc.ocr.android.card.app:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
-     * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay jp.co.panasonic.pstc.ocr.android.card.app:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor jp.co.panasonic.pstc.ocr.android.card.app:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor jp.co.panasonic.pstc.ocr.android.card.app:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor jp.co.panasonic.pstc.ocr.android.card.app:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor jp.co.panasonic.pstc.ocr.android.card.app:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor jp.co.panasonic.pstc.ocr.android.card.app:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor jp.co.panasonic.pstc.ocr.android.card.app:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle jp.co.panasonic.pstc.ocr.android.card.app:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.jp.beetech.kayak:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.jp.beetech.kayak:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.jp.beetech.kayak:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.jp.beetech.kayak:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.jp.beetech.kayak:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.jp.beetech.kayak:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.jp.beetech.kayak:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.jp.beetech.kayak:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.jp.beetech.kayak:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.jp.beetech.kayak:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.jp.beetech.kayak:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.jp.beetech.kayak:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.jp.beetech.kayak:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.jp.beetech.kayak:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.jp.beetech.kayak:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.jp.beetech.kayak:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.jp.beetech.kayak:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.jp.beetech.kayak:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.jp.beetech.kayak:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.jp.beetech.kayak:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.jp.beetech.kayak:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.jp.beetech.kayak:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.jp.beetech.kayak:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.jp.beetech.kayak:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.jp.beetech.kayak:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.jp.beetech.kayak:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.jp.beetech.kayak:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.jp.beetech.kayak:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.jp.beetech.kayak:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.jp.beetech.kayak:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.jp.beetech.kayak:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.jp.beetech.kayak:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.jp.beetech.kayak:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.jp.beetech.kayak:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.jp.beetech.kayak:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.jp.beetech.kayak:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.jp.beetech.kayak:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.jp.beetech.kayak:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.jp.beetech.kayak:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.jp.beetech.kayak:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.jp.beetech.kayak:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.jp.beetech.kayak:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.jp.beetech.kayak:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.jp.beetech.kayak:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.jp.beetech.kayak:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.jp.beetech.kayak:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.jp.beetech.kayak:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.jp.beetech.kayak:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.jp.beetech.kayak:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.jp.beetech.kayak:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.jp.beetech.kayak:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.jp.beetech.kayak:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.jp.beetech.kayak:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.jp.beetech.kayak:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.jp.beetech.kayak:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.jp.beetech.kayak:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.jp.beetech.kayak:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.jp.beetech.kayak:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.jp.beetech.kayak:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.jp.beetech.kayak:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.jp.beetech.kayak:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.jp.beetech.kayak:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.jp.beetech.kayak:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.jp.beetech.kayak:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.jp.beetech.kayak:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.jp.beetech.kayak:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.jp.beetech.kayak:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.jp.beetech.kayak:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.jp.beetech.kayak:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.jp.beetech.kayak:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.jp.beetech.kayak:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.jp.beetech.kayak:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.jp.beetech.kayak:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.jp.beetech.kayak:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.jp.beetech.kayak:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.jp.beetech.kayak:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.jp.beetech.kayak:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.jp.beetech.kayak:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.jp.beetech.kayak:listPreferredItemPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.jp.beetech.kayak:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.jp.beetech.kayak:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.jp.beetech.kayak:listPreferredItemPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.jp.beetech.kayak:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.jp.beetech.kayak:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.jp.beetech.kayak:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.jp.beetech.kayak:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.jp.beetech.kayak:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.jp.beetech.kayak:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.jp.beetech.kayak:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.jp.beetech.kayak:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.jp.beetech.kayak:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.jp.beetech.kayak:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.jp.beetech.kayak:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.jp.beetech.kayak:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.jp.beetech.kayak:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.jp.beetech.kayak:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.jp.beetech.kayak:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.jp.beetech.kayak:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.jp.beetech.kayak:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.jp.beetech.kayak:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.jp.beetech.kayak:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.jp.beetech.kayak:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.jp.beetech.kayak:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.jp.beetech.kayak:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.jp.beetech.kayak:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.jp.beetech.kayak:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.jp.beetech.kayak:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.jp.beetech.kayak:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.jp.beetech.kayak:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.jp.beetech.kayak:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.jp.beetech.kayak:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.jp.beetech.kayak:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.jp.beetech.kayak:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.jp.beetech.kayak:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.jp.beetech.kayak:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.jp.beetech.kayak:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.jp.beetech.kayak:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.jp.beetech.kayak:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.jp.beetech.kayak:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.jp.beetech.kayak:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.jp.beetech.kayak:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.jp.beetech.kayak:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.jp.beetech.kayak:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -7337,50 +6748,44 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Custom divider drawable to use for elements in the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarDivider
+     * @attr name com.jp.beetech.kayak:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Custom item state list drawable background for action bar items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarItemBackground
+     * @attr name com.jp.beetech.kayak:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarPopupTheme
+     * @attr name com.jp.beetech.kayak:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>
-     * @attr description
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7396,40 +6801,35 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarSize
+     * @attr name com.jp.beetech.kayak:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarSplitStyle
+     * @attr name com.jp.beetech.kayak:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the Action Bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarStyle
+     * @attr name com.jp.beetech.kayak:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7437,24 +6837,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabBarStyle
+     * @attr name com.jp.beetech.kayak:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>
-     * @attr description
-     * Default style for tabs within an action bar
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabStyle
-     */
-    public static final int AppCompatTheme_actionBarTabStyle=9;
-    /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7462,87 +6849,84 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarTabTextStyle
+     * @attr name com.jp.beetech.kayak:actionBarTabStyle
+     */
+    public static final int AppCompatTheme_actionBarTabStyle=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarTabTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarTheme
+     * @attr name com.jp.beetech.kayak:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionBarWidgetTheme
+     * @attr name com.jp.beetech.kayak:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>
-     * @attr description
-     * Default action button style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionButtonStyle
+     * @attr name com.jp.beetech.kayak:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>
-     * @attr description
-     * Default ActionBar dropdown style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionDropDownStyle
+     * @attr name com.jp.beetech.kayak:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionMenuTextAppearance
+     * @attr name com.jp.beetech.kayak:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>
-     * @attr description
-     * Color for text that appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -7552,24 +6936,23 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionMenuTextColor
+     * @attr name com.jp.beetech.kayak:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeBackground
+     * @attr name com.jp.beetech.kayak:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7577,128 +6960,119 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeCloseButtonStyle
+     * @attr name com.jp.beetech.kayak:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the close action mode button
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeCloseDrawable
+     * @attr name com.jp.beetech.kayak:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Copy action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeCopyDrawable
+     * @attr name com.jp.beetech.kayak:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Cut action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeCutDrawable
+     * @attr name com.jp.beetech.kayak:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Find action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeFindDrawable
+     * @attr name com.jp.beetech.kayak:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Paste action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModePasteDrawable
+     * @attr name com.jp.beetech.kayak:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>
-     * @attr description
-     * PopupWindow style to use for action modes when showing as a window overlay.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModePopupWindowStyle
+     * @attr name com.jp.beetech.kayak:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Select all action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeSelectAllDrawable
+     * @attr name com.jp.beetech.kayak:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Share action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeShareDrawable
+     * @attr name com.jp.beetech.kayak:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI in the lower split bar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeSplitBackground
+     * @attr name com.jp.beetech.kayak:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7706,24 +7080,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeStyle
+     * @attr name com.jp.beetech.kayak:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Web Search action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionModeWebSearchDrawable
+     * @attr name com.jp.beetech.kayak:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7731,11 +7104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionOverflowButtonStyle
+     * @attr name com.jp.beetech.kayak:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7743,24 +7116,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionOverflowMenuStyle
+     * @attr name com.jp.beetech.kayak:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>
-     * @attr description
-     * Default ActivityChooserView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:activityChooserViewStyle
-     */
-    public static final int AppCompatTheme_activityChooserViewStyle=32;
-    /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7768,21 +7128,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alertDialogButtonGroupStyle
+     * @attr name com.jp.beetech.kayak:activityChooserViewStyle
+     */
+    public static final int AppCompatTheme_activityChooserViewStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alertDialogButtonGroupStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alertDialogCenterButtons
+     * @attr name com.jp.beetech.kayak:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7790,535 +7162,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alertDialogStyle
+     * @attr name com.jp.beetech.kayak:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for alert dialogs spawned from this theme.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alertDialogTheme
-     */
-    public static final int AppCompatTheme_alertDialogTheme=36;
-    /**
-     * <p>
-     * @attr description
-     * Default AutoCompleteTextView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoCompleteTextViewStyle
-     */
-    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
-    /**
-     * <p>
-     * @attr description
-     * Style for buttons without an explicit border, often used in groups.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:borderlessButtonStyle
-     */
-    public static final int AppCompatTheme_borderlessButtonStyle=38;
-    /**
-     * <p>
-     * @attr description
-     * Style for buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonBarButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarButtonStyle=39;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "negative" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonBarNegativeButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "neutral" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonBarNeutralButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "positive" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonBarPositiveButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
-    /**
-     * <p>
-     * @attr description
-     * Style for button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonBarStyle
-     */
-    public static final int AppCompatTheme_buttonBarStyle=43;
-    /**
-     * <p>
-     * @attr description
-     * Normal Button style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonStyle
-     */
-    public static final int AppCompatTheme_buttonStyle=44;
-    /**
-     * <p>
-     * @attr description
-     * Small Button style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonStyleSmall
-     */
-    public static final int AppCompatTheme_buttonStyleSmall=45;
-    /**
-     * <p>
-     * @attr description
-     * Default Checkbox style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:checkboxStyle
-     */
-    public static final int AppCompatTheme_checkboxStyle=46;
-    /**
-     * <p>
-     * @attr description
-     * Default CheckedTextView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:checkedTextViewStyle
-     */
-    public static final int AppCompatTheme_checkedTextViewStyle=47;
-    /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorAccent
-     */
-    public static final int AppCompatTheme_colorAccent=48;
-    /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorBackgroundFloating
-     */
-    public static final int AppCompatTheme_colorBackgroundFloating=49;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework buttons in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorButtonNormal
-     */
-    public static final int AppCompatTheme_colorButtonNormal=50;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their activated (ex. checked) state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorControlActivated
-     */
-    public static final int AppCompatTheme_colorControlActivated=51;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework control highlights (ex. ripples, list selectors).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorControlHighlight
-     */
-    public static final int AppCompatTheme_colorControlHighlight=52;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorControlNormal
-     */
-    public static final int AppCompatTheme_colorControlNormal=53;
-    /**
-     * <p>
-     * @attr description
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorError
-     */
-    public static final int AppCompatTheme_colorError=54;
-    /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorPrimary
-     */
-    public static final int AppCompatTheme_colorPrimary=55;
-    /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorPrimaryDark
-     */
-    public static final int AppCompatTheme_colorPrimaryDark=56;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework switch thumbs in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:colorSwitchThumbNormal
-     */
-    public static final int AppCompatTheme_colorSwitchThumbNormal=57;
-    /**
-     * <p>
-     * @attr description
-     * The background used by framework controls.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:controlBackground
-     */
-    public static final int AppCompatTheme_controlBackground=58;
-    /**
-     * <p>
-     * @attr description
-     * Preferred corner radius of dialogs.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dialogCornerRadius
-     */
-    public static final int AppCompatTheme_dialogCornerRadius=59;
-    /**
-     * <p>
-     * @attr description
-     * Preferred padding for dialog content.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dialogPreferredPadding
-     */
-    public static final int AppCompatTheme_dialogPreferredPadding=60;
-    /**
-     * <p>
-     * @attr description
-     * Theme to use for dialogs spawned from this theme.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dialogTheme
-     */
-    public static final int AppCompatTheme_dialogTheme=61;
-    /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a horizontal divider between visual elements.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dividerHorizontal
-     */
-    public static final int AppCompatTheme_dividerHorizontal=62;
-    /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a vertical divider between visual elements.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dividerVertical
-     */
-    public static final int AppCompatTheme_dividerVertical=63;
-    /**
-     * <p>
-     * @attr description
-     * ListPopupWindow compatibility
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dropDownListViewStyle
-     */
-    public static final int AppCompatTheme_dropDownListViewStyle=64;
-    /**
-     * <p>
-     * @attr description
-     * The preferred item height for dropdown lists.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dropdownListPreferredItemHeight
-     */
-    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
-    /**
-     * <p>
-     * @attr description
-     * EditText background drawable.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:editTextBackground
-     */
-    public static final int AppCompatTheme_editTextBackground=66;
-    /**
-     * <p>
-     * @attr description
-     * EditText text foreground color.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:editTextColor
-     */
-    public static final int AppCompatTheme_editTextColor=67;
-    /**
-     * <p>
-     * @attr description
-     * Default EditText style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:editTextStyle
-     */
-    public static final int AppCompatTheme_editTextStyle=68;
-    /**
-     * <p>
-     * @attr description
-     * Specifies a drawable to use for the 'home as up' indicator.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:homeAsUpIndicator
-     */
-    public static final int AppCompatTheme_homeAsUpIndicator=69;
-    /**
-     * <p>
-     * @attr description
-     * ImageButton background drawable.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:imageButtonStyle
-     */
-    public static final int AppCompatTheme_imageButtonStyle=70;
-    /**
-     * <p>
-     * @attr description
-     * Drawable used as a background for selected list items.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listChoiceBackgroundIndicator
-     */
-    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
-    /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for single choice indicators.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listChoiceIndicatorMultipleAnimated
-     */
-    public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=72;
-    /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for multiple choice indicators.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listChoiceIndicatorSingleAnimated
-     */
-    public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=73;
-    /**
-     * <p>
-     * @attr description
-     * The list divider used in alert dialogs.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listDividerAlertDialog
-     */
-    public static final int AppCompatTheme_listDividerAlertDialog=74;
-    /**
-     * <p>
-     * @attr description
-     * Default menu-style ListView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listMenuViewStyle
-     */
-    public static final int AppCompatTheme_listMenuViewStyle=75;
-    /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8326,13 +7174,492 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPopupWindowStyle
+     * @attr name com.jp.beetech.kayak:alertDialogTheme
+     */
+    public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:autoCompleteTextViewStyle
+     */
+    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:borderlessButtonStyle
+     */
+    public static final int AppCompatTheme_borderlessButtonStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonBarButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarButtonStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonBarNegativeButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonBarNeutralButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonBarPositiveButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonBarStyle
+     */
+    public static final int AppCompatTheme_buttonBarStyle=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonStyle
+     */
+    public static final int AppCompatTheme_buttonStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:buttonStyleSmall
+     */
+    public static final int AppCompatTheme_buttonStyleSmall=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:checkboxStyle
+     */
+    public static final int AppCompatTheme_checkboxStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:checkedTextViewStyle
+     */
+    public static final int AppCompatTheme_checkedTextViewStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorAccent
+     */
+    public static final int AppCompatTheme_colorAccent=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorBackgroundFloating
+     */
+    public static final int AppCompatTheme_colorBackgroundFloating=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorButtonNormal
+     */
+    public static final int AppCompatTheme_colorButtonNormal=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorControlActivated
+     */
+    public static final int AppCompatTheme_colorControlActivated=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorControlHighlight
+     */
+    public static final int AppCompatTheme_colorControlHighlight=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorControlNormal
+     */
+    public static final int AppCompatTheme_colorControlNormal=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorError}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorError
+     */
+    public static final int AppCompatTheme_colorError=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.jp.beetech.kayak:dialogCornerRadius
+     */
+    public static final int AppCompatTheme_dialogCornerRadius=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.jp.beetech.kayak:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.jp.beetech.kayak:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:editTextColor
+     */
+    public static final int AppCompatTheme_editTextColor=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:editTextStyle
+     */
+    public static final int AppCompatTheme_editTextStyle=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listChoiceIndicatorMultipleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listChoiceIndicatorMultipleAnimated
+     */
+    public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listChoiceIndicatorSingleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listChoiceIndicatorSingleAnimated
+     */
+    public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listMenuViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listMenuViewStyle
+     */
+    public static final int AppCompatTheme_listMenuViewStyle=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.jp.beetech.kayak:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=76;
     /**
-     * <p>
-     * @attr description
-     * The preferred list item height.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8340,13 +7667,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeight
+     * @attr name com.jp.beetech.kayak:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=77;
     /**
-     * <p>
-     * @attr description
-     * A larger, more robust list item height.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8354,13 +7680,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeightLarge
+     * @attr name com.jp.beetech.kayak:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=78;
     /**
-     * <p>
-     * @attr description
-     * A smaller, sleeker list item height.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8368,13 +7693,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemHeightSmall
+     * @attr name com.jp.beetech.kayak:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=79;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the end edge of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemPaddingEnd}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8382,13 +7706,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingEnd
+     * @attr name com.jp.beetech.kayak:listPreferredItemPaddingEnd
      */
     public static final int AppCompatTheme_listPreferredItemPaddingEnd=80;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the left edge of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8396,13 +7719,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingLeft
+     * @attr name com.jp.beetech.kayak:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=81;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the right edge of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8410,13 +7732,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingRight
+     * @attr name com.jp.beetech.kayak:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=82;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the start edge of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#listPreferredItemPaddingStart}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8424,39 +7745,36 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:listPreferredItemPaddingStart
+     * @attr name com.jp.beetech.kayak:listPreferredItemPaddingStart
      */
     public static final int AppCompatTheme_listPreferredItemPaddingStart=83;
     /**
-     * <p>
-     * @attr description
-     * The background of a panel when it is inset from the left and right edges of the screen.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:panelBackground
+     * @attr name com.jp.beetech.kayak:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=84;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:panelMenuListTheme
+     * @attr name com.jp.beetech.kayak:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=85;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu width.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8464,288 +7782,264 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:panelMenuListWidth
+     * @attr name com.jp.beetech.kayak:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=86;
     /**
-     * <p>
-     * @attr description
-     * Default PopupMenu style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:popupMenuStyle
+     * @attr name com.jp.beetech.kayak:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=87;
     /**
-     * <p>
-     * @attr description
-     * Default PopupWindow style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:popupWindowStyle
+     * @attr name com.jp.beetech.kayak:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=88;
     /**
-     * <p>
-     * @attr description
-     * Default RadioButton style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:radioButtonStyle
+     * @attr name com.jp.beetech.kayak:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=89;
     /**
-     * <p>
-     * @attr description
-     * Default RatingBar style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyle
+     * @attr name com.jp.beetech.kayak:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=90;
     /**
-     * <p>
-     * @attr description
-     * Indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyleIndicator
+     * @attr name com.jp.beetech.kayak:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=91;
     /**
-     * <p>
-     * @attr description
-     * Small indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:ratingBarStyleSmall
+     * @attr name com.jp.beetech.kayak:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=92;
     /**
-     * <p>
-     * @attr description
-     * Style for the search query widget.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:searchViewStyle
+     * @attr name com.jp.beetech.kayak:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=93;
     /**
-     * <p>
-     * @attr description
-     * Default SeekBar style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:seekBarStyle
+     * @attr name com.jp.beetech.kayak:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=94;
     /**
-     * <p>
-     * @attr description
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:selectableItemBackground
+     * @attr name com.jp.beetech.kayak:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=95;
     /**
-     * <p>
-     * @attr description
-     * Background drawable for borderless standalone items that need focus/pressed states.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:selectableItemBackgroundBorderless
+     * @attr name com.jp.beetech.kayak:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=96;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:spinnerDropDownItemStyle
+     * @attr name com.jp.beetech.kayak:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=97;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:spinnerStyle
+     * @attr name com.jp.beetech.kayak:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=98;
     /**
-     * <p>
-     * @attr description
-     * Default style for the Switch widget.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:switchStyle
+     * @attr name com.jp.beetech.kayak:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=99;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for the text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceLargePopupMenu
+     * @attr name com.jp.beetech.kayak:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=100;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItem
+     * @attr name com.jp.beetech.kayak:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=101;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the secondary text of list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceListItemSecondary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItemSecondary
+     * @attr name com.jp.beetech.kayak:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=102;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of small list items.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceListItemSmall
+     * @attr name com.jp.beetech.kayak:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=103;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for header text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearancePopupMenuHeader}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearancePopupMenuHeader
+     * @attr name com.jp.beetech.kayak:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=104;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSearchResultSubtitle
+     * @attr name com.jp.beetech.kayak:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=105;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSearchResultTitle
+     * @attr name com.jp.beetech.kayak:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=106;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for small text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAppearanceSmallPopupMenu
+     * @attr name com.jp.beetech.kayak:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=107;
     /**
-     * <p>
-     * @attr description
-     * Color of list item text in alert dialogs.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -8755,13 +8049,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textColorAlertDialogListItem
+     * @attr name com.jp.beetech.kayak:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=108;
     /**
-     * <p>
-     * @attr description
-     * Text color for urls in search suggestions, used by things like global search
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -8771,39 +8064,36 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textColorSearchUrl
+     * @attr name com.jp.beetech.kayak:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=109;
     /**
-     * <p>
-     * @attr description
-     * Default Toolar NavigationButtonStyle
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:toolbarNavigationButtonStyle
+     * @attr name com.jp.beetech.kayak:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=110;
     /**
-     * <p>
-     * @attr description
-     * Default Toolbar style.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:toolbarStyle
+     * @attr name com.jp.beetech.kayak:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=111;
     /**
-     * <p>
-     * @attr description
-     * Foreground color to use for tooltips
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tooltipForegroundColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -8813,75 +8103,64 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tooltipForegroundColor
+     * @attr name com.jp.beetech.kayak:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=112;
     /**
-     * <p>
-     * @attr description
-     * Background to use for tooltips
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tooltipFrameBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tooltipFrameBackground
+     * @attr name com.jp.beetech.kayak:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=113;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:viewInflaterClass
+     * @attr name com.jp.beetech.kayak:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=114;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowActionBar
+     * @attr name com.jp.beetech.kayak:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=115;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowActionBarOverlay
+     * @attr name com.jp.beetech.kayak:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=116;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowActionModeOverlay
+     * @attr name com.jp.beetech.kayak:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=117;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8893,15 +8172,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowFixedHeightMajor
+     * @attr name com.jp.beetech.kayak:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=118;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8913,15 +8189,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowFixedHeightMinor
+     * @attr name com.jp.beetech.kayak:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=119;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8933,15 +8206,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowFixedWidthMajor
+     * @attr name com.jp.beetech.kayak:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=120;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8953,16 +8223,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowFixedWidthMinor
+     * @attr name com.jp.beetech.kayak:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=121;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8974,16 +8240,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowMinWidthMajor
+     * @attr name com.jp.beetech.kayak:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=122;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8995,18 +8257,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowMinWidthMinor
+     * @attr name com.jp.beetech.kayak:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=123;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether there should be no title on this window.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:windowNoTitle
+     * @attr name com.jp.beetech.kayak:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=124;
     /**
@@ -9016,8 +8277,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking jp.co.panasonic.pstc.ocr.android.card.app:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.</td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.jp.beetech.kayak:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -9025,15 +8285,13 @@ public final class R {
       0x7f020026
     };
     /**
-     * <p>
-     * @attr description
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#allowStacking}
+     * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:allowStacking
+     * @attr name com.jp.beetech.kayak:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -9045,7 +8303,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha jp.co.panasonic.pstc.ocr.android.card.app:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.jp.beetech.kayak:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -9055,9 +8313,8 @@ public final class R {
       0x010101a5, 0x0101031f, 0x7f020027
     };
     /**
-     * <p>
-     * @attr description
-     * Base color for this state.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -9076,13 +8333,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>
-     * @attr description
-     * Alpha multiplier applied to the base color.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alpha}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alpha
+     * @attr name com.jp.beetech.kayak:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -9093,9 +8349,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonCompat jp.co.panasonic.pstc.ocr.android.card.app:buttonCompat}</code></td><td>Compat attr to load backported drawable types</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint jp.co.panasonic.pstc.ocr.android.card.app:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode jp.co.panasonic.pstc.ocr.android.card.app:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonCompat com.jp.beetech.kayak:buttonCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.jp.beetech.kayak:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.jp.beetech.kayak:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonCompat
@@ -9118,34 +8374,31 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>
-     * @attr description
-     * Compat attr to load backported drawable types
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonCompat}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonCompat
+     * @attr name com.jp.beetech.kayak:buttonCompat
      */
     public static final int CompoundButton_buttonCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the button drawable.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonTint}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonTint
+     * @attr name com.jp.beetech.kayak:buttonTint
      */
     public static final int CompoundButton_buttonTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the button tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonTintMode}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -9153,20 +8406,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonTintMode
+     * @attr name com.jp.beetech.kayak:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=3;
     /**
@@ -9205,88 +8453,88 @@ public final class R {
      * <tr><td><code>{@link #Constraint_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #Constraint_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #Constraint_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_animate_relativeTo jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_barrierAllowsGoneWidgets jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_barrierDirection jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_barrierMargin jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_chainUseRtl jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_constraint_referenced_ids jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_drawPath jp.co.panasonic.pstc.ocr.android.card.app:drawPath}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_firstHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_firstHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_firstVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_firstVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_horizontalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_horizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_horizontalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_horizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_lastHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_lastHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_lastVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_lastVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_maxElementsWrap jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_verticalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_verticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_verticalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_verticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_flow_wrapMode jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constrainedHeight jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constrainedWidth jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_toBaselineOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintBottom_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintCircle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintCircleAngle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintCircleRadius jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintDimensionRatio jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintGuide_begin jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintGuide_end jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintGuide_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHeight_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHeight_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHeight_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHeight_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintLeft_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintRight_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintRight_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintRight_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintStart_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintStart_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintTag jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintTop_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintTop_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintTop_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintVertical_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintVertical_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintVertical_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintWidth_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintWidth_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintWidth_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_constraintWidth_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_editor_absoluteX jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_editor_absoluteY jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginBottom jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginEnd jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginLeft jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginRight jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginStart jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_layout_goneMarginTop jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_motionStagger jp.co.panasonic.pstc.ocr.android.card.app:motionStagger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_pathMotionArc jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_pivotAnchor jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_progress jp.co.panasonic.pstc.ocr.android.card.app:progress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_transitionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Constraint_visibilityMode jp.co.panasonic.pstc.ocr.android.card.app:visibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_animate_relativeTo com.jp.beetech.kayak:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierAllowsGoneWidgets com.jp.beetech.kayak:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierDirection com.jp.beetech.kayak:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierMargin com.jp.beetech.kayak:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_chainUseRtl com.jp.beetech.kayak:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_constraint_referenced_ids com.jp.beetech.kayak:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_drawPath com.jp.beetech.kayak:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstHorizontalBias com.jp.beetech.kayak:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstHorizontalStyle com.jp.beetech.kayak:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstVerticalBias com.jp.beetech.kayak:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstVerticalStyle com.jp.beetech.kayak:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalAlign com.jp.beetech.kayak:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalBias com.jp.beetech.kayak:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalGap com.jp.beetech.kayak:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalStyle com.jp.beetech.kayak:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastHorizontalBias com.jp.beetech.kayak:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastHorizontalStyle com.jp.beetech.kayak:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastVerticalBias com.jp.beetech.kayak:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastVerticalStyle com.jp.beetech.kayak:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_maxElementsWrap com.jp.beetech.kayak:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalAlign com.jp.beetech.kayak:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalBias com.jp.beetech.kayak:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalGap com.jp.beetech.kayak:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalStyle com.jp.beetech.kayak:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_wrapMode com.jp.beetech.kayak:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constrainedHeight com.jp.beetech.kayak:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constrainedWidth com.jp.beetech.kayak:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_creator com.jp.beetech.kayak:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_toBaselineOf com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_creator com.jp.beetech.kayak:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toBottomOf com.jp.beetech.kayak:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toTopOf com.jp.beetech.kayak:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircle com.jp.beetech.kayak:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircleAngle com.jp.beetech.kayak:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircleRadius com.jp.beetech.kayak:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintDimensionRatio com.jp.beetech.kayak:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toEndOf com.jp.beetech.kayak:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toStartOf com.jp.beetech.kayak:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_begin com.jp.beetech.kayak:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_end com.jp.beetech.kayak:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_percent com.jp.beetech.kayak:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_default com.jp.beetech.kayak:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_max com.jp.beetech.kayak:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_min com.jp.beetech.kayak:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_percent com.jp.beetech.kayak:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_bias com.jp.beetech.kayak:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_chainStyle com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_weight com.jp.beetech.kayak:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_creator com.jp.beetech.kayak:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toLeftOf com.jp.beetech.kayak:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toRightOf com.jp.beetech.kayak:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_creator com.jp.beetech.kayak:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_toLeftOf com.jp.beetech.kayak:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_toRightOf com.jp.beetech.kayak:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintStart_toEndOf com.jp.beetech.kayak:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintStart_toStartOf com.jp.beetech.kayak:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTag com.jp.beetech.kayak:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_creator com.jp.beetech.kayak:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_toBottomOf com.jp.beetech.kayak:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_toTopOf com.jp.beetech.kayak:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_bias com.jp.beetech.kayak:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_chainStyle com.jp.beetech.kayak:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_weight com.jp.beetech.kayak:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_default com.jp.beetech.kayak:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_max com.jp.beetech.kayak:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_min com.jp.beetech.kayak:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_percent com.jp.beetech.kayak:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_editor_absoluteX com.jp.beetech.kayak:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_editor_absoluteY com.jp.beetech.kayak:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginBottom com.jp.beetech.kayak:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginEnd com.jp.beetech.kayak:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginLeft com.jp.beetech.kayak:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginRight com.jp.beetech.kayak:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginStart com.jp.beetech.kayak:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginTop com.jp.beetech.kayak:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_motionStagger com.jp.beetech.kayak:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_pathMotionArc com.jp.beetech.kayak:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_pivotAnchor com.jp.beetech.kayak:pivotAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_progress com.jp.beetech.kayak:progress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_transitionPathRotate com.jp.beetech.kayak:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_visibilityMode com.jp.beetech.kayak:visibilityMode}</code></td><td></td></tr>
      * </table>
      * @see #Constraint_android_orientation
      * @see #Constraint_android_id
@@ -9812,7 +9060,7 @@ public final class R {
      */
     public static final int Constraint_android_elevation=28;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#animate_relativeTo}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#animate_relativeTo}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9820,21 +9068,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo
+     * @attr name com.jp.beetech.kayak:animate_relativeTo
      */
     public static final int Constraint_animate_relativeTo=29;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets
+     * @attr name com.jp.beetech.kayak:barrierAllowsGoneWidgets
      */
     public static final int Constraint_barrierAllowsGoneWidgets=30;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9851,11 +9099,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection
+     * @attr name com.jp.beetech.kayak:barrierDirection
      */
     public static final int Constraint_barrierDirection=31;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierMargin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierMargin}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9864,31 +9112,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin
+     * @attr name com.jp.beetech.kayak:barrierMargin
      */
     public static final int Constraint_barrierMargin=32;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl
+     * @attr name com.jp.beetech.kayak:chainUseRtl
      */
     public static final int Constraint_chainUseRtl=33;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids
+     * @attr name com.jp.beetech.kayak:constraint_referenced_ids
      */
     public static final int Constraint_constraint_referenced_ids=34;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawPath}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawPath}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9905,20 +9153,20 @@ public final class R {
      * <tr><td>rectangles</td><td>5</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawPath
+     * @attr name com.jp.beetech.kayak:drawPath
      */
     public static final int Constraint_drawPath=35;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalBias
      */
     public static final int Constraint_flow_firstHorizontalBias=36;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9932,20 +9180,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalStyle
      */
     public static final int Constraint_flow_firstHorizontalStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalBias
      */
     public static final int Constraint_flow_firstVerticalBias=38;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9959,11 +9207,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalStyle
      */
     public static final int Constraint_flow_firstVerticalStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalAlign}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -9977,20 +9225,20 @@ public final class R {
      * <tr><td>start</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign
+     * @attr name com.jp.beetech.kayak:flow_horizontalAlign
      */
     public static final int Constraint_flow_horizontalAlign=40;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias
+     * @attr name com.jp.beetech.kayak:flow_horizontalBias
      */
     public static final int Constraint_flow_horizontalBias=41;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalGap}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9999,11 +9247,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap
+     * @attr name com.jp.beetech.kayak:flow_horizontalGap
      */
     public static final int Constraint_flow_horizontalGap=42;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10017,20 +9265,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_horizontalStyle
      */
     public static final int Constraint_flow_horizontalStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalBias
      */
     public static final int Constraint_flow_lastHorizontalBias=44;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10044,20 +9292,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalStyle
      */
     public static final int Constraint_flow_lastHorizontalStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalBias
      */
     public static final int Constraint_flow_lastVerticalBias=46;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10071,20 +9319,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalStyle
      */
     public static final int Constraint_flow_lastVerticalStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_maxElementsWrap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_maxElementsWrap}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap
+     * @attr name com.jp.beetech.kayak:flow_maxElementsWrap
      */
     public static final int Constraint_flow_maxElementsWrap=48;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalAlign}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10099,20 +9347,20 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign
+     * @attr name com.jp.beetech.kayak:flow_verticalAlign
      */
     public static final int Constraint_flow_verticalAlign=49;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalBias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias
+     * @attr name com.jp.beetech.kayak:flow_verticalBias
      */
     public static final int Constraint_flow_verticalBias=50;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalGap}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10121,11 +9369,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap
+     * @attr name com.jp.beetech.kayak:flow_verticalGap
      */
     public static final int Constraint_flow_verticalGap=51;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10139,11 +9387,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle
+     * @attr name com.jp.beetech.kayak:flow_verticalStyle
      */
     public static final int Constraint_flow_verticalStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_wrapMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_wrapMode}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10157,40 +9405,40 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode
+     * @attr name com.jp.beetech.kayak:flow_wrapMode
      */
     public static final int Constraint_flow_wrapMode=53;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight
+     * @attr name com.jp.beetech.kayak:layout_constrainedHeight
      */
     public static final int Constraint_layout_constrainedHeight=54;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth
+     * @attr name com.jp.beetech.kayak:layout_constrainedWidth
      */
     public static final int Constraint_layout_constrainedWidth=55;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_creator
      */
     public static final int Constraint_layout_constraintBaseline_creator=56;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10206,20 +9454,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf
      */
     public static final int Constraint_layout_constraintBaseline_toBaselineOf=57;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_creator
      */
     public static final int Constraint_layout_constraintBottom_creator=58;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10235,11 +9483,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toBottomOf
      */
     public static final int Constraint_layout_constraintBottom_toBottomOf=59;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10255,11 +9503,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toTopOf
      */
     public static final int Constraint_layout_constraintBottom_toTopOf=60;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10267,20 +9515,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircle
      */
     public static final int Constraint_layout_constraintCircle=61;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleAngle
      */
     public static final int Constraint_layout_constraintCircleAngle=62;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10289,21 +9537,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleRadius
      */
     public static final int Constraint_layout_constraintCircleRadius=63;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio
+     * @attr name com.jp.beetech.kayak:layout_constraintDimensionRatio
      */
     public static final int Constraint_layout_constraintDimensionRatio=64;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10319,11 +9567,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toEndOf
      */
     public static final int Constraint_layout_constraintEnd_toEndOf=65;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10339,11 +9587,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toStartOf
      */
     public static final int Constraint_layout_constraintEnd_toStartOf=66;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10352,11 +9600,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_begin
      */
     public static final int Constraint_layout_constraintGuide_begin=67;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10365,20 +9613,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_end
      */
     public static final int Constraint_layout_constraintGuide_end=68;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_percent
      */
     public static final int Constraint_layout_constraintGuide_percent=69;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10392,11 +9640,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_default
      */
     public static final int Constraint_layout_constraintHeight_default=70;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10413,11 +9661,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_max
      */
     public static final int Constraint_layout_constraintHeight_max=71;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10434,29 +9682,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_min
      */
     public static final int Constraint_layout_constraintHeight_min=72;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_percent
      */
     public static final int Constraint_layout_constraintHeight_percent=73;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_bias
      */
     public static final int Constraint_layout_constraintHorizontal_bias=74;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10470,29 +9718,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle
      */
     public static final int Constraint_layout_constraintHorizontal_chainStyle=75;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_weight
      */
     public static final int Constraint_layout_constraintHorizontal_weight=76;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_creator
      */
     public static final int Constraint_layout_constraintLeft_creator=77;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10508,11 +9756,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toLeftOf
      */
     public static final int Constraint_layout_constraintLeft_toLeftOf=78;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10528,20 +9776,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toRightOf
      */
     public static final int Constraint_layout_constraintLeft_toRightOf=79;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_creator
      */
     public static final int Constraint_layout_constraintRight_creator=80;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10557,11 +9805,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toLeftOf
      */
     public static final int Constraint_layout_constraintRight_toLeftOf=81;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10577,11 +9825,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toRightOf
      */
     public static final int Constraint_layout_constraintRight_toRightOf=82;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10597,11 +9845,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toEndOf
      */
     public static final int Constraint_layout_constraintStart_toEndOf=83;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10617,30 +9865,30 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toStartOf
      */
     public static final int Constraint_layout_constraintStart_toStartOf=84;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTag}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTag}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag
+     * @attr name com.jp.beetech.kayak:layout_constraintTag
      */
     public static final int Constraint_layout_constraintTag=85;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_creator
      */
     public static final int Constraint_layout_constraintTop_creator=86;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10656,11 +9904,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toBottomOf
      */
     public static final int Constraint_layout_constraintTop_toBottomOf=87;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10676,20 +9924,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toTopOf
      */
     public static final int Constraint_layout_constraintTop_toTopOf=88;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_bias
      */
     public static final int Constraint_layout_constraintVertical_bias=89;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10703,20 +9951,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_chainStyle
      */
     public static final int Constraint_layout_constraintVertical_chainStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_weight
      */
     public static final int Constraint_layout_constraintVertical_weight=91;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10730,11 +9978,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_default
      */
     public static final int Constraint_layout_constraintWidth_default=92;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10751,11 +9999,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_max
      */
     public static final int Constraint_layout_constraintWidth_max=93;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10772,20 +10020,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_min
      */
     public static final int Constraint_layout_constraintWidth_min=94;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_percent
      */
     public static final int Constraint_layout_constraintWidth_percent=95;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10794,11 +10042,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteX
      */
     public static final int Constraint_layout_editor_absoluteX=96;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10807,11 +10055,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteY
      */
     public static final int Constraint_layout_editor_absoluteY=97;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10820,11 +10068,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom
+     * @attr name com.jp.beetech.kayak:layout_goneMarginBottom
      */
     public static final int Constraint_layout_goneMarginBottom=98;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10833,11 +10081,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd
+     * @attr name com.jp.beetech.kayak:layout_goneMarginEnd
      */
     public static final int Constraint_layout_goneMarginEnd=99;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10846,11 +10094,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft
+     * @attr name com.jp.beetech.kayak:layout_goneMarginLeft
      */
     public static final int Constraint_layout_goneMarginLeft=100;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10859,11 +10107,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight
+     * @attr name com.jp.beetech.kayak:layout_goneMarginRight
      */
     public static final int Constraint_layout_goneMarginRight=101;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10872,11 +10120,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart
+     * @attr name com.jp.beetech.kayak:layout_goneMarginStart
      */
     public static final int Constraint_layout_goneMarginStart=102;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10885,20 +10133,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop
+     * @attr name com.jp.beetech.kayak:layout_goneMarginTop
      */
     public static final int Constraint_layout_goneMarginTop=103;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionStagger}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionStagger}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionStagger
+     * @attr name com.jp.beetech.kayak:motionStagger
      */
     public static final int Constraint_motionStagger=104;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pathMotionArc}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pathMotionArc}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10913,11 +10161,11 @@ public final class R {
      * <tr><td>startVertical</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc
+     * @attr name com.jp.beetech.kayak:pathMotionArc
      */
     public static final int Constraint_pathMotionArc=105;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pivotAnchor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pivotAnchor}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10933,20 +10181,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor
+     * @attr name com.jp.beetech.kayak:pivotAnchor
      */
     public static final int Constraint_pivotAnchor=106;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#progress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#progress}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:progress
+     * @attr name com.jp.beetech.kayak:progress
      */
     public static final int Constraint_progress=107;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10963,20 +10211,20 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int Constraint_transitionEasing=108;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionPathRotate}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate
+     * @attr name com.jp.beetech.kayak:transitionPathRotate
      */
     public static final int Constraint_transitionPathRotate=109;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#visibilityMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#visibilityMode}
      * attribute's value can be found in the {@link #Constraint} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10989,7 +10237,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:visibilityMode
+     * @attr name com.jp.beetech.kayak:visibilityMode
      */
     public static final int Constraint_visibilityMode=110;
     /**
@@ -11009,82 +10257,82 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierMargin jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet jp.co.panasonic.pstc.ocr.android.card.app:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_maxElementsWrap jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_wrapMode jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layoutDescription jp.co.panasonic.pstc.ocr.android.card.app:layoutDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTag jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel jp.co.panasonic.pstc.ocr.android.card.app:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.jp.beetech.kayak:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.jp.beetech.kayak:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierMargin com.jp.beetech.kayak:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.jp.beetech.kayak:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.jp.beetech.kayak:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.jp.beetech.kayak:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalBias com.jp.beetech.kayak:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalStyle com.jp.beetech.kayak:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalBias com.jp.beetech.kayak:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalStyle com.jp.beetech.kayak:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalAlign com.jp.beetech.kayak:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalBias com.jp.beetech.kayak:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalGap com.jp.beetech.kayak:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalStyle com.jp.beetech.kayak:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalBias com.jp.beetech.kayak:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalStyle com.jp.beetech.kayak:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalBias com.jp.beetech.kayak:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalStyle com.jp.beetech.kayak:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_maxElementsWrap com.jp.beetech.kayak:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalAlign com.jp.beetech.kayak:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalBias com.jp.beetech.kayak:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalGap com.jp.beetech.kayak:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalStyle com.jp.beetech.kayak:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_wrapMode com.jp.beetech.kayak:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layoutDescription com.jp.beetech.kayak:layoutDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.jp.beetech.kayak:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.jp.beetech.kayak:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.jp.beetech.kayak:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.jp.beetech.kayak:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.jp.beetech.kayak:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.jp.beetech.kayak:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.jp.beetech.kayak:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.jp.beetech.kayak:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.jp.beetech.kayak:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.jp.beetech.kayak:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.jp.beetech.kayak:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.jp.beetech.kayak:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.jp.beetech.kayak:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.jp.beetech.kayak:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.jp.beetech.kayak:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.jp.beetech.kayak:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.jp.beetech.kayak:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.jp.beetech.kayak:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.jp.beetech.kayak:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.jp.beetech.kayak:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.jp.beetech.kayak:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.jp.beetech.kayak:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.jp.beetech.kayak:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.jp.beetech.kayak:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.jp.beetech.kayak:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.jp.beetech.kayak:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.jp.beetech.kayak:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.jp.beetech.kayak:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.jp.beetech.kayak:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTag com.jp.beetech.kayak:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.jp.beetech.kayak:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.jp.beetech.kayak:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.jp.beetech.kayak:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.jp.beetech.kayak:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.jp.beetech.kayak:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.jp.beetech.kayak:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.jp.beetech.kayak:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.jp.beetech.kayak:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.jp.beetech.kayak:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.jp.beetech.kayak:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.jp.beetech.kayak:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.jp.beetech.kayak:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.jp.beetech.kayak:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.jp.beetech.kayak:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.jp.beetech.kayak:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.jp.beetech.kayak:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.jp.beetech.kayak:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.jp.beetech.kayak:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.jp.beetech.kayak:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_padding
@@ -11332,17 +10580,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets
+     * @attr name com.jp.beetech.kayak:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11359,11 +10607,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection
+     * @attr name com.jp.beetech.kayak:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierMargin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierMargin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11372,21 +10620,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin
+     * @attr name com.jp.beetech.kayak:barrierMargin
      */
     public static final int ConstraintLayout_Layout_barrierMargin=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl
+     * @attr name com.jp.beetech.kayak:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=13;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11394,30 +10642,30 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraintSet
+     * @attr name com.jp.beetech.kayak:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=14;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids
+     * @attr name com.jp.beetech.kayak:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=15;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalBias
      */
     public static final int ConstraintLayout_Layout_flow_firstHorizontalBias=16;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11431,20 +10679,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalStyle
      */
     public static final int ConstraintLayout_Layout_flow_firstHorizontalStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalBias
      */
     public static final int ConstraintLayout_Layout_flow_firstVerticalBias=18;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11458,11 +10706,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalStyle
      */
     public static final int ConstraintLayout_Layout_flow_firstVerticalStyle=19;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalAlign}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -11476,20 +10724,20 @@ public final class R {
      * <tr><td>start</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign
+     * @attr name com.jp.beetech.kayak:flow_horizontalAlign
      */
     public static final int ConstraintLayout_Layout_flow_horizontalAlign=20;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias
+     * @attr name com.jp.beetech.kayak:flow_horizontalBias
      */
     public static final int ConstraintLayout_Layout_flow_horizontalBias=21;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalGap}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11498,11 +10746,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap
+     * @attr name com.jp.beetech.kayak:flow_horizontalGap
      */
     public static final int ConstraintLayout_Layout_flow_horizontalGap=22;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11516,20 +10764,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_horizontalStyle
      */
     public static final int ConstraintLayout_Layout_flow_horizontalStyle=23;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalBias
      */
     public static final int ConstraintLayout_Layout_flow_lastHorizontalBias=24;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11543,20 +10791,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalStyle
      */
     public static final int ConstraintLayout_Layout_flow_lastHorizontalStyle=25;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalBias
      */
     public static final int ConstraintLayout_Layout_flow_lastVerticalBias=26;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11570,20 +10818,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalStyle
      */
     public static final int ConstraintLayout_Layout_flow_lastVerticalStyle=27;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_maxElementsWrap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_maxElementsWrap}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap
+     * @attr name com.jp.beetech.kayak:flow_maxElementsWrap
      */
     public static final int ConstraintLayout_Layout_flow_maxElementsWrap=28;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalAlign}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11598,20 +10846,20 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign
+     * @attr name com.jp.beetech.kayak:flow_verticalAlign
      */
     public static final int ConstraintLayout_Layout_flow_verticalAlign=29;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalBias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias
+     * @attr name com.jp.beetech.kayak:flow_verticalBias
      */
     public static final int ConstraintLayout_Layout_flow_verticalBias=30;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalGap}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11620,11 +10868,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap
+     * @attr name com.jp.beetech.kayak:flow_verticalGap
      */
     public static final int ConstraintLayout_Layout_flow_verticalGap=31;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11638,11 +10886,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle
+     * @attr name com.jp.beetech.kayak:flow_verticalStyle
      */
     public static final int ConstraintLayout_Layout_flow_verticalStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_wrapMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_wrapMode}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11656,11 +10904,11 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode
+     * @attr name com.jp.beetech.kayak:flow_wrapMode
      */
     public static final int ConstraintLayout_Layout_flow_wrapMode=33;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layoutDescription}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layoutDescription}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11668,40 +10916,40 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layoutDescription
+     * @attr name com.jp.beetech.kayak:layoutDescription
      */
     public static final int ConstraintLayout_Layout_layoutDescription=34;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight
+     * @attr name com.jp.beetech.kayak:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=35;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth
+     * @attr name com.jp.beetech.kayak:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=36;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=37;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11717,20 +10965,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=38;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=39;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11746,11 +10994,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=40;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11766,11 +11014,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=41;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11778,20 +11026,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=42;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=43;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11800,21 +11048,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=44;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio
+     * @attr name com.jp.beetech.kayak:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=45;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11830,11 +11078,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=46;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11850,11 +11098,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=47;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11863,11 +11111,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=48;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11876,20 +11124,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=49;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11903,11 +11151,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=51;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11924,11 +11172,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=52;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11945,29 +11193,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=53;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=54;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=55;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11981,29 +11229,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=56;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=57;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=58;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12019,11 +11267,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=59;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12039,20 +11287,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=60;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=61;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12068,11 +11316,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=62;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12088,11 +11336,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=63;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12108,11 +11356,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=64;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12128,30 +11376,30 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=65;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTag}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTag}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag
+     * @attr name com.jp.beetech.kayak:layout_constraintTag
      */
     public static final int ConstraintLayout_Layout_layout_constraintTag=66;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=67;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12167,11 +11415,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=68;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12187,20 +11435,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=69;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=70;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12214,20 +11462,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=71;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=72;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12241,11 +11489,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=73;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12262,11 +11510,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=74;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12283,20 +11531,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=75;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=76;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12305,11 +11553,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=77;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12318,11 +11566,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=78;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12331,11 +11579,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom
+     * @attr name com.jp.beetech.kayak:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=79;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12344,11 +11592,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd
+     * @attr name com.jp.beetech.kayak:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=80;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12357,11 +11605,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft
+     * @attr name com.jp.beetech.kayak:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=81;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12370,11 +11618,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight
+     * @attr name com.jp.beetech.kayak:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=82;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12383,11 +11631,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart
+     * @attr name com.jp.beetech.kayak:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=83;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12396,11 +11644,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop
+     * @attr name com.jp.beetech.kayak:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=84;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12412,7 +11660,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>graph</td><td>40</td><td></td></tr>
      * <tr><td>graph_wrap</td><td>80</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
@@ -12421,7 +11669,7 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_optimizationLevel
+     * @attr name com.jp.beetech.kayak:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=85;
     /**
@@ -12431,8 +11679,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content jp.co.panasonic.pstc.ocr.android.card.app:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_placeholder_emptyVisibility jp.co.panasonic.pstc.ocr.android.card.app:placeholder_emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.jp.beetech.kayak:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_placeholder_emptyVisibility com.jp.beetech.kayak:placeholder_emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_placeholder_emptyVisibility
@@ -12441,7 +11689,7 @@ public final class R {
       0x7f020069, 0x7f020159
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12449,11 +11697,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:content
+     * @attr name com.jp.beetech.kayak:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#placeholder_emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#placeholder_emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12467,7 +11715,7 @@ public final class R {
      * <tr><td>visible</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:placeholder_emptyVisibility
+     * @attr name com.jp.beetech.kayak:placeholder_emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_placeholder_emptyVisibility=1;
     /**
@@ -12506,88 +11754,88 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_animate_relativeTo jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierMargin jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_deriveConstraintsFrom jp.co.panasonic.pstc.ocr.android.card.app:deriveConstraintsFrom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_drawPath jp.co.panasonic.pstc.ocr.android.card.app:drawPath}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_horizontalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_horizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_horizontalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_horizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_maxElementsWrap jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_verticalAlign jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_verticalBias jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_verticalGap jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_verticalStyle jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_flow_wrapMode jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTag jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_motionStagger jp.co.panasonic.pstc.ocr.android.card.app:motionStagger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_pathMotionArc jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_pivotAnchor jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_transitionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_animate_relativeTo com.jp.beetech.kayak:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.jp.beetech.kayak:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.jp.beetech.kayak:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierMargin com.jp.beetech.kayak:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.jp.beetech.kayak:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.jp.beetech.kayak:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_deriveConstraintsFrom com.jp.beetech.kayak:deriveConstraintsFrom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_drawPath com.jp.beetech.kayak:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalBias com.jp.beetech.kayak:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalStyle com.jp.beetech.kayak:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalBias com.jp.beetech.kayak:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalStyle com.jp.beetech.kayak:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalAlign com.jp.beetech.kayak:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalBias com.jp.beetech.kayak:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalGap com.jp.beetech.kayak:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalStyle com.jp.beetech.kayak:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalBias com.jp.beetech.kayak:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalStyle com.jp.beetech.kayak:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalBias com.jp.beetech.kayak:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalStyle com.jp.beetech.kayak:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_maxElementsWrap com.jp.beetech.kayak:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalAlign com.jp.beetech.kayak:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalBias com.jp.beetech.kayak:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalGap com.jp.beetech.kayak:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalStyle com.jp.beetech.kayak:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_wrapMode com.jp.beetech.kayak:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.jp.beetech.kayak:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.jp.beetech.kayak:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.jp.beetech.kayak:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.jp.beetech.kayak:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.jp.beetech.kayak:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.jp.beetech.kayak:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.jp.beetech.kayak:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.jp.beetech.kayak:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.jp.beetech.kayak:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.jp.beetech.kayak:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.jp.beetech.kayak:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.jp.beetech.kayak:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.jp.beetech.kayak:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.jp.beetech.kayak:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.jp.beetech.kayak:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.jp.beetech.kayak:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.jp.beetech.kayak:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.jp.beetech.kayak:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.jp.beetech.kayak:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.jp.beetech.kayak:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.jp.beetech.kayak:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.jp.beetech.kayak:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.jp.beetech.kayak:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.jp.beetech.kayak:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.jp.beetech.kayak:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.jp.beetech.kayak:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.jp.beetech.kayak:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.jp.beetech.kayak:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.jp.beetech.kayak:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTag com.jp.beetech.kayak:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.jp.beetech.kayak:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.jp.beetech.kayak:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.jp.beetech.kayak:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.jp.beetech.kayak:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.jp.beetech.kayak:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.jp.beetech.kayak:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.jp.beetech.kayak:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.jp.beetech.kayak:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.jp.beetech.kayak:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.jp.beetech.kayak:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.jp.beetech.kayak:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.jp.beetech.kayak:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.jp.beetech.kayak:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.jp.beetech.kayak:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.jp.beetech.kayak:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.jp.beetech.kayak:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.jp.beetech.kayak:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.jp.beetech.kayak:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_motionStagger com.jp.beetech.kayak:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_pathMotionArc com.jp.beetech.kayak:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_pivotAnchor com.jp.beetech.kayak:pivotAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_transitionPathRotate com.jp.beetech.kayak:transitionPathRotate}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -13113,7 +12361,7 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=28;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#animate_relativeTo}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#animate_relativeTo}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13121,21 +12369,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo
+     * @attr name com.jp.beetech.kayak:animate_relativeTo
      */
     public static final int ConstraintSet_animate_relativeTo=29;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets
+     * @attr name com.jp.beetech.kayak:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=30;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13152,11 +12400,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection
+     * @attr name com.jp.beetech.kayak:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=31;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierMargin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierMargin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13165,31 +12413,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin
+     * @attr name com.jp.beetech.kayak:barrierMargin
      */
     public static final int ConstraintSet_barrierMargin=32;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl
+     * @attr name com.jp.beetech.kayak:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=33;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids
+     * @attr name com.jp.beetech.kayak:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=34;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#deriveConstraintsFrom}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#deriveConstraintsFrom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13197,11 +12445,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:deriveConstraintsFrom
+     * @attr name com.jp.beetech.kayak:deriveConstraintsFrom
      */
     public static final int ConstraintSet_deriveConstraintsFrom=35;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawPath}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawPath}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13218,20 +12466,20 @@ public final class R {
      * <tr><td>rectangles</td><td>5</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawPath
+     * @attr name com.jp.beetech.kayak:drawPath
      */
     public static final int ConstraintSet_drawPath=36;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalBias
      */
     public static final int ConstraintSet_flow_firstHorizontalBias=37;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstHorizontalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13245,20 +12493,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstHorizontalStyle
      */
     public static final int ConstraintSet_flow_firstHorizontalStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalBias
      */
     public static final int ConstraintSet_flow_firstVerticalBias=39;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_firstVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_firstVerticalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13272,11 +12520,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_firstVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_firstVerticalStyle
      */
     public static final int ConstraintSet_flow_firstVerticalStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalAlign}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -13290,20 +12538,20 @@ public final class R {
      * <tr><td>start</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalAlign
+     * @attr name com.jp.beetech.kayak:flow_horizontalAlign
      */
     public static final int ConstraintSet_flow_horizontalAlign=41;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalBias
+     * @attr name com.jp.beetech.kayak:flow_horizontalBias
      */
     public static final int ConstraintSet_flow_horizontalBias=42;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalGap}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13312,11 +12560,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalGap
+     * @attr name com.jp.beetech.kayak:flow_horizontalGap
      */
     public static final int ConstraintSet_flow_horizontalGap=43;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_horizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_horizontalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13330,20 +12578,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_horizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_horizontalStyle
      */
     public static final int ConstraintSet_flow_horizontalStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalBias
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalBias
      */
     public static final int ConstraintSet_flow_lastHorizontalBias=45;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastHorizontalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastHorizontalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13357,20 +12605,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastHorizontalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastHorizontalStyle
      */
     public static final int ConstraintSet_flow_lastHorizontalStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalBias
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalBias
      */
     public static final int ConstraintSet_flow_lastVerticalBias=47;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_lastVerticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_lastVerticalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13384,20 +12632,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_lastVerticalStyle
+     * @attr name com.jp.beetech.kayak:flow_lastVerticalStyle
      */
     public static final int ConstraintSet_flow_lastVerticalStyle=48;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_maxElementsWrap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_maxElementsWrap}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_maxElementsWrap
+     * @attr name com.jp.beetech.kayak:flow_maxElementsWrap
      */
     public static final int ConstraintSet_flow_maxElementsWrap=49;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalAlign}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalAlign}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13412,20 +12660,20 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalAlign
+     * @attr name com.jp.beetech.kayak:flow_verticalAlign
      */
     public static final int ConstraintSet_flow_verticalAlign=50;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalBias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalBias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalBias
+     * @attr name com.jp.beetech.kayak:flow_verticalBias
      */
     public static final int ConstraintSet_flow_verticalBias=51;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalGap}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalGap}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13434,11 +12682,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalGap
+     * @attr name com.jp.beetech.kayak:flow_verticalGap
      */
     public static final int ConstraintSet_flow_verticalGap=52;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_verticalStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_verticalStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13452,11 +12700,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_verticalStyle
+     * @attr name com.jp.beetech.kayak:flow_verticalStyle
      */
     public static final int ConstraintSet_flow_verticalStyle=53;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#flow_wrapMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#flow_wrapMode}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13470,40 +12718,40 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:flow_wrapMode
+     * @attr name com.jp.beetech.kayak:flow_wrapMode
      */
     public static final int ConstraintSet_flow_wrapMode=54;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight
+     * @attr name com.jp.beetech.kayak:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=55;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth
+     * @attr name com.jp.beetech.kayak:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=56;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13519,20 +12767,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=58;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=59;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13548,11 +12796,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=60;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13568,11 +12816,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=61;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13580,20 +12828,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=62;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=63;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13602,21 +12850,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=64;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio
+     * @attr name com.jp.beetech.kayak:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=65;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13632,11 +12880,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=66;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13652,11 +12900,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=67;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13665,11 +12913,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=68;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13678,20 +12926,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=69;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=70;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13705,11 +12953,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=71;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13726,11 +12974,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=72;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13747,29 +12995,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=73;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=74;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=75;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13783,29 +13031,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=76;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=77;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=78;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13821,11 +13069,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=79;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13841,20 +13089,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=80;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=81;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13870,11 +13118,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=82;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13890,11 +13138,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=83;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13910,11 +13158,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=84;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13930,30 +13178,30 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=85;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTag}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTag}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag
+     * @attr name com.jp.beetech.kayak:layout_constraintTag
      */
     public static final int ConstraintSet_layout_constraintTag=86;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=87;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13969,11 +13217,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=88;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13989,20 +13237,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=89;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=90;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14016,20 +13264,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=92;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14043,11 +13291,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=93;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14064,11 +13312,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=94;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14085,20 +13333,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=95;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=96;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14107,11 +13355,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=97;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14120,11 +13368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=98;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14133,11 +13381,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom
+     * @attr name com.jp.beetech.kayak:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=99;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14146,11 +13394,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd
+     * @attr name com.jp.beetech.kayak:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=100;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14159,11 +13407,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft
+     * @attr name com.jp.beetech.kayak:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=101;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14172,11 +13420,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight
+     * @attr name com.jp.beetech.kayak:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=102;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14185,11 +13433,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart
+     * @attr name com.jp.beetech.kayak:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=103;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14198,29 +13446,29 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop
+     * @attr name com.jp.beetech.kayak:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=104;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int ConstraintSet_motionProgress=105;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionStagger}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionStagger}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionStagger
+     * @attr name com.jp.beetech.kayak:motionStagger
      */
     public static final int ConstraintSet_motionStagger=106;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pathMotionArc}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pathMotionArc}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14235,11 +13483,11 @@ public final class R {
      * <tr><td>startVertical</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc
+     * @attr name com.jp.beetech.kayak:pathMotionArc
      */
     public static final int ConstraintSet_pathMotionArc=107;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pivotAnchor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pivotAnchor}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14255,11 +13503,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor
+     * @attr name com.jp.beetech.kayak:pivotAnchor
      */
     public static final int ConstraintSet_pivotAnchor=108;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14276,16 +13524,16 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int ConstraintSet_transitionEasing=109;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionPathRotate}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate
+     * @attr name com.jp.beetech.kayak:transitionPathRotate
      */
     public static final int ConstraintSet_transitionPathRotate=110;
     /**
@@ -14295,9 +13543,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines jp.co.panasonic.pstc.ocr.android.card.app:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground jp.co.panasonic.pstc.ocr.android.card.app:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.jp.beetech.kayak:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.jp.beetech.kayak:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -14306,26 +13553,20 @@ public final class R {
       0x7f0200d3, 0x7f020182
     };
     /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:keylines
+     * @attr name com.jp.beetech.kayak:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14335,7 +13576,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:statusBarBackground
+     * @attr name com.jp.beetech.kayak:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -14346,15 +13587,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor jp.co.panasonic.pstc.ocr.android.card.app:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity jp.co.panasonic.pstc.ocr.android.card.app:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior jp.co.panasonic.pstc.ocr.android.card.app:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges jp.co.panasonic.pstc.ocr.android.card.app:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge jp.co.panasonic.pstc.ocr.android.card.app:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline jp.co.panasonic.pstc.ocr.android.card.app:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.jp.beetech.kayak:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.jp.beetech.kayak:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.jp.beetech.kayak:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.jp.beetech.kayak:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.jp.beetech.kayak:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.jp.beetech.kayak:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -14398,23 +13636,20 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_anchor}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_anchor
+     * @attr name com.jp.beetech.kayak:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_anchorGravity}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -14422,47 +13657,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_anchorGravity
+     * @attr name com.jp.beetech.kayak:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_behavior
+     * @attr name com.jp.beetech.kayak:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -14470,24 +13696,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_dodgeInsetEdges
+     * @attr name com.jp.beetech.kayak:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14495,28 +13719,25 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_insetEdge
+     * @attr name com.jp.beetech.kayak:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_keyline
+     * @attr name com.jp.beetech.kayak:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -14526,15 +13747,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CustomAttribute_attributeName jp.co.panasonic.pstc.ocr.android.card.app:attributeName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customBoolean jp.co.panasonic.pstc.ocr.android.card.app:customBoolean}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customColorDrawableValue jp.co.panasonic.pstc.ocr.android.card.app:customColorDrawableValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customColorValue jp.co.panasonic.pstc.ocr.android.card.app:customColorValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customDimension jp.co.panasonic.pstc.ocr.android.card.app:customDimension}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customFloatValue jp.co.panasonic.pstc.ocr.android.card.app:customFloatValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customIntegerValue jp.co.panasonic.pstc.ocr.android.card.app:customIntegerValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customPixelDimension jp.co.panasonic.pstc.ocr.android.card.app:customPixelDimension}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomAttribute_customStringValue jp.co.panasonic.pstc.ocr.android.card.app:customStringValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_attributeName com.jp.beetech.kayak:attributeName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customBoolean com.jp.beetech.kayak:customBoolean}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customColorDrawableValue com.jp.beetech.kayak:customColorDrawableValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customColorValue com.jp.beetech.kayak:customColorValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customDimension com.jp.beetech.kayak:customDimension}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customFloatValue com.jp.beetech.kayak:customFloatValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customIntegerValue com.jp.beetech.kayak:customIntegerValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customPixelDimension com.jp.beetech.kayak:customPixelDimension}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customStringValue com.jp.beetech.kayak:customStringValue}</code></td><td></td></tr>
      * </table>
      * @see #CustomAttribute_attributeName
      * @see #CustomAttribute_customBoolean
@@ -14552,49 +13773,49 @@ public final class R {
       0x7f02007f
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#attributeName}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#attributeName}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:attributeName
+     * @attr name com.jp.beetech.kayak:attributeName
      */
     public static final int CustomAttribute_attributeName=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customBoolean}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customBoolean}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customBoolean
+     * @attr name com.jp.beetech.kayak:customBoolean
      */
     public static final int CustomAttribute_customBoolean=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customColorDrawableValue}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customColorDrawableValue}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customColorDrawableValue
+     * @attr name com.jp.beetech.kayak:customColorDrawableValue
      */
     public static final int CustomAttribute_customColorDrawableValue=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customColorValue}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customColorValue}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customColorValue
+     * @attr name com.jp.beetech.kayak:customColorValue
      */
     public static final int CustomAttribute_customColorValue=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customDimension}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customDimension}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14603,29 +13824,29 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customDimension
+     * @attr name com.jp.beetech.kayak:customDimension
      */
     public static final int CustomAttribute_customDimension=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customFloatValue}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customFloatValue}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customFloatValue
+     * @attr name com.jp.beetech.kayak:customFloatValue
      */
     public static final int CustomAttribute_customFloatValue=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customIntegerValue}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customIntegerValue}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customIntegerValue
+     * @attr name com.jp.beetech.kayak:customIntegerValue
      */
     public static final int CustomAttribute_customIntegerValue=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customPixelDimension}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customPixelDimension}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14634,17 +13855,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customPixelDimension
+     * @attr name com.jp.beetech.kayak:customPixelDimension
      */
     public static final int CustomAttribute_customPixelDimension=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#customStringValue}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#customStringValue}
      * attribute's value can be found in the {@link #CustomAttribute} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:customStringValue
+     * @attr name com.jp.beetech.kayak:customStringValue
      */
     public static final int CustomAttribute_customStringValue=8;
     /**
@@ -14654,14 +13875,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength jp.co.panasonic.pstc.ocr.android.card.app:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength jp.co.panasonic.pstc.ocr.android.card.app:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength jp.co.panasonic.pstc.ocr.android.card.app:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color jp.co.panasonic.pstc.ocr.android.card.app:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize jp.co.panasonic.pstc.ocr.android.card.app:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars jp.co.panasonic.pstc.ocr.android.card.app:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars jp.co.panasonic.pstc.ocr.android.card.app:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness jp.co.panasonic.pstc.ocr.android.card.app:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.jp.beetech.kayak:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.jp.beetech.kayak:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.jp.beetech.kayak:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.jp.beetech.kayak:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.jp.beetech.kayak:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.jp.beetech.kayak:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.jp.beetech.kayak:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.jp.beetech.kayak:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -14677,9 +13898,8 @@ public final class R {
       0x7f020095, 0x7f0200c3, 0x7f02017b, 0x7f02019f
     };
     /**
-     * <p>
-     * @attr description
-     * The length of the arrow head when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#arrowHeadLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14687,13 +13907,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:arrowHeadLength
+     * @attr name com.jp.beetech.kayak:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>
-     * @attr description
-     * The length of the shaft when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#arrowShaftLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14701,13 +13920,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:arrowShaftLength
+     * @attr name com.jp.beetech.kayak:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>
-     * @attr description
-     * The length of the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14715,25 +13933,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barLength
+     * @attr name com.jp.beetech.kayak:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>
-     * @attr description
-     * The drawing color for the bars
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#color}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:color
+     * @attr name com.jp.beetech.kayak:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>
-     * @attr description
-     * The total size of the drawable
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawableSize}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14741,13 +13957,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawableSize
+     * @attr name com.jp.beetech.kayak:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>
-     * @attr description
-     * The max gap between the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#gapBetweenBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14755,24 +13970,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:gapBetweenBars
+     * @attr name com.jp.beetech.kayak:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>
-     * @attr description
-     * Whether bars should rotate or not during transition
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#spinBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:spinBars
+     * @attr name com.jp.beetech.kayak:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>
-     * @attr description
-     * The thickness (stroke size) for the bar paint
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#thickness}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14780,7 +13993,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:thickness
+     * @attr name com.jp.beetech.kayak:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -14790,12 +14003,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority jp.co.panasonic.pstc.ocr.android.card.app:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts jp.co.panasonic.pstc.ocr.android.card.app:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy jp.co.panasonic.pstc.ocr.android.card.app:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout jp.co.panasonic.pstc.ocr.android.card.app:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage jp.co.panasonic.pstc.ocr.android.card.app:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery jp.co.panasonic.pstc.ocr.android.card.app:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.jp.beetech.kayak:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.jp.beetech.kayak:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.jp.beetech.kayak:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.jp.beetech.kayak:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.jp.beetech.kayak:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.jp.beetech.kayak:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -14809,43 +14022,30 @@ public final class R {
       0x7f0200bd, 0x7f0200be
     };
     /**
-     * <p>
-     * @attr description
-     * The authority of the Font Provider to be used for the request.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderAuthority}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderAuthority
+     * @attr name com.jp.beetech.kayak:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>
-     * @attr description
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderCerts}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderCerts
+     * @attr name com.jp.beetech.kayak:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>
-     * @attr description
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderFetchStrategy}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14853,25 +14053,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderFetchStrategy
+     * @attr name com.jp.beetech.kayak:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>
-     * @attr description
-     * The length of the timeout during fetching.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderFetchTimeout}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -14880,35 +14071,30 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderFetchTimeout
+     * @attr name com.jp.beetech.kayak:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>
-     * @attr description
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderPackage}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderPackage
+     * @attr name com.jp.beetech.kayak:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>
-     * @attr description
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontProviderQuery}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontProviderQuery
+     * @attr name com.jp.beetech.kayak:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -14923,11 +14109,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font jp.co.panasonic.pstc.ocr.android.card.app:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle jp.co.panasonic.pstc.ocr.android.card.app:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight jp.co.panasonic.pstc.ocr.android.card.app:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex jp.co.panasonic.pstc.ocr.android.card.app:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.jp.beetech.kayak:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.jp.beetech.kayak:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.jp.beetech.kayak:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.jp.beetech.kayak:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.jp.beetech.kayak:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -14967,9 +14153,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontWeight=1;
     /**
-     * <p>
-     * @attr description
-     * References to the framework attrs
+     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15004,25 +14189,20 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>
-     * @attr description
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:font
+     * @attr name com.jp.beetech.kayak:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>
-     * @attr description
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15034,46 +14214,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontStyle
+     * @attr name com.jp.beetech.kayak:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>
-     * @attr description
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings
+     * @attr name com.jp.beetech.kayak:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>
-     * @attr description
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontWeight
+     * @attr name com.jp.beetech.kayak:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>
-     * @attr description
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:ttcIndex
+     * @attr name com.jp.beetech.kayak:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -15115,9 +14284,8 @@ public final class R {
       0x01010510, 0x01010511, 0x01010512, 0x01010513
     };
     /**
-     * <p>
-     * @attr description
-     * Start color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15127,9 +14295,8 @@ public final class R {
      */
     public static final int GradientColor_android_startColor=0;
     /**
-     * <p>
-     * @attr description
-     * End color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15139,9 +14306,8 @@ public final class R {
      */
     public static final int GradientColor_android_endColor=1;
     /**
-     * <p>
-     * @attr description
-     * Type of gradient. The default type is linear.
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15158,9 +14324,8 @@ public final class R {
      */
     public static final int GradientColor_android_type=2;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -15172,9 +14337,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerX=3;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -15186,9 +14350,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerY=4;
     /**
-     * <p>
-     * @attr description
-     * Radius of the gradient, used only with radial gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15205,9 +14368,8 @@ public final class R {
      */
     public static final int GradientColor_android_gradientRadius=5;
     /**
-     * <p>
-     * @attr description
-     * Defines the tile mode of the gradient. SweepGradient doesn't support tiling.
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15225,9 +14387,8 @@ public final class R {
      */
     public static final int GradientColor_android_tileMode=6;
     /**
-     * <p>
-     * @attr description
-     * Optional center color.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15237,10 +14398,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerColor=7;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the start point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15248,10 +14407,8 @@ public final class R {
      */
     public static final int GradientColor_android_startX=8;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the start point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15259,10 +14416,8 @@ public final class R {
      */
     public static final int GradientColor_android_startY=9;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the end point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15270,10 +14425,8 @@ public final class R {
      */
     public static final int GradientColor_android_endX=10;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the end point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15297,9 +14450,8 @@ public final class R {
       0x010101a5, 0x01010514
     };
     /**
-     * <p>
-     * @attr description
-     * The current color for the offset inside the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15309,10 +14461,8 @@ public final class R {
      */
     public static final int GradientColorItem_android_color=0;
     /**
-     * <p>
-     * @attr description
-     * The offset (or ratio) of this current color item inside the gradient.
-     * The value is only meaningful when it is between 0 and 1.
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15326,15 +14476,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ImageFilterView_altSrc jp.co.panasonic.pstc.ocr.android.card.app:altSrc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_brightness jp.co.panasonic.pstc.ocr.android.card.app:brightness}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_contrast jp.co.panasonic.pstc.ocr.android.card.app:contrast}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_crossfade jp.co.panasonic.pstc.ocr.android.card.app:crossfade}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_overlay jp.co.panasonic.pstc.ocr.android.card.app:overlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_round jp.co.panasonic.pstc.ocr.android.card.app:round}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_roundPercent jp.co.panasonic.pstc.ocr.android.card.app:roundPercent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_saturation jp.co.panasonic.pstc.ocr.android.card.app:saturation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageFilterView_warmth jp.co.panasonic.pstc.ocr.android.card.app:warmth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_altSrc com.jp.beetech.kayak:altSrc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_brightness com.jp.beetech.kayak:brightness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_contrast com.jp.beetech.kayak:contrast}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_crossfade com.jp.beetech.kayak:crossfade}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_overlay com.jp.beetech.kayak:overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_round com.jp.beetech.kayak:round}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_roundPercent com.jp.beetech.kayak:roundPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_saturation com.jp.beetech.kayak:saturation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_warmth com.jp.beetech.kayak:warmth}</code></td><td></td></tr>
      * </table>
      * @see #ImageFilterView_altSrc
      * @see #ImageFilterView_brightness
@@ -15352,7 +14502,7 @@ public final class R {
       0x7f0201c7
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#altSrc}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#altSrc}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15360,48 +14510,48 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:altSrc
+     * @attr name com.jp.beetech.kayak:altSrc
      */
     public static final int ImageFilterView_altSrc=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#brightness}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#brightness}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:brightness
+     * @attr name com.jp.beetech.kayak:brightness
      */
     public static final int ImageFilterView_brightness=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#contrast}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contrast}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contrast
+     * @attr name com.jp.beetech.kayak:contrast
      */
     public static final int ImageFilterView_contrast=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#crossfade}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#crossfade}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:crossfade
+     * @attr name com.jp.beetech.kayak:crossfade
      */
     public static final int ImageFilterView_crossfade=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#overlay}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#overlay}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:overlay
+     * @attr name com.jp.beetech.kayak:overlay
      */
     public static final int ImageFilterView_overlay=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#round}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#round}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15410,34 +14560,34 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:round
+     * @attr name com.jp.beetech.kayak:round
      */
     public static final int ImageFilterView_round=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#roundPercent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#roundPercent}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:roundPercent
+     * @attr name com.jp.beetech.kayak:roundPercent
      */
     public static final int ImageFilterView_roundPercent=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#saturation}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#saturation}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:saturation
+     * @attr name com.jp.beetech.kayak:saturation
      */
     public static final int ImageFilterView_saturation=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#warmth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#warmth}
      * attribute's value can be found in the {@link #ImageFilterView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:warmth
+     * @attr name com.jp.beetech.kayak:warmth
      */
     public static final int ImageFilterView_warmth=8;
     /**
@@ -15458,12 +14608,12 @@ public final class R {
      * <tr><td><code>{@link #KeyAttribute_android_rotationY android:rotationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyAttribute_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyAttribute_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_curveFit jp.co.panasonic.pstc.ocr.android.card.app:curveFit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_framePosition jp.co.panasonic.pstc.ocr.android.card.app:framePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_motionTarget jp.co.panasonic.pstc.ocr.android.card.app:motionTarget}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyAttribute_transitionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_curveFit com.jp.beetech.kayak:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_framePosition com.jp.beetech.kayak:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_motionTarget com.jp.beetech.kayak:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_transitionPathRotate com.jp.beetech.kayak:transitionPathRotate}</code></td><td></td></tr>
      * </table>
      * @see #KeyAttribute_android_visibility
      * @see #KeyAttribute_android_alpha
@@ -15615,7 +14765,7 @@ public final class R {
      */
     public static final int KeyAttribute_android_elevation=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#curveFit}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#curveFit}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15628,29 +14778,29 @@ public final class R {
      * <tr><td>spline</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:curveFit
+     * @attr name com.jp.beetech.kayak:curveFit
      */
     public static final int KeyAttribute_curveFit=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#framePosition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#framePosition}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:framePosition
+     * @attr name com.jp.beetech.kayak:framePosition
      */
     public static final int KeyAttribute_framePosition=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int KeyAttribute_motionProgress=13;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionTarget}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionTarget}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15660,11 +14810,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionTarget
+     * @attr name com.jp.beetech.kayak:motionTarget
      */
     public static final int KeyAttribute_motionTarget=14;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -15681,16 +14831,16 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int KeyAttribute_transitionEasing=15;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionPathRotate}
      * attribute's value can be found in the {@link #KeyAttribute} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate
+     * @attr name com.jp.beetech.kayak:transitionPathRotate
      */
     public static final int KeyAttribute_transitionPathRotate=16;
     /**
@@ -15710,16 +14860,16 @@ public final class R {
      * <tr><td><code>{@link #KeyCycle_android_rotationY android:rotationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyCycle_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyCycle_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_curveFit jp.co.panasonic.pstc.ocr.android.card.app:curveFit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_framePosition jp.co.panasonic.pstc.ocr.android.card.app:framePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_motionTarget jp.co.panasonic.pstc.ocr.android.card.app:motionTarget}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_transitionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_waveOffset jp.co.panasonic.pstc.ocr.android.card.app:waveOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_wavePeriod jp.co.panasonic.pstc.ocr.android.card.app:wavePeriod}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_waveShape jp.co.panasonic.pstc.ocr.android.card.app:waveShape}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyCycle_waveVariesBy jp.co.panasonic.pstc.ocr.android.card.app:waveVariesBy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_curveFit com.jp.beetech.kayak:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_framePosition com.jp.beetech.kayak:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_motionTarget com.jp.beetech.kayak:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_transitionPathRotate com.jp.beetech.kayak:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveOffset com.jp.beetech.kayak:waveOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_wavePeriod com.jp.beetech.kayak:wavePeriod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveShape com.jp.beetech.kayak:waveShape}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveVariesBy com.jp.beetech.kayak:waveVariesBy}</code></td><td></td></tr>
      * </table>
      * @see #KeyCycle_android_alpha
      * @see #KeyCycle_android_translationX
@@ -15856,7 +15006,7 @@ public final class R {
      */
     public static final int KeyCycle_android_elevation=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#curveFit}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#curveFit}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15869,29 +15019,29 @@ public final class R {
      * <tr><td>spline</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:curveFit
+     * @attr name com.jp.beetech.kayak:curveFit
      */
     public static final int KeyCycle_curveFit=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#framePosition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#framePosition}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:framePosition
+     * @attr name com.jp.beetech.kayak:framePosition
      */
     public static final int KeyCycle_framePosition=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int KeyCycle_motionProgress=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionTarget}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionTarget}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15901,11 +15051,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionTarget
+     * @attr name com.jp.beetech.kayak:motionTarget
      */
     public static final int KeyCycle_motionTarget=13;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -15922,20 +15072,20 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int KeyCycle_transitionEasing=14;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionPathRotate}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate
+     * @attr name com.jp.beetech.kayak:transitionPathRotate
      */
     public static final int KeyCycle_transitionPathRotate=15;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveOffset}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveOffset}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -15945,20 +15095,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveOffset
+     * @attr name com.jp.beetech.kayak:waveOffset
      */
     public static final int KeyCycle_waveOffset=16;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#wavePeriod}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#wavePeriod}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:wavePeriod
+     * @attr name com.jp.beetech.kayak:wavePeriod
      */
     public static final int KeyCycle_wavePeriod=17;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveShape}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveShape}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15976,11 +15126,11 @@ public final class R {
      * <tr><td>triangle</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveShape
+     * @attr name com.jp.beetech.kayak:waveShape
      */
     public static final int KeyCycle_waveShape=18;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveVariesBy}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveVariesBy}
      * attribute's value can be found in the {@link #KeyCycle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15993,7 +15143,7 @@ public final class R {
      * <tr><td>position</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveVariesBy
+     * @attr name com.jp.beetech.kayak:waveVariesBy
      */
     public static final int KeyCycle_waveVariesBy=19;
     public static final int[] KeyFrame={
@@ -16009,18 +15159,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #KeyPosition_curveFit jp.co.panasonic.pstc.ocr.android.card.app:curveFit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_drawPath jp.co.panasonic.pstc.ocr.android.card.app:drawPath}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_framePosition jp.co.panasonic.pstc.ocr.android.card.app:framePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_keyPositionType jp.co.panasonic.pstc.ocr.android.card.app:keyPositionType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_motionTarget jp.co.panasonic.pstc.ocr.android.card.app:motionTarget}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_pathMotionArc jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_percentHeight jp.co.panasonic.pstc.ocr.android.card.app:percentHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_percentWidth jp.co.panasonic.pstc.ocr.android.card.app:percentWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_percentX jp.co.panasonic.pstc.ocr.android.card.app:percentX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_percentY jp.co.panasonic.pstc.ocr.android.card.app:percentY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_sizePercent jp.co.panasonic.pstc.ocr.android.card.app:sizePercent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyPosition_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_curveFit com.jp.beetech.kayak:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_drawPath com.jp.beetech.kayak:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_framePosition com.jp.beetech.kayak:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_keyPositionType com.jp.beetech.kayak:keyPositionType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_motionTarget com.jp.beetech.kayak:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_pathMotionArc com.jp.beetech.kayak:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentHeight com.jp.beetech.kayak:percentHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentWidth com.jp.beetech.kayak:percentWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentX com.jp.beetech.kayak:percentX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentY com.jp.beetech.kayak:percentY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_sizePercent com.jp.beetech.kayak:sizePercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
      * </table>
      * @see #KeyPosition_curveFit
      * @see #KeyPosition_drawPath
@@ -16041,7 +15191,7 @@ public final class R {
       0x7f020153, 0x7f020154, 0x7f02017a, 0x7f0201be
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#curveFit}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#curveFit}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16054,11 +15204,11 @@ public final class R {
      * <tr><td>spline</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:curveFit
+     * @attr name com.jp.beetech.kayak:curveFit
      */
     public static final int KeyPosition_curveFit=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawPath}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawPath}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16075,20 +15225,20 @@ public final class R {
      * <tr><td>rectangles</td><td>5</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawPath
+     * @attr name com.jp.beetech.kayak:drawPath
      */
     public static final int KeyPosition_drawPath=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#framePosition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#framePosition}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:framePosition
+     * @attr name com.jp.beetech.kayak:framePosition
      */
     public static final int KeyPosition_framePosition=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#keyPositionType}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#keyPositionType}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16102,11 +15252,11 @@ public final class R {
      * <tr><td>pathRelative</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:keyPositionType
+     * @attr name com.jp.beetech.kayak:keyPositionType
      */
     public static final int KeyPosition_keyPositionType=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionTarget}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionTarget}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16116,11 +15266,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionTarget
+     * @attr name com.jp.beetech.kayak:motionTarget
      */
     public static final int KeyPosition_motionTarget=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pathMotionArc}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pathMotionArc}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16135,56 +15285,56 @@ public final class R {
      * <tr><td>startVertical</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc
+     * @attr name com.jp.beetech.kayak:pathMotionArc
      */
     public static final int KeyPosition_pathMotionArc=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#percentHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#percentHeight}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:percentHeight
+     * @attr name com.jp.beetech.kayak:percentHeight
      */
     public static final int KeyPosition_percentHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#percentWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#percentWidth}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:percentWidth
+     * @attr name com.jp.beetech.kayak:percentWidth
      */
     public static final int KeyPosition_percentWidth=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#percentX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#percentX}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:percentX
+     * @attr name com.jp.beetech.kayak:percentX
      */
     public static final int KeyPosition_percentX=8;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#percentY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#percentY}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:percentY
+     * @attr name com.jp.beetech.kayak:percentY
      */
     public static final int KeyPosition_percentY=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#sizePercent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#sizePercent}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:sizePercent
+     * @attr name com.jp.beetech.kayak:sizePercent
      */
     public static final int KeyPosition_sizePercent=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #KeyPosition} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -16201,7 +15351,7 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int KeyPosition_transitionEasing=11;
     /**
@@ -16221,16 +15371,16 @@ public final class R {
      * <tr><td><code>{@link #KeyTimeCycle_android_rotationY android:rotationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyTimeCycle_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #KeyTimeCycle_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_curveFit jp.co.panasonic.pstc.ocr.android.card.app:curveFit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_framePosition jp.co.panasonic.pstc.ocr.android.card.app:framePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_motionTarget jp.co.panasonic.pstc.ocr.android.card.app:motionTarget}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_transitionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_waveDecay jp.co.panasonic.pstc.ocr.android.card.app:waveDecay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_waveOffset jp.co.panasonic.pstc.ocr.android.card.app:waveOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_wavePeriod jp.co.panasonic.pstc.ocr.android.card.app:wavePeriod}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTimeCycle_waveShape jp.co.panasonic.pstc.ocr.android.card.app:waveShape}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_curveFit com.jp.beetech.kayak:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_framePosition com.jp.beetech.kayak:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_motionTarget com.jp.beetech.kayak:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_transitionPathRotate com.jp.beetech.kayak:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveDecay com.jp.beetech.kayak:waveDecay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveOffset com.jp.beetech.kayak:waveOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_wavePeriod com.jp.beetech.kayak:wavePeriod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveShape com.jp.beetech.kayak:waveShape}</code></td><td></td></tr>
      * </table>
      * @see #KeyTimeCycle_android_alpha
      * @see #KeyTimeCycle_android_translationX
@@ -16367,7 +15517,7 @@ public final class R {
      */
     public static final int KeyTimeCycle_android_elevation=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#curveFit}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#curveFit}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16380,29 +15530,29 @@ public final class R {
      * <tr><td>spline</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:curveFit
+     * @attr name com.jp.beetech.kayak:curveFit
      */
     public static final int KeyTimeCycle_curveFit=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#framePosition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#framePosition}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:framePosition
+     * @attr name com.jp.beetech.kayak:framePosition
      */
     public static final int KeyTimeCycle_framePosition=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int KeyTimeCycle_motionProgress=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionTarget}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionTarget}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16412,11 +15562,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionTarget
+     * @attr name com.jp.beetech.kayak:motionTarget
      */
     public static final int KeyTimeCycle_motionTarget=13;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -16433,29 +15583,29 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int KeyTimeCycle_transitionEasing=14;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionPathRotate}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionPathRotate
+     * @attr name com.jp.beetech.kayak:transitionPathRotate
      */
     public static final int KeyTimeCycle_transitionPathRotate=15;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveDecay}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveDecay}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveDecay
+     * @attr name com.jp.beetech.kayak:waveDecay
      */
     public static final int KeyTimeCycle_waveDecay=16;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveOffset}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveOffset}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -16465,20 +15615,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveOffset
+     * @attr name com.jp.beetech.kayak:waveOffset
      */
     public static final int KeyTimeCycle_waveOffset=17;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#wavePeriod}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#wavePeriod}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:wavePeriod
+     * @attr name com.jp.beetech.kayak:wavePeriod
      */
     public static final int KeyTimeCycle_wavePeriod=18;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#waveShape}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#waveShape}
      * attribute's value can be found in the {@link #KeyTimeCycle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16496,7 +15646,7 @@ public final class R {
      * <tr><td>triangle</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:waveShape
+     * @attr name com.jp.beetech.kayak:waveShape
      */
     public static final int KeyTimeCycle_waveShape=19;
     /**
@@ -16506,16 +15656,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #KeyTrigger_framePosition jp.co.panasonic.pstc.ocr.android.card.app:framePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_motionTarget jp.co.panasonic.pstc.ocr.android.card.app:motionTarget}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_motion_postLayoutCollision jp.co.panasonic.pstc.ocr.android.card.app:motion_postLayoutCollision}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_motion_triggerOnCollision jp.co.panasonic.pstc.ocr.android.card.app:motion_triggerOnCollision}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_onCross jp.co.panasonic.pstc.ocr.android.card.app:onCross}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_onNegativeCross jp.co.panasonic.pstc.ocr.android.card.app:onNegativeCross}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_onPositiveCross jp.co.panasonic.pstc.ocr.android.card.app:onPositiveCross}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_triggerId jp.co.panasonic.pstc.ocr.android.card.app:triggerId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_triggerReceiver jp.co.panasonic.pstc.ocr.android.card.app:triggerReceiver}</code></td><td></td></tr>
-     * <tr><td><code>{@link #KeyTrigger_triggerSlack jp.co.panasonic.pstc.ocr.android.card.app:triggerSlack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_framePosition com.jp.beetech.kayak:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motionTarget com.jp.beetech.kayak:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motion_postLayoutCollision com.jp.beetech.kayak:motion_postLayoutCollision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motion_triggerOnCollision com.jp.beetech.kayak:motion_triggerOnCollision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onCross com.jp.beetech.kayak:onCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onNegativeCross com.jp.beetech.kayak:onNegativeCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onPositiveCross com.jp.beetech.kayak:onPositiveCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerId com.jp.beetech.kayak:triggerId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerReceiver com.jp.beetech.kayak:triggerReceiver}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerSlack com.jp.beetech.kayak:triggerSlack}</code></td><td></td></tr>
      * </table>
      * @see #KeyTrigger_framePosition
      * @see #KeyTrigger_motionTarget
@@ -16534,16 +15684,16 @@ public final class R {
       0x7f0201c1, 0x7f0201c2
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#framePosition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#framePosition}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:framePosition
+     * @attr name com.jp.beetech.kayak:framePosition
      */
     public static final int KeyTrigger_framePosition=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionTarget}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionTarget}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16553,21 +15703,21 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionTarget
+     * @attr name com.jp.beetech.kayak:motionTarget
      */
     public static final int KeyTrigger_motionTarget=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motion_postLayoutCollision}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motion_postLayoutCollision}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motion_postLayoutCollision
+     * @attr name com.jp.beetech.kayak:motion_postLayoutCollision
      */
     public static final int KeyTrigger_motion_postLayoutCollision=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motion_triggerOnCollision}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motion_triggerOnCollision}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16575,41 +15725,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motion_triggerOnCollision
+     * @attr name com.jp.beetech.kayak:motion_triggerOnCollision
      */
     public static final int KeyTrigger_motion_triggerOnCollision=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onCross}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onCross}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onCross
+     * @attr name com.jp.beetech.kayak:onCross
      */
     public static final int KeyTrigger_onCross=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onNegativeCross}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onNegativeCross}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onNegativeCross
+     * @attr name com.jp.beetech.kayak:onNegativeCross
      */
     public static final int KeyTrigger_onNegativeCross=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onPositiveCross}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onPositiveCross}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onPositiveCross
+     * @attr name com.jp.beetech.kayak:onPositiveCross
      */
     public static final int KeyTrigger_onPositiveCross=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#triggerId}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#triggerId}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16617,11 +15767,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:triggerId
+     * @attr name com.jp.beetech.kayak:triggerId
      */
     public static final int KeyTrigger_triggerId=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#triggerReceiver}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#triggerReceiver}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16629,16 +15779,16 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:triggerReceiver
+     * @attr name com.jp.beetech.kayak:triggerReceiver
      */
     public static final int KeyTrigger_triggerReceiver=8;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#triggerSlack}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#triggerSlack}
      * attribute's value can be found in the {@link #KeyTrigger} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:triggerSlack
+     * @attr name com.jp.beetech.kayak:triggerSlack
      */
     public static final int KeyTrigger_triggerSlack=9;
     /**
@@ -16657,64 +15807,64 @@ public final class R {
      * <tr><td><code>{@link #Layout_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
      * <tr><td><code>{@link #Layout_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
      * <tr><td><code>{@link #Layout_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_barrierAllowsGoneWidgets jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_barrierDirection jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_barrierMargin jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_chainUseRtl jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_constraint_referenced_ids jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constrainedHeight jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constrainedWidth jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintBaseline_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintBaseline_toBaselineOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintBottom_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintBottom_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintBottom_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintCircle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintCircleAngle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintCircleRadius jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintDimensionRatio jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintEnd_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintEnd_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintGuide_begin jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintGuide_end jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintGuide_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHeight_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHeight_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHeight_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHeight_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintLeft_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintLeft_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintLeft_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintRight_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintRight_toLeftOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintRight_toRightOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintStart_toEndOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintStart_toStartOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintTop_creator jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintTop_toBottomOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintTop_toTopOf jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintVertical_bias jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintVertical_chainStyle jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintVertical_weight jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintWidth_default jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintWidth_max jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintWidth_min jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_constraintWidth_percent jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_editor_absoluteX jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_editor_absoluteY jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginBottom jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginEnd jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginLeft jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginRight jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginStart jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_layout_goneMarginTop jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_maxHeight jp.co.panasonic.pstc.ocr.android.card.app:maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_maxWidth jp.co.panasonic.pstc.ocr.android.card.app:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_minHeight jp.co.panasonic.pstc.ocr.android.card.app:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Layout_minWidth jp.co.panasonic.pstc.ocr.android.card.app:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierAllowsGoneWidgets com.jp.beetech.kayak:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierDirection com.jp.beetech.kayak:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierMargin com.jp.beetech.kayak:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_chainUseRtl com.jp.beetech.kayak:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_constraint_referenced_ids com.jp.beetech.kayak:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constrainedHeight com.jp.beetech.kayak:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constrainedWidth com.jp.beetech.kayak:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBaseline_creator com.jp.beetech.kayak:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBaseline_toBaselineOf com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_creator com.jp.beetech.kayak:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_toBottomOf com.jp.beetech.kayak:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_toTopOf com.jp.beetech.kayak:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircle com.jp.beetech.kayak:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircleAngle com.jp.beetech.kayak:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircleRadius com.jp.beetech.kayak:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintDimensionRatio com.jp.beetech.kayak:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintEnd_toEndOf com.jp.beetech.kayak:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintEnd_toStartOf com.jp.beetech.kayak:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_begin com.jp.beetech.kayak:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_end com.jp.beetech.kayak:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_percent com.jp.beetech.kayak:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_default com.jp.beetech.kayak:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_max com.jp.beetech.kayak:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_min com.jp.beetech.kayak:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_percent com.jp.beetech.kayak:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_bias com.jp.beetech.kayak:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_chainStyle com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_weight com.jp.beetech.kayak:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_creator com.jp.beetech.kayak:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_toLeftOf com.jp.beetech.kayak:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_toRightOf com.jp.beetech.kayak:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_creator com.jp.beetech.kayak:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_toLeftOf com.jp.beetech.kayak:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_toRightOf com.jp.beetech.kayak:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintStart_toEndOf com.jp.beetech.kayak:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintStart_toStartOf com.jp.beetech.kayak:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_creator com.jp.beetech.kayak:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_toBottomOf com.jp.beetech.kayak:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_toTopOf com.jp.beetech.kayak:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_bias com.jp.beetech.kayak:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_chainStyle com.jp.beetech.kayak:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_weight com.jp.beetech.kayak:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_default com.jp.beetech.kayak:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_max com.jp.beetech.kayak:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_min com.jp.beetech.kayak:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_percent com.jp.beetech.kayak:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_editor_absoluteX com.jp.beetech.kayak:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_editor_absoluteY com.jp.beetech.kayak:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginBottom com.jp.beetech.kayak:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginEnd com.jp.beetech.kayak:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginLeft com.jp.beetech.kayak:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginRight com.jp.beetech.kayak:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginStart com.jp.beetech.kayak:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginTop com.jp.beetech.kayak:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_maxHeight com.jp.beetech.kayak:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_maxWidth com.jp.beetech.kayak:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_minHeight com.jp.beetech.kayak:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_minWidth com.jp.beetech.kayak:minWidth}</code></td><td></td></tr>
      * </table>
      * @see #Layout_android_orientation
      * @see #Layout_android_layout_width
@@ -16945,17 +16095,17 @@ public final class R {
      */
     public static final int Layout_android_layout_marginEnd=8;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierAllowsGoneWidgets
+     * @attr name com.jp.beetech.kayak:barrierAllowsGoneWidgets
      */
     public static final int Layout_barrierAllowsGoneWidgets=9;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16972,11 +16122,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierDirection
+     * @attr name com.jp.beetech.kayak:barrierDirection
      */
     public static final int Layout_barrierDirection=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#barrierMargin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#barrierMargin}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16985,60 +16135,60 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:barrierMargin
+     * @attr name com.jp.beetech.kayak:barrierMargin
      */
     public static final int Layout_barrierMargin=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:chainUseRtl
+     * @attr name com.jp.beetech.kayak:chainUseRtl
      */
     public static final int Layout_chainUseRtl=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraint_referenced_ids
+     * @attr name com.jp.beetech.kayak:constraint_referenced_ids
      */
     public static final int Layout_constraint_referenced_ids=13;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedHeight
+     * @attr name com.jp.beetech.kayak:layout_constrainedHeight
      */
     public static final int Layout_layout_constrainedHeight=14;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constrainedWidth
+     * @attr name com.jp.beetech.kayak:layout_constrainedWidth
      */
     public static final int Layout_layout_constrainedWidth=15;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_creator
      */
     public static final int Layout_layout_constraintBaseline_creator=16;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17054,20 +16204,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBaseline_toBaselineOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBaseline_toBaselineOf
      */
     public static final int Layout_layout_constraintBaseline_toBaselineOf=17;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_creator
      */
     public static final int Layout_layout_constraintBottom_creator=18;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17083,11 +16233,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toBottomOf
      */
     public static final int Layout_layout_constraintBottom_toBottomOf=19;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17103,11 +16253,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintBottom_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintBottom_toTopOf
      */
     public static final int Layout_layout_constraintBottom_toTopOf=20;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17115,20 +16265,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircle
      */
     public static final int Layout_layout_constraintCircle=21;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleAngle
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleAngle
      */
     public static final int Layout_layout_constraintCircleAngle=22;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17137,21 +16287,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintCircleRadius
+     * @attr name com.jp.beetech.kayak:layout_constraintCircleRadius
      */
     public static final int Layout_layout_constraintCircleRadius=23;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintDimensionRatio
+     * @attr name com.jp.beetech.kayak:layout_constraintDimensionRatio
      */
     public static final int Layout_layout_constraintDimensionRatio=24;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17167,11 +16317,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toEndOf
      */
     public static final int Layout_layout_constraintEnd_toEndOf=25;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17187,11 +16337,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintEnd_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintEnd_toStartOf
      */
     public static final int Layout_layout_constraintEnd_toStartOf=26;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17200,11 +16350,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_begin
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_begin
      */
     public static final int Layout_layout_constraintGuide_begin=27;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17213,20 +16363,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_end
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_end
      */
     public static final int Layout_layout_constraintGuide_end=28;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintGuide_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintGuide_percent
      */
     public static final int Layout_layout_constraintGuide_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17240,11 +16390,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_default
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_default
      */
     public static final int Layout_layout_constraintHeight_default=30;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17261,11 +16411,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_max
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_max
      */
     public static final int Layout_layout_constraintHeight_max=31;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17282,29 +16432,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_min
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_min
      */
     public static final int Layout_layout_constraintHeight_min=32;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHeight_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintHeight_percent
      */
     public static final int Layout_layout_constraintHeight_percent=33;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_bias
      */
     public static final int Layout_layout_constraintHorizontal_bias=34;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17318,29 +16468,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_chainStyle
      */
     public static final int Layout_layout_constraintHorizontal_chainStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintHorizontal_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintHorizontal_weight
      */
     public static final int Layout_layout_constraintHorizontal_weight=36;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_creator
      */
     public static final int Layout_layout_constraintLeft_creator=37;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17356,11 +16506,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toLeftOf
      */
     public static final int Layout_layout_constraintLeft_toLeftOf=38;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17376,20 +16526,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintLeft_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintLeft_toRightOf
      */
     public static final int Layout_layout_constraintLeft_toRightOf=39;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_creator
      */
     public static final int Layout_layout_constraintRight_creator=40;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17405,11 +16555,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toLeftOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toLeftOf
      */
     public static final int Layout_layout_constraintRight_toLeftOf=41;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17425,11 +16575,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintRight_toRightOf
+     * @attr name com.jp.beetech.kayak:layout_constraintRight_toRightOf
      */
     public static final int Layout_layout_constraintRight_toRightOf=42;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17445,11 +16595,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toEndOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toEndOf
      */
     public static final int Layout_layout_constraintStart_toEndOf=43;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17465,20 +16615,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintStart_toStartOf
+     * @attr name com.jp.beetech.kayak:layout_constraintStart_toStartOf
      */
     public static final int Layout_layout_constraintStart_toStartOf=44;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_creator
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_creator
      */
     public static final int Layout_layout_constraintTop_creator=45;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17494,11 +16644,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toBottomOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toBottomOf
      */
     public static final int Layout_layout_constraintTop_toBottomOf=46;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17514,20 +16664,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTop_toTopOf
+     * @attr name com.jp.beetech.kayak:layout_constraintTop_toTopOf
      */
     public static final int Layout_layout_constraintTop_toTopOf=47;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_bias
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_bias
      */
     public static final int Layout_layout_constraintVertical_bias=48;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17541,20 +16691,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_chainStyle
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_chainStyle
      */
     public static final int Layout_layout_constraintVertical_chainStyle=49;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintVertical_weight
+     * @attr name com.jp.beetech.kayak:layout_constraintVertical_weight
      */
     public static final int Layout_layout_constraintVertical_weight=50;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17568,11 +16718,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_default
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_default
      */
     public static final int Layout_layout_constraintWidth_default=51;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17589,11 +16739,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_max
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_max
      */
     public static final int Layout_layout_constraintWidth_max=52;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17610,20 +16760,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_min
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_min
      */
     public static final int Layout_layout_constraintWidth_min=53;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintWidth_percent
+     * @attr name com.jp.beetech.kayak:layout_constraintWidth_percent
      */
     public static final int Layout_layout_constraintWidth_percent=54;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17632,11 +16782,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteX
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteX
      */
     public static final int Layout_layout_editor_absoluteX=55;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17645,11 +16795,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_editor_absoluteY
+     * @attr name com.jp.beetech.kayak:layout_editor_absoluteY
      */
     public static final int Layout_layout_editor_absoluteY=56;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17658,11 +16808,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginBottom
+     * @attr name com.jp.beetech.kayak:layout_goneMarginBottom
      */
     public static final int Layout_layout_goneMarginBottom=57;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17671,11 +16821,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginEnd
+     * @attr name com.jp.beetech.kayak:layout_goneMarginEnd
      */
     public static final int Layout_layout_goneMarginEnd=58;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17684,11 +16834,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginLeft
+     * @attr name com.jp.beetech.kayak:layout_goneMarginLeft
      */
     public static final int Layout_layout_goneMarginLeft=59;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17697,11 +16847,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginRight
+     * @attr name com.jp.beetech.kayak:layout_goneMarginRight
      */
     public static final int Layout_layout_goneMarginRight=60;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17710,11 +16860,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginStart
+     * @attr name com.jp.beetech.kayak:layout_goneMarginStart
      */
     public static final int Layout_layout_goneMarginStart=61;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17723,11 +16873,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_goneMarginTop
+     * @attr name com.jp.beetech.kayak:layout_goneMarginTop
      */
     public static final int Layout_layout_goneMarginTop=62;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#maxHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#maxHeight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17736,11 +16886,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:maxHeight
+     * @attr name com.jp.beetech.kayak:maxHeight
      */
     public static final int Layout_maxHeight=63;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#maxWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#maxWidth}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17749,11 +16899,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:maxWidth
+     * @attr name com.jp.beetech.kayak:maxWidth
      */
     public static final int Layout_maxWidth=64;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#minHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#minHeight}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17762,11 +16912,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:minHeight
+     * @attr name com.jp.beetech.kayak:minHeight
      */
     public static final int Layout_minHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#minWidth}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#minWidth}
      * attribute's value can be found in the {@link #Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17775,7 +16925,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:minWidth
+     * @attr name com.jp.beetech.kayak:minWidth
      */
     public static final int Layout_minWidth=66;
     /**
@@ -17790,11 +16940,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider jp.co.panasonic.pstc.ocr.android.card.app:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding jp.co.panasonic.pstc.ocr.android.card.app:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild jp.co.panasonic.pstc.ocr.android.card.app:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers jp.co.panasonic.pstc.ocr.android.card.app:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.jp.beetech.kayak:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.jp.beetech.kayak:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.jp.beetech.kayak:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.jp.beetech.kayak:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -17841,11 +16990,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * Should the layout be a column or a row?  Use "horizontal"
-     * for a row, "vertical" for a column.  The default is
-     * horizontal.
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17861,11 +17007,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_orientation=1;
     /**
-     * <p>
-     * @attr description
-     * When set to false, prevents the layout from aligning its children's
-     * baselines. This attribute is particularly useful when the children
-     * use different values for gravity. The default value is true.
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17874,11 +17017,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAligned=2;
     /**
-     * <p>
-     * @attr description
-     * When a linear layout is part of another layout that is baseline
-     * aligned, it can specify which of its children to baseline align to
-     * (that is, which child TextView).
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -17886,13 +17026,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
     /**
-     * <p>
-     * @attr description
-     * Defines the maximum weight sum. If unspecified, the sum is computed
-     * by adding the layout_weight of all of the children. This can be
-     * used for instance to give a single child 50% of the total available
-     * space by giving it a layout_weight of 0.5 and setting the weightSum
-     * to 1.0.
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17900,22 +17035,20 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as a vertical divider between buttons.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:divider
+     * @attr name com.jp.beetech.kayak:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>
-     * @attr description
-     * Size of padding on either end of a divider.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -17923,26 +17056,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dividerPadding
+     * @attr name com.jp.beetech.kayak:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>
-     * @attr description
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:measureWithLargestChild
+     * @attr name com.jp.beetech.kayak:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>
-     * @attr description
-     * Setting for which dividers to show.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -17956,7 +17085,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:showDividers
+     * @attr name com.jp.beetech.kayak:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -18080,9 +17209,8 @@ public final class R {
       0x010102ac, 0x010102ad
     };
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset horizontally.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18094,9 +17222,8 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownHorizontalOffset=0;
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset vertically.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18133,9 +17260,8 @@ public final class R {
       0x010101df, 0x010101e0
     };
     /**
-     * <p>
-     * @attr description
-     * Whether the items are enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18144,9 +17270,8 @@ public final class R {
      */
     public static final int MenuGroup_android_enabled=0;
     /**
-     * <p>
-     * @attr description
-     * The ID of the group.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18157,9 +17282,8 @@ public final class R {
      */
     public static final int MenuGroup_android_id=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18168,10 +17292,8 @@ public final class R {
      */
     public static final int MenuGroup_android_visible=2;
     /**
-     * <p>
-     * @attr description
-     * The category applied to all items within this group.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18189,10 +17311,8 @@ public final class R {
      */
     public static final int MenuGroup_android_menuCategory=3;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to all items within this group.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -18200,9 +17320,8 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18238,18 +17357,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout jp.co.panasonic.pstc.ocr.android.card.app:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass jp.co.panasonic.pstc.ocr.android.card.app:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass jp.co.panasonic.pstc.ocr.android.card.app:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
-     * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers jp.co.panasonic.pstc.ocr.android.card.app:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription jp.co.panasonic.pstc.ocr.android.card.app:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint jp.co.panasonic.pstc.ocr.android.card.app:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode jp.co.panasonic.pstc.ocr.android.card.app:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers jp.co.panasonic.pstc.ocr.android.card.app:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction jp.co.panasonic.pstc.ocr.android.card.app:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText jp.co.panasonic.pstc.ocr.android.card.app:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.jp.beetech.kayak:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.jp.beetech.kayak:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.jp.beetech.kayak:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.jp.beetech.kayak:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.jp.beetech.kayak:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.jp.beetech.kayak:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.jp.beetech.kayak:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.jp.beetech.kayak:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.jp.beetech.kayak:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.jp.beetech.kayak:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -18284,10 +17401,8 @@ public final class R {
       0x7f02013e, 0x7f020174, 0x7f0201b6
     };
     /**
-     * <p>
-     * @attr description
-     * The icon associated with this item.  This icon will not always be shown, so
-     * the title should be sufficient in describing this item.
+     * <p>This symbol is the offset where the {@link android.R.attr#icon}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18298,9 +17413,8 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18309,9 +17423,8 @@ public final class R {
      */
     public static final int MenuItem_android_enabled=1;
     /**
-     * <p>
-     * @attr description
-     * The ID of the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18322,10 +17435,8 @@ public final class R {
      */
     public static final int MenuItem_android_id=2;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is checked.  Note that you must first have enabled checking with
-     * the checkable attribute or else the check mark will not appear.
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18334,9 +17445,8 @@ public final class R {
      */
     public static final int MenuItem_android_checked=3;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18345,10 +17455,8 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>
-     * @attr description
-     * The category applied to the item.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18366,10 +17474,8 @@ public final class R {
      */
     public static final int MenuItem_android_menuCategory=5;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to the item.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -18377,9 +17483,8 @@ public final class R {
      */
     public static final int MenuItem_android_orderInCategory=6;
     /**
-     * <p>
-     * @attr description
-     * The title associated with the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#title}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18388,10 +17493,8 @@ public final class R {
      */
     public static final int MenuItem_android_title=7;
     /**
-     * <p>
-     * @attr description
-     * The condensed title associated with the item.  This is used in situations where the
-     * normal title may be too long to be displayed.
+     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18400,10 +17503,8 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic shortcut key.  This is the shortcut when using a keyboard
-     * with alphabetic keys.
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18412,10 +17513,8 @@ public final class R {
      */
     public static final int MenuItem_android_alphabeticShortcut=9;
     /**
-     * <p>
-     * @attr description
-     * The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
-     * keyboard.
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18424,9 +17523,8 @@ public final class R {
      */
     public static final int MenuItem_android_numericShortcut=10;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18435,10 +17533,8 @@ public final class R {
      */
     public static final int MenuItem_android_checkable=11;
     /**
-     * <p>
-     * @attr description
-     * Name of a method on the Context used to inflate the menu that will be
-     * called when the item is clicked.
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18447,52 +17543,40 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>
-     * @attr description
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionLayout
+     * @attr name com.jp.beetech.kayak:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionProviderClass
+     * @attr name com.jp.beetech.kayak:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:actionViewClass
+     * @attr name com.jp.beetech.kayak:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#alphabeticModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -18508,36 +17592,33 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:alphabeticModifiers
+     * @attr name com.jp.beetech.kayak:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>
-     * @attr description
-     * The content description associated with the item.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentDescription}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentDescription
+     * @attr name com.jp.beetech.kayak:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the icon.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:iconTint
+     * @attr name com.jp.beetech.kayak:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18545,27 +17626,20 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:iconTintMode
+     * @attr name com.jp.beetech.kayak:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>
-     * @attr description
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#numericModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -18581,13 +17655,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:numericModifiers
+     * @attr name com.jp.beetech.kayak:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>
-     * @attr description
-     * How this item should display in the Action Bar, if present.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#showAsAction}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -18595,34 +17668,24 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:showAsAction
+     * @attr name com.jp.beetech.kayak:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>
-     * @attr description
-     * The tooltip text associated with the item.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#tooltipText}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:tooltipText
+     * @attr name com.jp.beetech.kayak:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -18639,8 +17702,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing jp.co.panasonic.pstc.ocr.android.card.app:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow jp.co.panasonic.pstc.ocr.android.card.app:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.jp.beetech.kayak:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.jp.beetech.kayak:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -18658,9 +17721,8 @@ public final class R {
       0x7f020183
     };
     /**
-     * <p>
-     * @attr description
-     * Default animations for the menu.
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18671,9 +17733,8 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>
-     * @attr description
-     * Default appearance of menu item text.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18684,9 +17745,8 @@ public final class R {
      */
     public static final int MenuView_android_itemTextAppearance=1;
     /**
-     * <p>
-     * @attr description
-     * Default horizontal divider between rows of menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18697,9 +17757,8 @@ public final class R {
      */
     public static final int MenuView_android_horizontalDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Default vertical divider between menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18710,9 +17769,8 @@ public final class R {
      */
     public static final int MenuView_android_verticalDivider=3;
     /**
-     * <p>
-     * @attr description
-     * Default background for the menu header.
+     * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18726,9 +17784,8 @@ public final class R {
      */
     public static final int MenuView_android_headerBackground=4;
     /**
-     * <p>
-     * @attr description
-     * Default background for each menu item.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18742,9 +17799,8 @@ public final class R {
      */
     public static final int MenuView_android_itemBackground=5;
     /**
-     * <p>
-     * @attr description
-     * Default disabled icon alpha for each menu item that shows an icon.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -18752,27 +17808,25 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>
-     * @attr description
-     * Whether space should be reserved in layout when an icon is missing.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#preserveIconSpacing}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:preserveIconSpacing
+     * @attr name com.jp.beetech.kayak:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>
-     * @attr description
-     * Drawable for the arrow icon indicating a particular item is a submenu.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subMenuArrow}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subMenuArrow
+     * @attr name com.jp.beetech.kayak:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -18782,12 +17836,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MockView_mock_diagonalsColor jp.co.panasonic.pstc.ocr.android.card.app:mock_diagonalsColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MockView_mock_label jp.co.panasonic.pstc.ocr.android.card.app:mock_label}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MockView_mock_labelBackgroundColor jp.co.panasonic.pstc.ocr.android.card.app:mock_labelBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MockView_mock_labelColor jp.co.panasonic.pstc.ocr.android.card.app:mock_labelColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MockView_mock_showDiagonals jp.co.panasonic.pstc.ocr.android.card.app:mock_showDiagonals}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MockView_mock_showLabel jp.co.panasonic.pstc.ocr.android.card.app:mock_showLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_diagonalsColor com.jp.beetech.kayak:mock_diagonalsColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_label com.jp.beetech.kayak:mock_label}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_labelBackgroundColor com.jp.beetech.kayak:mock_labelBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_labelColor com.jp.beetech.kayak:mock_labelColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_showDiagonals com.jp.beetech.kayak:mock_showDiagonals}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_showLabel com.jp.beetech.kayak:mock_showLabel}</code></td><td></td></tr>
      * </table>
      * @see #MockView_mock_diagonalsColor
      * @see #MockView_mock_label
@@ -18801,66 +17855,66 @@ public final class R {
       0x7f02012f, 0x7f020130
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_diagonalsColor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_diagonalsColor}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_diagonalsColor
+     * @attr name com.jp.beetech.kayak:mock_diagonalsColor
      */
     public static final int MockView_mock_diagonalsColor=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_label}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_label}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_label
+     * @attr name com.jp.beetech.kayak:mock_label
      */
     public static final int MockView_mock_label=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_labelBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_labelBackgroundColor}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_labelBackgroundColor
+     * @attr name com.jp.beetech.kayak:mock_labelBackgroundColor
      */
     public static final int MockView_mock_labelBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_labelColor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_labelColor}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_labelColor
+     * @attr name com.jp.beetech.kayak:mock_labelColor
      */
     public static final int MockView_mock_labelColor=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_showDiagonals}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_showDiagonals}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_showDiagonals
+     * @attr name com.jp.beetech.kayak:mock_showDiagonals
      */
     public static final int MockView_mock_showDiagonals=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#mock_showLabel}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#mock_showLabel}
      * attribute's value can be found in the {@link #MockView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:mock_showLabel
+     * @attr name com.jp.beetech.kayak:mock_showLabel
      */
     public static final int MockView_mock_showLabel=5;
     /**
@@ -18870,12 +17924,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Motion_animate_relativeTo jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Motion_drawPath jp.co.panasonic.pstc.ocr.android.card.app:drawPath}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Motion_motionPathRotate jp.co.panasonic.pstc.ocr.android.card.app:motionPathRotate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Motion_motionStagger jp.co.panasonic.pstc.ocr.android.card.app:motionStagger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Motion_pathMotionArc jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Motion_transitionEasing jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_animate_relativeTo com.jp.beetech.kayak:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_drawPath com.jp.beetech.kayak:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_motionPathRotate com.jp.beetech.kayak:motionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_motionStagger com.jp.beetech.kayak:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_pathMotionArc com.jp.beetech.kayak:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_transitionEasing com.jp.beetech.kayak:transitionEasing}</code></td><td></td></tr>
      * </table>
      * @see #Motion_animate_relativeTo
      * @see #Motion_drawPath
@@ -18889,7 +17943,7 @@ public final class R {
       0x7f02014f, 0x7f0201be
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#animate_relativeTo}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#animate_relativeTo}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18897,11 +17951,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:animate_relativeTo
+     * @attr name com.jp.beetech.kayak:animate_relativeTo
      */
     public static final int Motion_animate_relativeTo=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#drawPath}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#drawPath}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18918,29 +17972,29 @@ public final class R {
      * <tr><td>rectangles</td><td>5</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:drawPath
+     * @attr name com.jp.beetech.kayak:drawPath
      */
     public static final int Motion_drawPath=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionPathRotate}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionPathRotate}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionPathRotate
+     * @attr name com.jp.beetech.kayak:motionPathRotate
      */
     public static final int Motion_motionPathRotate=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionStagger}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionStagger}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionStagger
+     * @attr name com.jp.beetech.kayak:motionStagger
      */
     public static final int Motion_motionStagger=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pathMotionArc}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pathMotionArc}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18955,11 +18009,11 @@ public final class R {
      * <tr><td>startVertical</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pathMotionArc
+     * @attr name com.jp.beetech.kayak:pathMotionArc
      */
     public static final int Motion_pathMotionArc=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionEasing}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionEasing}
      * attribute's value can be found in the {@link #Motion} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -18976,7 +18030,7 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionEasing
+     * @attr name com.jp.beetech.kayak:transitionEasing
      */
     public static final int Motion_transitionEasing=5;
     /**
@@ -18986,8 +18040,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MotionHelper_onHide jp.co.panasonic.pstc.ocr.android.card.app:onHide}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionHelper_onShow jp.co.panasonic.pstc.ocr.android.card.app:onShow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionHelper_onHide com.jp.beetech.kayak:onHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionHelper_onShow com.jp.beetech.kayak:onShow}</code></td><td></td></tr>
      * </table>
      * @see #MotionHelper_onHide
      * @see #MotionHelper_onShow
@@ -18996,23 +18050,23 @@ public final class R {
       0x7f020140, 0x7f020143
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onHide}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onHide}
      * attribute's value can be found in the {@link #MotionHelper} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onHide
+     * @attr name com.jp.beetech.kayak:onHide
      */
     public static final int MotionHelper_onHide=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onShow}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onShow}
      * attribute's value can be found in the {@link #MotionHelper} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onShow
+     * @attr name com.jp.beetech.kayak:onShow
      */
     public static final int MotionHelper_onShow=1;
     /**
@@ -19022,12 +18076,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MotionLayout_applyMotionScene jp.co.panasonic.pstc.ocr.android.card.app:applyMotionScene}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionLayout_currentState jp.co.panasonic.pstc.ocr.android.card.app:currentState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionLayout_layoutDescription jp.co.panasonic.pstc.ocr.android.card.app:layoutDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionLayout_motionDebug jp.co.panasonic.pstc.ocr.android.card.app:motionDebug}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionLayout_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionLayout_showPaths jp.co.panasonic.pstc.ocr.android.card.app:showPaths}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_applyMotionScene com.jp.beetech.kayak:applyMotionScene}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_currentState com.jp.beetech.kayak:currentState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_layoutDescription com.jp.beetech.kayak:layoutDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_motionDebug com.jp.beetech.kayak:motionDebug}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_showPaths com.jp.beetech.kayak:showPaths}</code></td><td></td></tr>
      * </table>
      * @see #MotionLayout_applyMotionScene
      * @see #MotionLayout_currentState
@@ -19041,17 +18095,17 @@ public final class R {
       0x7f020134, 0x7f020176
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#applyMotionScene}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#applyMotionScene}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:applyMotionScene
+     * @attr name com.jp.beetech.kayak:applyMotionScene
      */
     public static final int MotionLayout_applyMotionScene=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#currentState}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#currentState}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19059,11 +18113,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:currentState
+     * @attr name com.jp.beetech.kayak:currentState
      */
     public static final int MotionLayout_currentState=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layoutDescription}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layoutDescription}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19071,11 +18125,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layoutDescription
+     * @attr name com.jp.beetech.kayak:layoutDescription
      */
     public static final int MotionLayout_layoutDescription=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionDebug}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionDebug}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19090,26 +18144,26 @@ public final class R {
      * <tr><td>SHOW_PROGRESS</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionDebug
+     * @attr name com.jp.beetech.kayak:motionDebug
      */
     public static final int MotionLayout_motionDebug=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int MotionLayout_motionProgress=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#showPaths}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#showPaths}
      * attribute's value can be found in the {@link #MotionLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:showPaths
+     * @attr name com.jp.beetech.kayak:showPaths
      */
     public static final int MotionLayout_showPaths=5;
     /**
@@ -19119,7 +18173,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MotionScene_defaultDuration jp.co.panasonic.pstc.ocr.android.card.app:defaultDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionScene_defaultDuration com.jp.beetech.kayak:defaultDuration}</code></td><td></td></tr>
      * </table>
      * @see #MotionScene_defaultDuration
      */
@@ -19127,12 +18181,12 @@ public final class R {
       0x7f020080
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#defaultDuration}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#defaultDuration}
      * attribute's value can be found in the {@link #MotionScene} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:defaultDuration
+     * @attr name com.jp.beetech.kayak:defaultDuration
      */
     public static final int MotionScene_defaultDuration=0;
     /**
@@ -19142,9 +18196,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MotionTelltales_telltales_tailColor jp.co.panasonic.pstc.ocr.android.card.app:telltales_tailColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionTelltales_telltales_tailScale jp.co.panasonic.pstc.ocr.android.card.app:telltales_tailScale}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MotionTelltales_telltales_velocityMode jp.co.panasonic.pstc.ocr.android.card.app:telltales_velocityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_tailColor com.jp.beetech.kayak:telltales_tailColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_tailScale com.jp.beetech.kayak:telltales_tailScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_velocityMode com.jp.beetech.kayak:telltales_velocityMode}</code></td><td></td></tr>
      * </table>
      * @see #MotionTelltales_telltales_tailColor
      * @see #MotionTelltales_telltales_tailScale
@@ -19154,27 +18208,27 @@ public final class R {
       0x7f02018f, 0x7f020190, 0x7f020191
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#telltales_tailColor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#telltales_tailColor}
      * attribute's value can be found in the {@link #MotionTelltales} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:telltales_tailColor
+     * @attr name com.jp.beetech.kayak:telltales_tailColor
      */
     public static final int MotionTelltales_telltales_tailColor=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#telltales_tailScale}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#telltales_tailScale}
      * attribute's value can be found in the {@link #MotionTelltales} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:telltales_tailScale
+     * @attr name com.jp.beetech.kayak:telltales_tailScale
      */
     public static final int MotionTelltales_telltales_tailScale=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#telltales_velocityMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#telltales_velocityMode}
      * attribute's value can be found in the {@link #MotionTelltales} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19189,7 +18243,7 @@ public final class R {
      * <tr><td>staticPostLayout</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:telltales_velocityMode
+     * @attr name com.jp.beetech.kayak:telltales_velocityMode
      */
     public static final int MotionTelltales_telltales_velocityMode=2;
     /**
@@ -19199,7 +18253,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #OcrResultView_title jp.co.panasonic.pstc.ocr.android.card.app:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OcrResultView_title com.jp.beetech.kayak:title}</code></td><td></td></tr>
      * </table>
      * @see #OcrResultView_title
      */
@@ -19207,13 +18261,13 @@ public final class R {
       0x7f0201a8
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#title}
      * attribute's value can be found in the {@link #OcrResultView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:title
+     * @attr name com.jp.beetech.kayak:title
      */
     public static final int OcrResultView_title=0;
     /**
@@ -19223,7 +18277,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #OcrTextView_otv_title jp.co.panasonic.pstc.ocr.android.card.app:otv_title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OcrTextView_otv_title com.jp.beetech.kayak:otv_title}</code></td><td></td></tr>
      * </table>
      * @see #OcrTextView_otv_title
      */
@@ -19231,7 +18285,7 @@ public final class R {
       0x7f020145
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#otv_title}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#otv_title}
      * attribute's value can be found in the {@link #OcrTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19241,7 +18295,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:otv_title
+     * @attr name com.jp.beetech.kayak:otv_title
      */
     public static final int OcrTextView_otv_title=0;
     /**
@@ -19251,8 +18305,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #OnClick_clickAction jp.co.panasonic.pstc.ocr.android.card.app:clickAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnClick_targetId jp.co.panasonic.pstc.ocr.android.card.app:targetId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnClick_clickAction com.jp.beetech.kayak:clickAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnClick_targetId com.jp.beetech.kayak:targetId}</code></td><td></td></tr>
      * </table>
      * @see #OnClick_clickAction
      * @see #OnClick_targetId
@@ -19261,7 +18315,7 @@ public final class R {
       0x7f020053, 0x7f02018e
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#clickAction}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#clickAction}
      * attribute's value can be found in the {@link #OnClick} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -19277,11 +18331,11 @@ public final class R {
      * <tr><td>transitionToStart</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:clickAction
+     * @attr name com.jp.beetech.kayak:clickAction
      */
     public static final int OnClick_clickAction=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#targetId}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#targetId}
      * attribute's value can be found in the {@link #OnClick} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19289,7 +18343,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:targetId
+     * @attr name com.jp.beetech.kayak:targetId
      */
     public static final int OnClick_targetId=1;
     /**
@@ -19299,15 +18353,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #OnSwipe_dragDirection jp.co.panasonic.pstc.ocr.android.card.app:dragDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_dragScale jp.co.panasonic.pstc.ocr.android.card.app:dragScale}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_maxAcceleration jp.co.panasonic.pstc.ocr.android.card.app:maxAcceleration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_maxVelocity jp.co.panasonic.pstc.ocr.android.card.app:maxVelocity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_moveWhenScrollAtTop jp.co.panasonic.pstc.ocr.android.card.app:moveWhenScrollAtTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_onTouchUp jp.co.panasonic.pstc.ocr.android.card.app:onTouchUp}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_touchAnchorId jp.co.panasonic.pstc.ocr.android.card.app:touchAnchorId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_touchAnchorSide jp.co.panasonic.pstc.ocr.android.card.app:touchAnchorSide}</code></td><td></td></tr>
-     * <tr><td><code>{@link #OnSwipe_touchRegionId jp.co.panasonic.pstc.ocr.android.card.app:touchRegionId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_dragDirection com.jp.beetech.kayak:dragDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_dragScale com.jp.beetech.kayak:dragScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_maxAcceleration com.jp.beetech.kayak:maxAcceleration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_maxVelocity com.jp.beetech.kayak:maxVelocity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_moveWhenScrollAtTop com.jp.beetech.kayak:moveWhenScrollAtTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_onTouchUp com.jp.beetech.kayak:onTouchUp}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchAnchorId com.jp.beetech.kayak:touchAnchorId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchAnchorSide com.jp.beetech.kayak:touchAnchorSide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchRegionId com.jp.beetech.kayak:touchRegionId}</code></td><td></td></tr>
      * </table>
      * @see #OnSwipe_dragDirection
      * @see #OnSwipe_dragScale
@@ -19325,7 +18379,7 @@ public final class R {
       0x7f0201b9
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#dragDirection}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dragDirection}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19340,48 +18394,48 @@ public final class R {
      * <tr><td>dragUp</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dragDirection
+     * @attr name com.jp.beetech.kayak:dragDirection
      */
     public static final int OnSwipe_dragDirection=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#dragScale}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#dragScale}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:dragScale
+     * @attr name com.jp.beetech.kayak:dragScale
      */
     public static final int OnSwipe_dragScale=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#maxAcceleration}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#maxAcceleration}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:maxAcceleration
+     * @attr name com.jp.beetech.kayak:maxAcceleration
      */
     public static final int OnSwipe_maxAcceleration=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#maxVelocity}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#maxVelocity}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:maxVelocity
+     * @attr name com.jp.beetech.kayak:maxVelocity
      */
     public static final int OnSwipe_maxVelocity=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#moveWhenScrollAtTop}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#moveWhenScrollAtTop}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:moveWhenScrollAtTop
+     * @attr name com.jp.beetech.kayak:moveWhenScrollAtTop
      */
     public static final int OnSwipe_moveWhenScrollAtTop=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#onTouchUp}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#onTouchUp}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19398,11 +18452,11 @@ public final class R {
      * <tr><td>stop</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:onTouchUp
+     * @attr name com.jp.beetech.kayak:onTouchUp
      */
     public static final int OnSwipe_onTouchUp=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#touchAnchorId}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#touchAnchorId}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19410,11 +18464,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:touchAnchorId
+     * @attr name com.jp.beetech.kayak:touchAnchorId
      */
     public static final int OnSwipe_touchAnchorId=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#touchAnchorSide}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#touchAnchorSide}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19429,11 +18483,11 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:touchAnchorSide
+     * @attr name com.jp.beetech.kayak:touchAnchorSide
      */
     public static final int OnSwipe_touchAnchorSide=7;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#touchRegionId}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#touchRegionId}
      * attribute's value can be found in the {@link #OnSwipe} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19441,7 +18495,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:touchRegionId
+     * @attr name com.jp.beetech.kayak:touchRegionId
      */
     public static final int OnSwipe_touchRegionId=8;
     /**
@@ -19453,7 +18507,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor jp.co.panasonic.pstc.ocr.android.card.app:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.jp.beetech.kayak:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -19490,14 +18544,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the popup window should overlap its anchor view.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#overlapAnchor}
+     * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:overlapAnchor
+     * @attr name com.jp.beetech.kayak:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -19507,7 +18560,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor jp.co.panasonic.pstc.ocr.android.card.app:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.jp.beetech.kayak:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -19515,14 +18568,13 @@ public final class R {
       0x7f020181
     };
     /**
-     * <p>
-     * @attr description
-     * State identifier indicating the popup will be above the anchor.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:state_above_anchor
+     * @attr name com.jp.beetech.kayak:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -19534,9 +18586,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PropertySet_android_visibility android:visibility}</code></td><td></td></tr>
      * <tr><td><code>{@link #PropertySet_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PropertySet_layout_constraintTag jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PropertySet_motionProgress jp.co.panasonic.pstc.ocr.android.card.app:motionProgress}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PropertySet_visibilityMode jp.co.panasonic.pstc.ocr.android.card.app:visibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_layout_constraintTag com.jp.beetech.kayak:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_motionProgress com.jp.beetech.kayak:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_visibilityMode com.jp.beetech.kayak:visibilityMode}</code></td><td></td></tr>
      * </table>
      * @see #PropertySet_android_visibility
      * @see #PropertySet_android_alpha
@@ -19576,26 +18628,26 @@ public final class R {
      */
     public static final int PropertySet_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#layout_constraintTag}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout_constraintTag}
      * attribute's value can be found in the {@link #PropertySet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout_constraintTag
+     * @attr name com.jp.beetech.kayak:layout_constraintTag
      */
     public static final int PropertySet_layout_constraintTag=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionProgress}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionProgress}
      * attribute's value can be found in the {@link #PropertySet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionProgress
+     * @attr name com.jp.beetech.kayak:motionProgress
      */
     public static final int PropertySet_motionProgress=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#visibilityMode}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#visibilityMode}
      * attribute's value can be found in the {@link #PropertySet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19608,7 +18660,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:visibilityMode
+     * @attr name com.jp.beetech.kayak:visibilityMode
      */
     public static final int PropertySet_visibilityMode=4;
     /**
@@ -19618,8 +18670,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons jp.co.panasonic.pstc.ocr.android.card.app:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle jp.co.panasonic.pstc.ocr.android.card.app:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.jp.beetech.kayak:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.jp.beetech.kayak:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -19628,9 +18680,8 @@ public final class R {
       0x7f020148, 0x7f02014b
     };
     /**
-     * <p>
-     * @attr description
-     * Bottom padding to use when no buttons are present.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#paddingBottomNoButtons}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19638,13 +18689,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:paddingBottomNoButtons
+     * @attr name com.jp.beetech.kayak:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>
-     * @attr description
-     * Top padding to use when no title is present.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#paddingTopNoTitle}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19652,7 +18702,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:paddingTopNoTitle
+     * @attr name com.jp.beetech.kayak:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -19666,20 +18716,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon jp.co.panasonic.pstc.ocr.android.card.app:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon jp.co.panasonic.pstc.ocr.android.card.app:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint jp.co.panasonic.pstc.ocr.android.card.app:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon jp.co.panasonic.pstc.ocr.android.card.app:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault jp.co.panasonic.pstc.ocr.android.card.app:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout jp.co.panasonic.pstc.ocr.android.card.app:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground jp.co.panasonic.pstc.ocr.android.card.app:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint jp.co.panasonic.pstc.ocr.android.card.app:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon jp.co.panasonic.pstc.ocr.android.card.app:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon jp.co.panasonic.pstc.ocr.android.card.app:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground jp.co.panasonic.pstc.ocr.android.card.app:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout jp.co.panasonic.pstc.ocr.android.card.app:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon jp.co.panasonic.pstc.ocr.android.card.app:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.jp.beetech.kayak:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.jp.beetech.kayak:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.jp.beetech.kayak:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.jp.beetech.kayak:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.jp.beetech.kayak:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.jp.beetech.kayak:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.jp.beetech.kayak:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.jp.beetech.kayak:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.jp.beetech.kayak:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.jp.beetech.kayak:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.jp.beetech.kayak:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.jp.beetech.kayak:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.jp.beetech.kayak:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -19725,9 +18774,8 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>
-     * @attr description
-     * An optional maximum width of the SearchView.
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19739,9 +18787,8 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>
-     * @attr description
-     * The input type to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#inputType}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -19787,9 +18834,8 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>
-     * @attr description
-     * The IME options to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -19820,168 +18866,153 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>
-     * @attr description
-     * Close button icon
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#closeIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:closeIcon
+     * @attr name com.jp.beetech.kayak:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Commit icon shown in the query suggestion row
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#commitIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:commitIcon
+     * @attr name com.jp.beetech.kayak:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>
-     * @attr description
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#defaultQueryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:defaultQueryHint
+     * @attr name com.jp.beetech.kayak:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>
-     * @attr description
-     * Go button icon
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#goIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:goIcon
+     * @attr name com.jp.beetech.kayak:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>
-     * @attr description
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#iconifiedByDefault}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:iconifiedByDefault
+     * @attr name com.jp.beetech.kayak:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>
-     * @attr description
-     * The layout to use for the search view.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#layout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:layout
+     * @attr name com.jp.beetech.kayak:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the search query
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#queryBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:queryBackground
+     * @attr name com.jp.beetech.kayak:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>
-     * @attr description
-     * An optional user-defined query hint string to be displayed in the empty query field.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#queryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:queryHint
+     * @attr name com.jp.beetech.kayak:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>
-     * @attr description
-     * Search icon displayed as a text field hint
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#searchHintIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:searchHintIcon
+     * @attr name com.jp.beetech.kayak:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>
-     * @attr description
-     * Search icon
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#searchIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:searchIcon
+     * @attr name com.jp.beetech.kayak:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the action (e.g. voice search)
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#submitBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:submitBackground
+     * @attr name com.jp.beetech.kayak:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>
-     * @attr description
-     * Layout for query suggestion rows
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#suggestionRowLayout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:suggestionRowLayout
+     * @attr name com.jp.beetech.kayak:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>
-     * @attr description
-     * Voice button icon
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#voiceIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:voiceIcon
+     * @attr name com.jp.beetech.kayak:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -19995,8 +19026,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme jp.co.panasonic.pstc.ocr.android.card.app:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.jp.beetech.kayak:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -20009,9 +19039,8 @@ public final class R {
       0x7f02015b
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to an array resource that will populate the Spinner.
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20022,9 +19051,8 @@ public final class R {
      */
     public static final int Spinner_android_entries=0;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20038,9 +19066,8 @@ public final class R {
      */
     public static final int Spinner_android_popupBackground=1;
     /**
-     * <p>
-     * @attr description
-     * The prompt to display when the spinner's dialog is shown.
+     * <p>This symbol is the offset where the {@link android.R.attr#prompt}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20051,9 +19078,8 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>
-     * @attr description
-     * Width of the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20075,16 +19101,15 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for the drop-down or dialog popup window.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:popupTheme
+     * @attr name com.jp.beetech.kayak:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -20095,7 +19120,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #State_android_id android:id}</code></td><td></td></tr>
-     * <tr><td><code>{@link #State_constraints jp.co.panasonic.pstc.ocr.android.card.app:constraints}</code></td><td></td></tr>
+     * <tr><td><code>{@link #State_constraints com.jp.beetech.kayak:constraints}</code></td><td></td></tr>
      * </table>
      * @see #State_android_id
      * @see #State_constraints
@@ -20116,7 +19141,7 @@ public final class R {
      */
     public static final int State_android_id=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraints}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraints}
      * attribute's value can be found in the {@link #State} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20124,7 +19149,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraints
+     * @attr name com.jp.beetech.kayak:constraints
      */
     public static final int State_constraints=1;
     /**
@@ -20153,11 +19178,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -20166,9 +19188,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -20177,14 +19198,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -20193,12 +19208,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -20207,9 +19218,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -20217,9 +19227,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -20241,10 +19250,8 @@ public final class R {
       0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the state. If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20261,7 +19268,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #StateSet_defaultState jp.co.panasonic.pstc.ocr.android.card.app:defaultState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateSet_defaultState com.jp.beetech.kayak:defaultState}</code></td><td></td></tr>
      * </table>
      * @see #StateSet_defaultState
      */
@@ -20269,7 +19276,7 @@ public final class R {
       0x7f020082
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#defaultState}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#defaultState}
      * attribute's value can be found in the {@link #StateSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20277,7 +19284,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:defaultState
+     * @attr name com.jp.beetech.kayak:defaultState
      */
     public static final int StateSet_defaultState=0;
     /**
@@ -20290,17 +19297,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText jp.co.panasonic.pstc.ocr.android.card.app:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack jp.co.panasonic.pstc.ocr.android.card.app:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth jp.co.panasonic.pstc.ocr.android.card.app:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding jp.co.panasonic.pstc.ocr.android.card.app:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance jp.co.panasonic.pstc.ocr.android.card.app:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding jp.co.panasonic.pstc.ocr.android.card.app:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint jp.co.panasonic.pstc.ocr.android.card.app:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode jp.co.panasonic.pstc.ocr.android.card.app:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track jp.co.panasonic.pstc.ocr.android.card.app:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint jp.co.panasonic.pstc.ocr.android.card.app:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode jp.co.panasonic.pstc.ocr.android.card.app:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.jp.beetech.kayak:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.jp.beetech.kayak:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.jp.beetech.kayak:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.jp.beetech.kayak:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.jp.beetech.kayak:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.jp.beetech.kayak:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.jp.beetech.kayak:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.jp.beetech.kayak:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.jp.beetech.kayak:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.jp.beetech.kayak:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.jp.beetech.kayak:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -20324,9 +19331,8 @@ public final class R {
       0x7f0201bb, 0x7f0201bc
     };
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the checked/"on" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20335,9 +19341,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOn=0;
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the unchecked/"off" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20346,9 +19351,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOff=1;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "thumb" that switches back and forth.
+     * <p>This symbol is the offset where the {@link android.R.attr#thumb}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20359,31 +19363,28 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>
-     * @attr description
-     * Whether to draw on/off text.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#showText}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:showText
+     * @attr name com.jp.beetech.kayak:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>
-     * @attr description
-     * Whether to split the track and leave a gap for the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#splitTrack}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:splitTrack
+     * @attr name com.jp.beetech.kayak:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum width for the switch component
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#switchMinWidth}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20391,13 +19392,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:switchMinWidth
+     * @attr name com.jp.beetech.kayak:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum space between the switch and caption text
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#switchPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20405,26 +19405,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:switchPadding
+     * @attr name com.jp.beetech.kayak:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style for text displayed on the switch thumb.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#switchTextAppearance}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:switchTextAppearance
+     * @attr name com.jp.beetech.kayak:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>
-     * @attr description
-     * Amount of padding on either side of text within the switch thumb.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#thumbTextPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20432,25 +19430,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:thumbTextPadding
+     * @attr name com.jp.beetech.kayak:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#thumbTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:thumbTint
+     * @attr name com.jp.beetech.kayak:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the thumb tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#thumbTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20458,51 +19454,43 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:thumbTintMode
+     * @attr name com.jp.beetech.kayak:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "track" that the switch thumb slides within.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#track}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:track
+     * @attr name com.jp.beetech.kayak:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the track.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#trackTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:trackTint
+     * @attr name com.jp.beetech.kayak:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the track tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#trackTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20510,20 +19498,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:trackTintMode
+     * @attr name com.jp.beetech.kayak:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -20545,11 +19528,10 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily jp.co.panasonic.pstc.ocr.android.card.app:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontVariationSettings jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps jp.co.panasonic.pstc.ocr.android.card.app:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textLocale jp.co.panasonic.pstc.ocr.android.card.app:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.jp.beetech.kayak:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.jp.beetech.kayak:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.jp.beetech.kayak:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textLocale com.jp.beetech.kayak:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -20748,31 +19730,28 @@ public final class R {
      */
     public static final int TextAppearance_android_textFontWeight=11;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontFamily
+     * @attr name com.jp.beetech.kayak:fontFamily
      */
     public static final int TextAppearance_fontFamily=12;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available aftear api 26.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:fontVariationSettings
+     * @attr name com.jp.beetech.kayak:fontVariationSettings
      */
     public static final int TextAppearance_fontVariationSettings=13;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20781,22 +19760,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textAllCaps
+     * @attr name com.jp.beetech.kayak:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=14;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#textLocale}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:textLocale
+     * @attr name com.jp.beetech.kayak:textLocale
      */
     public static final int TextAppearance_textLocale=15;
     /**
@@ -20808,41 +19782,34 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity jp.co.panasonic.pstc.ocr.android.card.app:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription jp.co.panasonic.pstc.ocr.android.card.app:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon jp.co.panasonic.pstc.ocr.android.card.app:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft jp.co.panasonic.pstc.ocr.android.card.app:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight jp.co.panasonic.pstc.ocr.android.card.app:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo jp.co.panasonic.pstc.ocr.android.card.app:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription jp.co.panasonic.pstc.ocr.android.card.app:logoDescription}</code></td><td>A content description string to describe the appearance of the
-     * associated logo image.</td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight jp.co.panasonic.pstc.ocr.android.card.app:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_menu jp.co.panasonic.pstc.ocr.android.card.app:menu}</code></td><td>Menu resource to inflate to be shown in the toolbar</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription jp.co.panasonic.pstc.ocr.android.card.app:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
-     * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon jp.co.panasonic.pstc.ocr.android.card.app:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
-     * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme jp.co.panasonic.pstc.ocr.android.card.app:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle jp.co.panasonic.pstc.ocr.android.card.app:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title jp.co.panasonic.pstc.ocr.android.card.app:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin jp.co.panasonic.pstc.ocr.android.card.app:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom jp.co.panasonic.pstc.ocr.android.card.app:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd jp.co.panasonic.pstc.ocr.android.card.app:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart jp.co.panasonic.pstc.ocr.android.card.app:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop jp.co.panasonic.pstc.ocr.android.card.app:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins jp.co.panasonic.pstc.ocr.android.card.app:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance jp.co.panasonic.pstc.ocr.android.card.app:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor jp.co.panasonic.pstc.ocr.android.card.app:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.jp.beetech.kayak:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.jp.beetech.kayak:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.jp.beetech.kayak:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.jp.beetech.kayak:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.jp.beetech.kayak:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.jp.beetech.kayak:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.jp.beetech.kayak:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.jp.beetech.kayak:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.jp.beetech.kayak:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.jp.beetech.kayak:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.jp.beetech.kayak:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.jp.beetech.kayak:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_menu com.jp.beetech.kayak:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.jp.beetech.kayak:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.jp.beetech.kayak:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.jp.beetech.kayak:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.jp.beetech.kayak:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.jp.beetech.kayak:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.jp.beetech.kayak:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.jp.beetech.kayak:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.jp.beetech.kayak:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.jp.beetech.kayak:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.jp.beetech.kayak:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.jp.beetech.kayak:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.jp.beetech.kayak:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.jp.beetech.kayak:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.jp.beetech.kayak:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.jp.beetech.kayak:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -20875,7 +19842,6 @@ public final class R {
      * @see #Toolbar_titleTextAppearance
      * @see #Toolbar_titleTextColor
      */
-    @Deprecated
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f020048, 0x7f020056, 
       0x7f020057, 0x7f02006b, 0x7f02006c, 0x7f02006d, 
@@ -20929,7 +19895,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -20938,43 +19904,39 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:buttonGravity
+     * @attr name com.jp.beetech.kayak:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the collapse button.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#collapseContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:collapseContentDescription
+     * @attr name com.jp.beetech.kayak:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the collapse button.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#collapseIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:collapseIcon
+     * @attr name com.jp.beetech.kayak:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20982,14 +19944,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEnd
+     * @attr name com.jp.beetech.kayak:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20997,14 +19957,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetEndWithActions
+     * @attr name com.jp.beetech.kayak:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21012,14 +19970,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetLeft
+     * @attr name com.jp.beetech.kayak:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21027,14 +19983,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetRight
+     * @attr name com.jp.beetech.kayak:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21042,14 +19996,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStart
+     * @attr name com.jp.beetech.kayak:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21057,37 +20009,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:contentInsetStartWithNavigation
+     * @attr name com.jp.beetech.kayak:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to set as the logo that appears at the starting side of
-     * the Toolbar, just after the navigation button.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#logo}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:logo
+     * @attr name com.jp.beetech.kayak:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>
-     * @attr description
-     * A content description string to describe the appearance of the
-     * associated logo image.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#logoDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:logoDescription
+     * @attr name com.jp.beetech.kayak:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21096,75 +20044,67 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:maxButtonHeight
+     * @attr name com.jp.beetech.kayak:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>
-     * @attr description
-     * Menu resource to inflate to be shown in the toolbar
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#menu}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:menu
+     * @attr name com.jp.beetech.kayak:menu
      */
     public static final int Toolbar_menu=14;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#navigationContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:navigationContentDescription
+     * @attr name com.jp.beetech.kayak:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=15;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#navigationIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:navigationIcon
+     * @attr name com.jp.beetech.kayak:navigationIcon
      */
     public static final int Toolbar_navigationIcon=16;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the toolbar.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:popupTheme
+     * @attr name com.jp.beetech.kayak:popupTheme
      */
     public static final int Toolbar_popupTheme=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitle}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitle
+     * @attr name com.jp.beetech.kayak:subtitle
      */
     public static final int Toolbar_subtitle=18;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21172,36 +20112,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextAppearance
+     * @attr name com.jp.beetech.kayak:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=19;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the subtitle string.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#subtitleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:subtitleTextColor
+     * @attr name com.jp.beetech.kayak:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=20;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:title
+     * @attr name com.jp.beetech.kayak:title
      */
     public static final int Toolbar_title=21;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMargin}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21209,15 +20146,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMargin
+     * @attr name com.jp.beetech.kayak:titleMargin
      */
     public static final int Toolbar_titleMargin=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMarginBottom}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21225,15 +20159,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMarginBottom
+     * @attr name com.jp.beetech.kayak:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMarginEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21241,15 +20172,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMarginEnd
+     * @attr name com.jp.beetech.kayak:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMarginStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21257,15 +20185,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMarginStart
+     * @attr name com.jp.beetech.kayak:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMarginTop}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21273,13 +20198,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMarginTop
+     * @attr name com.jp.beetech.kayak:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=26;
     /**
-     * <p>
-     * @attr description
-     * {@deprecated Use titleMargin}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleMargins}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21287,12 +20211,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleMargins
+     * @attr name com.jp.beetech.kayak:titleMargins
      */
-    @Deprecated
     public static final int Toolbar_titleMargins=27;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21300,19 +20223,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleTextAppearance
+     * @attr name com.jp.beetech.kayak:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=28;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the title string.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#titleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:titleTextColor
+     * @attr name com.jp.beetech.kayak:titleTextColor
      */
     public static final int Toolbar_titleTextColor=29;
     /**
@@ -21333,9 +20255,9 @@ public final class R {
      * <tr><td><code>{@link #Transform_android_rotationY android:rotationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #Transform_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #Transform_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transform_pivotAnchor jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transform_pivotX jp.co.panasonic.pstc.ocr.android.card.app:pivotX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transform_pivotY jp.co.panasonic.pstc.ocr.android.card.app:pivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_pivotAnchor com.jp.beetech.kayak:pivotAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_pivotX com.jp.beetech.kayak:pivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_pivotY com.jp.beetech.kayak:pivotY}</code></td><td></td></tr>
      * </table>
      * @see #Transform_android_transformPivotX
      * @see #Transform_android_transformPivotY
@@ -21482,7 +20404,7 @@ public final class R {
      */
     public static final int Transform_android_elevation=10;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pivotAnchor}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pivotAnchor}
      * attribute's value can be found in the {@link #Transform} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21498,11 +20420,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pivotAnchor
+     * @attr name com.jp.beetech.kayak:pivotAnchor
      */
     public static final int Transform_pivotAnchor=11;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pivotX}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pivotX}
      * attribute's value can be found in the {@link #Transform} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -21511,11 +20433,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pivotX
+     * @attr name com.jp.beetech.kayak:pivotX
      */
     public static final int Transform_pivotX=12;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#pivotY}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#pivotY}
      * attribute's value can be found in the {@link #Transform} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -21524,7 +20446,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:pivotY
+     * @attr name com.jp.beetech.kayak:pivotY
      */
     public static final int Transform_pivotY=13;
     /**
@@ -21535,13 +20457,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Transition_android_id android:id}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_autoTransition jp.co.panasonic.pstc.ocr.android.card.app:autoTransition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_constraintSetEnd jp.co.panasonic.pstc.ocr.android.card.app:constraintSetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_constraintSetStart jp.co.panasonic.pstc.ocr.android.card.app:constraintSetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_duration jp.co.panasonic.pstc.ocr.android.card.app:duration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_motionInterpolator jp.co.panasonic.pstc.ocr.android.card.app:motionInterpolator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_staggered jp.co.panasonic.pstc.ocr.android.card.app:staggered}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Transition_transitionDisable jp.co.panasonic.pstc.ocr.android.card.app:transitionDisable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_autoTransition com.jp.beetech.kayak:autoTransition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetEnd com.jp.beetech.kayak:constraintSetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetStart com.jp.beetech.kayak:constraintSetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_duration com.jp.beetech.kayak:duration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_motionInterpolator com.jp.beetech.kayak:motionInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_staggered com.jp.beetech.kayak:staggered}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_transitionDisable com.jp.beetech.kayak:transitionDisable}</code></td><td></td></tr>
      * </table>
      * @see #Transition_android_id
      * @see #Transition_autoTransition
@@ -21569,7 +20491,7 @@ public final class R {
      */
     public static final int Transition_android_id=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#autoTransition}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#autoTransition}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -21585,11 +20507,11 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:autoTransition
+     * @attr name com.jp.beetech.kayak:autoTransition
      */
     public static final int Transition_autoTransition=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraintSetEnd}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraintSetEnd}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21597,11 +20519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraintSetEnd
+     * @attr name com.jp.beetech.kayak:constraintSetEnd
      */
     public static final int Transition_constraintSetEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraintSetStart}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraintSetStart}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21609,20 +20531,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraintSetStart
+     * @attr name com.jp.beetech.kayak:constraintSetStart
      */
     public static final int Transition_constraintSetStart=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#duration}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#duration}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:duration
+     * @attr name com.jp.beetech.kayak:duration
      */
     public static final int Transition_duration=4;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#motionInterpolator}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#motionInterpolator}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21644,26 +20566,26 @@ public final class R {
      * <tr><td>linear</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:motionInterpolator
+     * @attr name com.jp.beetech.kayak:motionInterpolator
      */
     public static final int Transition_motionInterpolator=5;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#staggered}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#staggered}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:staggered
+     * @attr name com.jp.beetech.kayak:staggered
      */
     public static final int Transition_staggered=6;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#transitionDisable}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#transitionDisable}
      * attribute's value can be found in the {@link #Transition} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:transitionDisable
+     * @attr name com.jp.beetech.kayak:transitionDisable
      */
     public static final int Transition_transitionDisable=7;
     /**
@@ -21673,11 +20595,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Variant_constraints jp.co.panasonic.pstc.ocr.android.card.app:constraints}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Variant_region_heightLessThan jp.co.panasonic.pstc.ocr.android.card.app:region_heightLessThan}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Variant_region_heightMoreThan jp.co.panasonic.pstc.ocr.android.card.app:region_heightMoreThan}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Variant_region_widthLessThan jp.co.panasonic.pstc.ocr.android.card.app:region_widthLessThan}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Variant_region_widthMoreThan jp.co.panasonic.pstc.ocr.android.card.app:region_widthMoreThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_constraints com.jp.beetech.kayak:constraints}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightLessThan com.jp.beetech.kayak:region_heightLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightMoreThan com.jp.beetech.kayak:region_heightMoreThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthLessThan com.jp.beetech.kayak:region_widthLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthMoreThan com.jp.beetech.kayak:region_widthMoreThan}</code></td><td></td></tr>
      * </table>
      * @see #Variant_constraints
      * @see #Variant_region_heightLessThan
@@ -21690,7 +20612,7 @@ public final class R {
       0x7f02016a
     };
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#constraints}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#constraints}
      * attribute's value can be found in the {@link #Variant} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21698,11 +20620,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:constraints
+     * @attr name com.jp.beetech.kayak:constraints
      */
     public static final int Variant_constraints=0;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#region_heightLessThan}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#region_heightLessThan}
      * attribute's value can be found in the {@link #Variant} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21711,11 +20633,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:region_heightLessThan
+     * @attr name com.jp.beetech.kayak:region_heightLessThan
      */
     public static final int Variant_region_heightLessThan=1;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#region_heightMoreThan}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#region_heightMoreThan}
      * attribute's value can be found in the {@link #Variant} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21724,11 +20646,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:region_heightMoreThan
+     * @attr name com.jp.beetech.kayak:region_heightMoreThan
      */
     public static final int Variant_region_heightMoreThan=2;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#region_widthLessThan}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#region_widthLessThan}
      * attribute's value can be found in the {@link #Variant} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21737,11 +20659,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:region_widthLessThan
+     * @attr name com.jp.beetech.kayak:region_widthLessThan
      */
     public static final int Variant_region_widthLessThan=3;
     /**
-     * <p>This symbol is the offset where the {@link jp.co.panasonic.pstc.ocr.android.card.app.R.attr#region_widthMoreThan}
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#region_widthMoreThan}
      * attribute's value can be found in the {@link #Variant} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21750,7 +20672,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:region_widthMoreThan
+     * @attr name com.jp.beetech.kayak:region_widthMoreThan
      */
     public static final int Variant_region_widthMoreThan=4;
     /**
@@ -21762,9 +20684,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd jp.co.panasonic.pstc.ocr.android.card.app:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart jp.co.panasonic.pstc.ocr.android.card.app:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme jp.co.panasonic.pstc.ocr.android.card.app:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.jp.beetech.kayak:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.jp.beetech.kayak:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.jp.beetech.kayak:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -21777,11 +20699,8 @@ public final class R {
       0x7f02019e
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a theme override for a view. When a theme override is set, the
-     * view will be inflated using a {@link android.content.Context} themed with
-     * the specified resource.
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -21792,14 +20711,8 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>
-     * @attr description
-     * Boolean that controls whether a view can take focus.  By default the user can not
-     * move focus to a view; by setting this attribute to true the view is
-     * allowed to take focus.  This value does not impact the behavior of
-     * directly calling {@link android.view.View#requestFocus}, which will
-     * always request focus regardless of this view.  It only impacts where
-     * focus navigation will try to move focus.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -21816,9 +20729,8 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21826,13 +20738,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:paddingEnd
+     * @attr name com.jp.beetech.kayak:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21840,20 +20751,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:paddingStart
+     * @attr name com.jp.beetech.kayak:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>
-     * @attr description
-     * Deprecated.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:theme
+     * @attr name com.jp.beetech.kayak:theme
      */
     public static final int View_theme=4;
     /**
@@ -21864,8 +20774,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint jp.co.panasonic.pstc.ocr.android.card.app:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode jp.co.panasonic.pstc.ocr.android.card.app:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.jp.beetech.kayak:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.jp.beetech.kayak:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -21890,21 +20800,19 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:backgroundTint
+     * @attr name com.jp.beetech.kayak:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.jp.beetech.kayak.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -21912,20 +20820,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name jp.co.panasonic.pstc.ocr.android.card.app:backgroundTintMode
+     * @attr name com.jp.beetech.kayak:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -21959,11 +20862,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Supply an identifier for the layout resource to inflate when the ViewStub
-     * becomes visible or when forced to do so. The layout resource must be a
-     * valid reference to a layout.
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -21974,9 +20874,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>
-     * @attr description
-     * Overrides the id of the inflated View with this value.
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme

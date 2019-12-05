@@ -19,7 +19,7 @@
 
         <!-- メインレイアウト -->
         <TableLayout
-            android:visibility="gone"
+
             android:id="@+id/main_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -31,17 +31,17 @@
                 android:id="@+id/main_info"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#CCEEFF"
+                android:background="@color/colorPrimary"
                 android:gravity="center" />
         </TableLayout>
 
         <!-- フッター -->
         <LinearLayout
-            android:background="#CCEEFF"
+            android:background="@color/colorPrimaryDark"
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/Camera"

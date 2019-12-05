@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.co.panasonic.pstc.ocr.android.card.app.test">
+    package="com.jp.beetech.kayak.test">
 
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="jp.co.panasonic.pstc.ocr.android.card.app"
+                     android:targetPackage="com.jp.beetech.kayak"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for jp.co.panasonic.pstc.ocr.android.card.app"/>
+                     android:label="Tests for com.jp.beetech.kayak"/>
 </manifest>

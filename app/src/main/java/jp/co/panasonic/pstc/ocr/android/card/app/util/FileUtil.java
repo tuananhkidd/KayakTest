@@ -21,7 +21,7 @@ public class FileUtil {
             byte[] buffer = new byte[size];
             input.read(buffer);
             input.close();
-            File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/jp.co.panasonic.pstc.ocr");
+            File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/data/com.jp.beetech.kayak");
             if (!dir.exists()) {
                 dir.mkdirs();
             }

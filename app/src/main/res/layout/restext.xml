@@ -4,7 +4,7 @@
     android:id="@+id/Layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#99BBCC"
+    android:background="@color/colorPrimaryDark"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -14,7 +14,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:background="#CCEEFF"
+        android:background="@color/colorPrimary"
         android:gravity="center_vertical">
 
         <androidx.core.widget.NestedScrollView
@@ -36,7 +36,7 @@
                         android:id="@+id/img_result"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        app:layout_constraintDimensionRatio="   H,16:9" />
+                        app:layout_constraintDimensionRatio="H,16:9" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
