@@ -3,7 +3,9 @@ package jp.co.panasonic.pstc.ocr.android.card.app;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.net.Uri;
+
+import java.lang.ref.PhantomReference;
+import java.lang.ref.WeakReference;
 
 import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
 import jp.co.panasonic.pstc.ocr.android.card.app.ocr.ProcOcr;
@@ -20,7 +22,7 @@ public class CameraProgress extends ProgressAsyncTask {
     /**
      * 変数・定数宣言
      */
-    private Activity activity;        // アクティビティ
+    private WeakReference<Activity> activity;        // アクティビティ
     private boolean exitActivity;    // アクティビティ終了フラグ
     private boolean result;            // 実行処理結果フラグ( true:成功, false:エラー )
 
@@ -35,7 +37,7 @@ public class CameraProgress extends ProgressAsyncTask {
      */
     public CameraProgress(Activity activity, boolean exitActivity) {
         super(activity);
-        this.activity = activity;
+        this.activity = new WeakReference<>(activity);
         this.exitActivity = exitActivity;
     }
 
@@ -95,14 +97,14 @@ public class CameraProgress extends ProgressAsyncTask {
 
             // OCR認識結果表示アクティビティ表示
             Intent intent = new Intent(
-                    activity.getApplicationContext(),
+                    activity.get().getApplicationContext(),
                     jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity.class
             );
-            activity.startActivity(intent);
+            activity.get().startActivity(intent);
 
             // カメラアクティビティ終了フラグチェック
             if (exitActivity) {
-                activity.finish();
+                activity.get().finish();
             }
         } else {
             // エラー

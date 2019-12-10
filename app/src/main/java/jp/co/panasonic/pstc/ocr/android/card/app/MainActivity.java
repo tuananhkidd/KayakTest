@@ -26,6 +26,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraData;
+import jp.co.panasonic.pstc.ocr.android.card.app.custom.LoadingDialog;
 import jp.co.panasonic.pstc.ocr.android.card.app.util.FileUtil;
 
 /**
@@ -91,6 +92,12 @@ public class MainActivity extends Activity {
 //                "/photo.png");
 //        Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
 
+        if(getIntent()!=null){
+            if(getIntent().getBooleanExtra("tmp",false)){
+                LoadingDialog loadingDialog = LoadingDialog.getInstance(this);
+                loadingDialog.show();
+            }
+        }
     }
 
     /**
@@ -203,6 +210,7 @@ public class MainActivity extends Activity {
                     getApplicationContext(),
                     MainActivity.class
             );
+            intent.putExtra("tmp",true);
             startActivity(intent);
             // カメラアクティビティ表示
             Intent cameraIntent = new Intent(

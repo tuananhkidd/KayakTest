@@ -1,0 +1,236 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jp.beetech.kayak"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:8:5-65
+11-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:8:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:9:5-81
+12-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:9:22-78
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:10:5-60
+14-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:10:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:11:5-70
+15-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:11:19-67
+16    <uses-feature android:name="android.hardware.camera.flash" />
+16-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:12:5-66
+16-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:12:19-63
+17
+18    <supports-screens
+18-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-18:40
+19        android:anyDensity="true"
+19-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-34
+20        android:largeScreens="true"
+20-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-36
+21        android:normalScreens="true"
+21-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-37
+22        android:smallScreens="true"
+22-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-36
+23        android:xlargeScreens="true" />
+23-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-37
+24
+25    <uses-feature android:glEsVersion="0x00020000" />
+25-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-54
+25-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-51
+26    <uses-feature
+26-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-32:36
+27        android:name="android.hardware.camera.front"
+27-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-53
+28        android:required="false" />
+28-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-33
+29    <uses-feature
+29-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-35:36
+30        android:name="android.hardware.touchscreen"
+30-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-52
+31        android:required="false" />
+31-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-33
+32    <uses-feature
+32-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-38:36
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-63
+34        android:required="false" />
+34-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-33
+35    <uses-feature
+35-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-72
+37        android:required="false" />
+37-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-33
+38
+39    <uses-permission android:name="android.permission.FLASHLIGHT" />
+39-->[NatCamCore.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\67c9826292cace15ea8da635572caa5c\jetified-NatCamCore\AndroidManifest.xml:10:5-69
+39-->[NatCamCore.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\67c9826292cace15ea8da635572caa5c\jetified-NatCamCore\AndroidManifest.xml:10:22-66
+40
+41    <uses-feature
+41-->[NatCamCore.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\67c9826292cace15ea8da635572caa5c\jetified-NatCamCore\AndroidManifest.xml:12:5-14:36
+42        android:name="android.hardware.camera.any"
+42-->[NatCamCore.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\67c9826292cace15ea8da635572caa5c\jetified-NatCamCore\AndroidManifest.xml:13:9-51
+43        android:required="false" />
+43-->[NatCamCore.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\67c9826292cace15ea8da635572caa5c\jetified-NatCamCore\AndroidManifest.xml:14:9-33
+44
+45    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+45-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:9:5-80
+45-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:9:22-77
+46    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+46-->[NatCamProfessional.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1ea40166a016711444a5070f79e0cebb\NatCamProfessional\AndroidManifest.xml:9:5-71
+46-->[NatCamProfessional.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1ea40166a016711444a5070f79e0cebb\NatCamProfessional\AndroidManifest.xml:9:22-68
+47
+48    <uses-feature
+48-->[NatCamProfessional.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1ea40166a016711444a5070f79e0cebb\NatCamProfessional\AndroidManifest.xml:12:5-14:36
+49        android:name="android.hardware.microphone"
+49-->[NatCamProfessional.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1ea40166a016711444a5070f79e0cebb\NatCamProfessional\AndroidManifest.xml:13:9-51
+50        android:required="false" />
+50-->[NatCamProfessional.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1ea40166a016711444a5070f79e0cebb\NatCamProfessional\AndroidManifest.xml:14:9-33
+51
+52    <application
+52-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:14:5-41:19
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\668a172293b25d1807c76a620f1d768d\core-1.1.0\AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:hardwareAccelerated="false"
+55-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:15:9-44
+56        android:icon="@mipmap/ic_launcher"
+56-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:14:18-52
+57        android:label="@string/app_name"
+57-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:14:100-132
+58        android:largeHeap="true"
+58-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:14:133-157
+59        android:roundIcon="@mipmap/ic_launcher_round" >
+59-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:14:53-98
+60
+61        <!-- メインアクティビティ -->
+62        <activity
+62-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:18:9-24:20
+63            android:name="jp.co.panasonic.pstc.ocr.android.card.app.MainActivity"
+63-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:18:19-47
+64            android:label="@string/app_name" >
+64-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:19:19-51
+65            <intent-filter>
+65-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:20:13-23:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:21:17-69
+66-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:21:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:22:17-77
+68-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:22:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <!-- カメラアクティビティ -->
+73        <activity
+73-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:27:3-91
+74            android:name="jp.co.panasonic.pstc.ocr.android.card.app.camera.CameraActivity"
+74-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:27:13-50
+75            android:screenOrientation="landscape" />
+75-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:27:51-88
+76
+77        <!-- カメラ撮影画像プレビューアクティビティ -->
+78        <activity
+78-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:30:3-98
+79            android:name="jp.co.panasonic.pstc.ocr.android.card.app.CameraPicturePreviewActivity"
+79-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:30:13-57
+80            android:screenOrientation="landscape" />
+80-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:30:58-95
+81
+82        <!-- OCR認識結果表示アクティビティ -->
+83        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.ResultActivity" />
+83-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:33:3-46
+83-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:33:13-43
+84
+85        <!-- 設定アクティビティ -->
+86        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.SettingActivity" />
+86-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:36:3-47
+86-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:36:13-44
+87
+88        <!-- ヘルプアクティビティ -->
+89        <activity android:name="jp.co.panasonic.pstc.ocr.android.card.app.HelpActivity" />
+89-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:39:3-44
+89-->C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\app\src\main\AndroidManifest.xml:39:13-41
+90        <activity
+90-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-57:20
+91            android:name="com.beetech.kayak.UnityPlayerActivity"
+91-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-65
+92            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+92-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-194
+93            android:hardwareAccelerated="false"
+93-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-48
+94            android:label="@string/app_name"
+94-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-45
+95            android:launchMode="singleTask"
+95-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-44
+96            android:screenOrientation="fullSensor" >
+96-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-51
+97            <meta-data
+97-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-53:40
+98                android:name="unityplayer.UnityActivity"
+98-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:17-57
+99                android:value="true" />
+99-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-37
+100            <meta-data
+100-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-56:40
+101                android:name="android.notch_support"
+101-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:17-53
+102                android:value="true" />
+102-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-37
+103        </activity>
+104
+105        <meta-data
+105-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:9-61:68
+106            android:name="unity.build-id"
+106-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-42
+107            android:value="2191b8dd-44e8-4b64-8ef0-ae516b220576" />
+107-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-65
+108        <meta-data
+108-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-64:33
+109            android:name="unity.splash-mode"
+109-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-45
+110            android:value="0" />
+110-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-30
+111        <meta-data
+111-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:9-67:36
+112            android:name="unity.splash-enable"
+112-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-47
+113            android:value="True" />
+113-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-33
+114        <meta-data
+114-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:9-70:50
+115            android:name="notch.config"
+115-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-40
+116            android:value="portrait|landscape" />
+116-->[:demo02] C:\Users\admin\Desktop\Beetech\KayakTest\KayakTest\demo02\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-47
+117        <meta-data
+117-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:13:9-15:69
+118            android:name="com.google.android.gms.version"
+118-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:14:13-58
+119            android:value="@integer/google_play_services_version" />
+119-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:15:13-66
+120        <meta-data
+120-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:16:9-18:48
+121            android:name="com.google.android.gms.vision.DEPENDENCIES"
+121-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:17:13-70
+122            android:value="barcode,face,ocr" />
+122-->[NatCamExtended.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccc428bcc7f23af085342f80e94445c\NatCamExtended\AndroidManifest.xml:18:13-45
+123
+124        <activity
+124-->[play-services-base-9.2.1.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\83776732dbeac60030e04aee4b50d54a\jetified-play-services-base-9.2.1\AndroidManifest.xml:20:9-22:45
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[play-services-base-9.2.1.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\83776732dbeac60030e04aee4b50d54a\jetified-play-services-base-9.2.1\AndroidManifest.xml:20:19-85
+126            android:exported="false"
+126-->[play-services-base-9.2.1.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\83776732dbeac60030e04aee4b50d54a\jetified-play-services-base-9.2.1\AndroidManifest.xml:22:19-43
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[play-services-base-9.2.1.aar] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\83776732dbeac60030e04aee4b50d54a\jetified-play-services-base-9.2.1\AndroidManifest.xml:21:19-78
+128    </application>
+129
+130</manifest>

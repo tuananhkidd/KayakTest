@@ -298,12 +298,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="6dp">
 
         <Button
             android:id="@+id/gototop"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
+            android:background="#ffffff"
             android:text="トップ画面" />
     </LinearLayout>
 

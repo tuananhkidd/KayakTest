@@ -162,7 +162,7 @@ public class ResultActivity extends Activity {
         super.onDestroy();
         CameraData cameraData = CameraData.getInstance();
         cameraData.setPhotoUri(null);
-        cameraData.init();
+        cameraData.destroy();
     }
 
     private void setResult(CardRecog cardRecog) {

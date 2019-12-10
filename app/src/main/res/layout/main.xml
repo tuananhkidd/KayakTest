@@ -37,6 +37,7 @@
 
         <!-- フッター -->
         <LinearLayout
+            android:padding="6dp"
             android:background="@color/colorPrimaryDark"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -44,12 +45,15 @@
             android:orientation="horizontal">
 
             <Button
+                android:layout_marginEnd="10dp"
+                android:background="#ffffff"
                 android:id="@+id/Camera"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="カメラ撮影" />
 
             <Button
+                android:background="#ffffff"
                 android:id="@+id/Picture"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"

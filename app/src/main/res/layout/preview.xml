@@ -33,6 +33,7 @@
 	        
     <!-- フッター -->
     <LinearLayout
+		android:padding="6dp"
 		android:background="@color/colorPrimaryDark"
         android:orientation="horizontal"
         android:gravity="center"
@@ -40,18 +41,25 @@
         android:layout_height="wrap_content">
 	        
 		<Button android:text="再撮影"
+			android:layout_marginEnd="5dp"
+			android:background="#ffffff"
 			android:id="@+id/Retake"
 			android:layout_width="0dp"
 			android:layout_weight="1"
 			android:layout_height="wrap_content" />
 				
 		<Button android:text="再選択"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:background="#ffffff"
 			android:id="@+id/Reselect"
 			android:layout_width="0dp"
 			android:layout_weight="1"
 			android:layout_height="wrap_content" />
 				
 		<Button android:text="認識"
+			android:layout_marginStart="5dp"
+			android:background="#ffffff"
 			android:id="@+id/Recognize"
 			android:layout_width="0dp"
 			android:layout_weight="1"
